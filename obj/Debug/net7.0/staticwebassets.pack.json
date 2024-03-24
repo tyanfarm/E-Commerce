@@ -5,6 +5,3098 @@
       "PackagePath": "staticwebassets\\E-Commerce.bundle.scp.css"
     },
     {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\css\\app.min.css",
+      "PackagePath": "staticwebassets\\adminassets\\css\\app.min.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\es6\\app.js",
+      "PackagePath": "staticwebassets\\adminassets\\es6\\app.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\es6\\constant\\theme-constant.js",
+      "PackagePath": "staticwebassets\\adminassets\\es6\\constant\\theme-constant.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\es6\\core\\core.js",
+      "PackagePath": "staticwebassets\\adminassets\\es6\\core\\core.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\es6\\pages\\chartist.js",
+      "PackagePath": "staticwebassets\\adminassets\\es6\\pages\\chartist.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\es6\\pages\\chartjs.js",
+      "PackagePath": "staticwebassets\\adminassets\\es6\\pages\\chartjs.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\es6\\pages\\chat.js",
+      "PackagePath": "staticwebassets\\adminassets\\es6\\pages\\chat.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\es6\\pages\\dashboard-crm.js",
+      "PackagePath": "staticwebassets\\adminassets\\es6\\pages\\dashboard-crm.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\es6\\pages\\dashboard-default.js",
+      "PackagePath": "staticwebassets\\adminassets\\es6\\pages\\dashboard-default.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\es6\\pages\\dashboard-e-commerce.js",
+      "PackagePath": "staticwebassets\\adminassets\\es6\\pages\\dashboard-e-commerce.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\es6\\pages\\dashboard-project.js",
+      "PackagePath": "staticwebassets\\adminassets\\es6\\pages\\dashboard-project.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\es6\\pages\\datatables.js",
+      "PackagePath": "staticwebassets\\adminassets\\es6\\pages\\datatables.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\es6\\pages\\e-commerce-order-list.js",
+      "PackagePath": "staticwebassets\\adminassets\\es6\\pages\\e-commerce-order-list.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\es6\\pages\\e-commerce-product-edit.js",
+      "PackagePath": "staticwebassets\\adminassets\\es6\\pages\\e-commerce-product-edit.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\es6\\pages\\file-manager.js",
+      "PackagePath": "staticwebassets\\adminassets\\es6\\pages\\file-manager.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\es6\\pages\\form-elements.js",
+      "PackagePath": "staticwebassets\\adminassets\\es6\\pages\\form-elements.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\es6\\pages\\form-validation.js",
+      "PackagePath": "staticwebassets\\adminassets\\es6\\pages\\form-validation.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\es6\\pages\\icon.js",
+      "PackagePath": "staticwebassets\\adminassets\\es6\\pages\\icon.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\es6\\pages\\mail.js",
+      "PackagePath": "staticwebassets\\adminassets\\es6\\pages\\mail.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\es6\\pages\\pricing.js",
+      "PackagePath": "staticwebassets\\adminassets\\es6\\pages\\pricing.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\es6\\pages\\profile.js",
+      "PackagePath": "staticwebassets\\adminassets\\es6\\pages\\profile.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\es6\\pages\\project-list.js",
+      "PackagePath": "staticwebassets\\adminassets\\es6\\pages\\project-list.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\es6\\pages\\slider.js",
+      "PackagePath": "staticwebassets\\adminassets\\es6\\pages\\slider.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\es6\\theme-configurator\\theme-configurator.js",
+      "PackagePath": "staticwebassets\\adminassets\\es6\\theme-configurator\\theme-configurator.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\fonts\\anticon.eot",
+      "PackagePath": "staticwebassets\\adminassets\\fonts\\anticon.eot"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\fonts\\anticon.svg",
+      "PackagePath": "staticwebassets\\adminassets\\fonts\\anticon.svg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\fonts\\anticon.ttf",
+      "PackagePath": "staticwebassets\\adminassets\\fonts\\anticon.ttf"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\fonts\\anticon.woff",
+      "PackagePath": "staticwebassets\\adminassets\\fonts\\anticon.woff"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\adminassets\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\fonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\adminassets\\fonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\adminassets\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\adminassets\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\adminassets\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\adminassets\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\fonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\adminassets\\fonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\adminassets\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\adminassets\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\adminassets\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\adminassets\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\fonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\adminassets\\fonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\adminassets\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\adminassets\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\adminassets\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\avatars\\thumb-1.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\avatars\\thumb-1.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\avatars\\thumb-10.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\avatars\\thumb-10.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\avatars\\thumb-11.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\avatars\\thumb-11.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\avatars\\thumb-12.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\avatars\\thumb-12.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\avatars\\thumb-2.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\avatars\\thumb-2.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\avatars\\thumb-3.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\avatars\\thumb-3.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\avatars\\thumb-4.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\avatars\\thumb-4.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\avatars\\thumb-5.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\avatars\\thumb-5.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\avatars\\thumb-6.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\avatars\\thumb-6.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\avatars\\thumb-7.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\avatars\\thumb-7.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\avatars\\thumb-8.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\avatars\\thumb-8.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\avatars\\thumb-9.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\avatars\\thumb-9.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\logo\\favicon.png",
+      "PackagePath": "staticwebassets\\adminassets\\images\\logo\\favicon.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\logo\\logo-fold-white.png",
+      "PackagePath": "staticwebassets\\adminassets\\images\\logo\\logo-fold-white.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\logo\\logo-fold.png",
+      "PackagePath": "staticwebassets\\adminassets\\images\\logo\\logo-fold.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\logo\\logo-white.png",
+      "PackagePath": "staticwebassets\\adminassets\\images\\logo\\logo-white.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\logo\\logo.png",
+      "PackagePath": "staticwebassets\\adminassets\\images\\logo\\logo.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\adobe-thumb.png",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\adobe-thumb.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\amazon-thumb.png",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\amazon-thumb.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\cambridge-thumb.png",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\cambridge-thumb.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\coffee-app-thumb.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\coffee-app-thumb.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\error-1.png",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\error-1.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\error-2.png",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\error-2.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\file-manager.png",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\file-manager.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\img-1.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\img-1.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\img-10.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\img-10.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\img-11.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\img-11.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\img-12.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\img-12.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\img-13.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\img-13.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\img-14.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\img-14.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\img-2.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\img-2.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\img-3.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\img-3.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\img-4.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\img-4.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\img-5.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\img-5.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\img-6.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\img-6.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\img-7.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\img-7.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\img-8.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\img-8.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\img-9.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\img-9.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\local-image.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\local-image.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\login-1.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\login-1.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\login-2.png",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\login-2.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\login-3.png",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\login-3.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\music-app-thumb.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\music-app-thumb.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\nvidia-thumb.png",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\nvidia-thumb.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\phillips-academy-thumb.png",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\phillips-academy-thumb.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\product-1.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\product-1.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\product-2.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\product-2.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\product-3.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\product-3.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\sign-up-1.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\sign-up-1.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\sign-up-2.png",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\sign-up-2.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\thumb-1.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\thumb-1.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\thumb-10.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\thumb-10.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\thumb-11.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\thumb-11.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\thumb-12.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\thumb-12.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\thumb-13.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\thumb-13.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\thumb-14.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\thumb-14.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\thumb-15.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\thumb-15.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\thumb-16.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\thumb-16.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\thumb-2.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\thumb-2.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\thumb-3.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\thumb-3.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\thumb-4.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\thumb-4.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\thumb-5.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\thumb-5.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\thumb-6.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\thumb-6.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\thumb-7.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\thumb-7.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\thumb-8.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\thumb-8.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\thumb-9.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\thumb-9.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\visa.png",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\visa.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\weather-app-thumb.jpg",
+      "PackagePath": "staticwebassets\\adminassets\\images\\others\\weather-app-thumb.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\js\\app.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\js\\app.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\js\\pages\\chartist.js",
+      "PackagePath": "staticwebassets\\adminassets\\js\\pages\\chartist.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\js\\pages\\chartjs.js",
+      "PackagePath": "staticwebassets\\adminassets\\js\\pages\\chartjs.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\js\\pages\\chat.js",
+      "PackagePath": "staticwebassets\\adminassets\\js\\pages\\chat.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\js\\pages\\dashboard-crm.js",
+      "PackagePath": "staticwebassets\\adminassets\\js\\pages\\dashboard-crm.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\js\\pages\\dashboard-default.js",
+      "PackagePath": "staticwebassets\\adminassets\\js\\pages\\dashboard-default.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\js\\pages\\dashboard-e-commerce.js",
+      "PackagePath": "staticwebassets\\adminassets\\js\\pages\\dashboard-e-commerce.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\js\\pages\\dashboard-project.js",
+      "PackagePath": "staticwebassets\\adminassets\\js\\pages\\dashboard-project.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\js\\pages\\datatables.js",
+      "PackagePath": "staticwebassets\\adminassets\\js\\pages\\datatables.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\js\\pages\\e-commerce-order-list.js",
+      "PackagePath": "staticwebassets\\adminassets\\js\\pages\\e-commerce-order-list.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\js\\pages\\e-commerce-product-edit.js",
+      "PackagePath": "staticwebassets\\adminassets\\js\\pages\\e-commerce-product-edit.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\js\\pages\\file-manager.js",
+      "PackagePath": "staticwebassets\\adminassets\\js\\pages\\file-manager.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\js\\pages\\form-elements.js",
+      "PackagePath": "staticwebassets\\adminassets\\js\\pages\\form-elements.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\js\\pages\\form-validation.js",
+      "PackagePath": "staticwebassets\\adminassets\\js\\pages\\form-validation.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\js\\pages\\icon.js",
+      "PackagePath": "staticwebassets\\adminassets\\js\\pages\\icon.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\js\\pages\\mail.js",
+      "PackagePath": "staticwebassets\\adminassets\\js\\pages\\mail.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\js\\pages\\pricing.js",
+      "PackagePath": "staticwebassets\\adminassets\\js\\pages\\pricing.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\js\\pages\\profile.js",
+      "PackagePath": "staticwebassets\\adminassets\\js\\pages\\profile.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\js\\pages\\project-list.js",
+      "PackagePath": "staticwebassets\\adminassets\\js\\pages\\project-list.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\js\\pages\\slider.js",
+      "PackagePath": "staticwebassets\\adminassets\\js\\pages\\slider.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\js\\vendors.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\js\\vendors.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\app.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\app.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\apps\\_chat.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\apps\\_chat.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\apps\\_e-commerce.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\apps\\_e-commerce.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\apps\\_file-manager.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\apps\\_file-manager.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\apps\\_mail.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\apps\\_mail.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\common\\_general.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\common\\_general.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\common\\_utilities.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\common\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\components\\_accordion.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\components\\_accordion.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\components\\_carousel.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\components\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\components\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\components\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\components\\_menu.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\components\\_menu.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\components\\_modal.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\components\\_modal.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\components\\_popovers.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\components\\_popovers.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\components\\_progress-bar.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\components\\_progress-bar.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\components\\_tabs.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\components\\_tabs.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\components\\_toasts.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\components\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\components\\_tooltips.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\components\\_tooltips.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\dashboard\\projects.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\dashboard\\projects.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\forms\\_checkbox.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\forms\\_checkbox.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\forms\\_input.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\forms\\_input.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\forms\\_radio.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\forms\\_radio.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\forms\\_select.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\forms\\_select.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\forms\\_star_rating.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\forms\\_star_rating.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\forms\\_switch.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\forms\\_switch.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\forms\\_wizard.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\forms\\_wizard.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\plugins\\_bootstrap.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\plugins\\_bootstrap.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\plugins\\_chartist.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\plugins\\_chartist.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\plugins\\_chartjs.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\plugins\\_chartjs.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\plugins\\_datatables.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\plugins\\_datatables.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\plugins\\_datepicker.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\plugins\\_datepicker.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\plugins\\_nouislider.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\plugins\\_nouislider.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\plugins\\_perfect-scroll-bar.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\plugins\\_perfect-scroll-bar.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\plugins\\_prism.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\plugins\\_prism.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\plugins\\_quill.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\plugins\\_quill.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\plugins\\_select2.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\plugins\\_select2.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\tables\\_tables.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\tables\\_tables.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\template\\_footer.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\template\\_footer.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\template\\_header.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\template\\_header.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\template\\_page-container.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\template\\_page-container.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\template\\_quick-view.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\template\\_quick-view.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\template\\_side-nav.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\template\\_side-nav.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\theme-configurator\\_theme-configurator.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\theme-configurator\\_theme-configurator.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\ui-elements\\_alert.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\ui-elements\\_alert.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\ui-elements\\_anticon.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\ui-elements\\_anticon.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\ui-elements\\_avatar.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\ui-elements\\_avatar.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\ui-elements\\_badge.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\ui-elements\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\ui-elements\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\ui-elements\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\ui-elements\\_buttons.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\ui-elements\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\ui-elements\\_cards.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\ui-elements\\_cards.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\ui-elements\\_font-awesome.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\ui-elements\\_font-awesome.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\ui-elements\\_icons.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\ui-elements\\_icons.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\ui-elements\\_list.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\ui-elements\\_list.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\ui-elements\\_maps.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\ui-elements\\_maps.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\ui-elements\\_noticfication.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\ui-elements\\_noticfication.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\ui-elements\\_page-title.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\ui-elements\\_page-title.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\ui-elements\\_pagination.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\ui-elements\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\scss\\ui-elements\\_timeline.scss",
+      "PackagePath": "staticwebassets\\adminassets\\scss\\ui-elements\\_timeline.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap-datepicker\\bootstrap-datepicker.min.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap-datepicker\\bootstrap-datepicker.min.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap-datepicker\\bootstrap-datepicker.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap-datepicker\\bootstrap-datepicker.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\README.md",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\README.md"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\dist\\alert.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\dist\\alert.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\dist\\alert.js.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\dist\\alert.js.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\dist\\button.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\dist\\button.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\dist\\button.js.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\dist\\button.js.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\dist\\carousel.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\dist\\carousel.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\dist\\carousel.js.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\dist\\carousel.js.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\dist\\collapse.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\dist\\collapse.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\dist\\collapse.js.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\dist\\collapse.js.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\dist\\dropdown.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\dist\\dropdown.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\dist\\dropdown.js.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\dist\\dropdown.js.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\dist\\index.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\dist\\index.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\dist\\index.js.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\dist\\index.js.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\dist\\modal.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\dist\\modal.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\dist\\modal.js.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\dist\\modal.js.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\dist\\popover.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\dist\\popover.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\dist\\popover.js.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\dist\\popover.js.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\dist\\scrollspy.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\dist\\scrollspy.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\dist\\scrollspy.js.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\dist\\scrollspy.js.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\dist\\tab.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\dist\\tab.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\dist\\tab.js.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\dist\\tab.js.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\dist\\toast.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\dist\\toast.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\dist\\toast.js.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\dist\\toast.js.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\dist\\tooltip.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\dist\\tooltip.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\dist\\tooltip.js.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\dist\\tooltip.js.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\dist\\util.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\dist\\util.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\dist\\util.js.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\dist\\util.js.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\src\\alert.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\src\\alert.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\src\\button.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\src\\button.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\src\\carousel.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\src\\carousel.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\src\\collapse.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\src\\collapse.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\src\\dropdown.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\src\\dropdown.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\src\\index.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\src\\index.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\src\\modal.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\src\\modal.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\src\\popover.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\src\\popover.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\src\\scrollspy.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\src\\scrollspy.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\src\\tab.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\src\\tab.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\src\\toast.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\src\\toast.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\src\\tools\\sanitizer.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\src\\tools\\sanitizer.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\src\\tooltip.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\src\\tooltip.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\js\\src\\util.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\js\\src\\util.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\package.json",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\package.json"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_code.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_code.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_custom-forms.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_input-group.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_jumbotron.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_media.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_media.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_print.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_print.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_float.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_size.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_align.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_background.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_display.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_float.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_overflow.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_overflow.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_position.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_stretched-link.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_text.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\chartist\\chartist.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\chartist\\chartist.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\chartist\\chartist.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\chartist\\chartist.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\chartist\\chartist.min.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\chartist\\chartist.min.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\chartist\\chartist.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\chartist\\chartist.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\chartjs\\Chart.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\chartjs\\Chart.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\datatables\\dataTables.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\datatables\\dataTables.bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\datatables\\dataTables.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\datatables\\dataTables.bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\datatables\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\datatables\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_ar.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_ar.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_ar.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_ar.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_az.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_az.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_az.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_az.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_bg.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_bg.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_bg.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_bg.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_bn_BD.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_bn_BD.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_bn_BD.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_bn_BD.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_ca.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_ca.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_ca.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_ca.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_cs.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_cs.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_cs.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_cs.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_da.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_da.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_da.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_da.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_de.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_de.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_de.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_de.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_el.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_el.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_el.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_el.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_es.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_es.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_es.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_es.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_es_AR.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_es_AR.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_es_AR.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_es_AR.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_es_PE.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_es_PE.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_es_PE.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_es_PE.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_et.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_et.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_et.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_et.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_eu.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_eu.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_eu.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_eu.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_fa.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_fa.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_fa.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_fa.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_fi.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_fi.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_fi.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_fi.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_fr.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_fr.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_fr.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_fr.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_ge.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_ge.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_ge.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_ge.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_gl.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_gl.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_gl.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_gl.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_he.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_he.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_he.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_he.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_hr.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_hr.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_hr.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_hr.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_hu.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_hu.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_hu.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_hu.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_hy_AM.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_hy_AM.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_hy_AM.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_hy_AM.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_id.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_id.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_id.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_id.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_is.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_is.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_is.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_is.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_it.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_it.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_it.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_it.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_ja.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_ja.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_ja.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_ja.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_ka.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_ka.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_ka.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_ka.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_kk.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_kk.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_kk.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_kk.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_ko.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_ko.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_ko.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_ko.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_lt.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_lt.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_lt.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_lt.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_lv.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_lv.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_lv.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_lv.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_mk.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_mk.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_mk.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_mk.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_my.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_my.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_my.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_my.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_nl.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_nl.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_nl.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_nl.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_no.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_no.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_no.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_no.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_pl.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_pl.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_pl.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_pl.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_pt_BR.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_pt_BR.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_pt_BR.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_pt_BR.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_pt_PT.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_pt_PT.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_pt_PT.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_pt_PT.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_ro.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_ro.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_ro.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_ro.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_ru.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_ru.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_ru.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_ru.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_sd.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_sd.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_sd.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_sd.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_si.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_si.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_si.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_si.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_sk.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_sk.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_sk.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_sk.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_sl.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_sl.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_sl.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_sl.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_sr.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_sr.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_sr.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_sr.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_sr_lat.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_sr_lat.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_sr_lat.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_sr_lat.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_sv.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_sv.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_sv.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_sv.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_th.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_th.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_th.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_th.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_tj.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_tj.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_tj.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_tj.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_tr.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_tr.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_tr.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_tr.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_uk.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_uk.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_uk.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_uk.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_ur.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_ur.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_ur.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_ur.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_vi.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_vi.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_vi.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_vi.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_zh.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_zh.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_zh.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_zh.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_zh_TW.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_zh_TW.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\messages_zh_TW.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\messages_zh_TW.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\methods_de.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\methods_de.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\methods_de.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\methods_de.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\methods_es_CL.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\methods_es_CL.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\methods_es_CL.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\methods_es_CL.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\methods_fi.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\methods_fi.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\methods_fi.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\methods_fi.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\methods_it.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\methods_it.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\methods_it.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\methods_it.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\methods_nl.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\methods_nl.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\methods_nl.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\methods_nl.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\methods_pt.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\methods_pt.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery-validation\\localization\\methods_pt.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery-validation\\localization\\methods_pt.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\AUTHORS.txt",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\AUTHORS.txt"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\README.md",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\README.md"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\bower.json",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\bower.json"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\dist\\core.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\dist\\core.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\external\\sizzle\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\external\\sizzle\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\external\\sizzle\\dist\\sizzle.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\external\\sizzle\\dist\\sizzle.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\external\\sizzle\\dist\\sizzle.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\external\\sizzle\\dist\\sizzle.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\external\\sizzle\\dist\\sizzle.min.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\external\\sizzle\\dist\\sizzle.min.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\package.json",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\package.json"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\.eslintrc.json",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\.eslintrc.json"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\ajax.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\ajax.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\ajax\\jsonp.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\ajax\\jsonp.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\ajax\\load.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\ajax\\load.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\ajax\\parseXML.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\ajax\\parseXML.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\ajax\\script.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\ajax\\script.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\ajax\\var\\location.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\ajax\\var\\location.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\ajax\\var\\nonce.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\ajax\\var\\nonce.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\ajax\\var\\rquery.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\ajax\\var\\rquery.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\ajax\\xhr.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\ajax\\xhr.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\attributes.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\attributes.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\attributes\\attr.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\attributes\\attr.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\attributes\\classes.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\attributes\\classes.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\attributes\\prop.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\attributes\\prop.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\attributes\\support.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\attributes\\support.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\attributes\\val.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\attributes\\val.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\callbacks.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\callbacks.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\core.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\core.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\core\\DOMEval.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\core\\DOMEval.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\core\\access.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\core\\access.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\core\\camelCase.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\core\\camelCase.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\core\\init.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\core\\init.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\core\\isAttached.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\core\\isAttached.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\core\\nodeName.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\core\\nodeName.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\core\\parseHTML.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\core\\parseHTML.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\core\\ready-no-deferred.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\core\\ready-no-deferred.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\core\\ready.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\core\\ready.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\core\\readyException.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\core\\readyException.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\core\\stripAndCollapse.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\core\\stripAndCollapse.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\core\\support.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\core\\support.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\core\\toType.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\core\\toType.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\core\\var\\rsingleTag.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\core\\var\\rsingleTag.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\css.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\css.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\css\\addGetHookIf.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\css\\addGetHookIf.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\css\\adjustCSS.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\css\\adjustCSS.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\css\\curCSS.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\css\\curCSS.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\css\\finalPropName.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\css\\finalPropName.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\css\\hiddenVisibleSelectors.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\css\\hiddenVisibleSelectors.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\css\\showHide.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\css\\showHide.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\css\\support.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\css\\support.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\css\\var\\cssExpand.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\css\\var\\cssExpand.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\css\\var\\getStyles.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\css\\var\\getStyles.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\css\\var\\isHiddenWithinTree.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\css\\var\\isHiddenWithinTree.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\css\\var\\rboxStyle.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\css\\var\\rboxStyle.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\css\\var\\rnumnonpx.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\css\\var\\rnumnonpx.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\css\\var\\swap.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\css\\var\\swap.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\data.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\data.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\data\\Data.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\data\\Data.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\data\\var\\acceptData.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\data\\var\\acceptData.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\data\\var\\dataPriv.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\data\\var\\dataPriv.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\data\\var\\dataUser.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\data\\var\\dataUser.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\deferred.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\deferred.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\deferred\\exceptionHook.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\deferred\\exceptionHook.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\deprecated.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\deprecated.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\dimensions.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\dimensions.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\effects.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\effects.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\effects\\Tween.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\effects\\Tween.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\effects\\animatedSelector.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\effects\\animatedSelector.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\event.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\event.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\event\\ajax.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\event\\ajax.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\event\\alias.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\event\\alias.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\event\\focusin.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\event\\focusin.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\event\\support.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\event\\support.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\event\\trigger.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\event\\trigger.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\exports\\amd.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\exports\\amd.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\exports\\global.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\exports\\global.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\jquery.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\jquery.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\manipulation.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\manipulation.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\manipulation\\_evalUrl.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\manipulation\\_evalUrl.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\manipulation\\buildFragment.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\manipulation\\buildFragment.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\manipulation\\getAll.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\manipulation\\getAll.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\manipulation\\setGlobalEval.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\manipulation\\setGlobalEval.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\manipulation\\support.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\manipulation\\support.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\manipulation\\var\\rscriptType.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\manipulation\\var\\rscriptType.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\manipulation\\var\\rtagName.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\manipulation\\var\\rtagName.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\manipulation\\wrapMap.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\manipulation\\wrapMap.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\offset.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\offset.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\queue.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\queue.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\queue\\delay.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\queue\\delay.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\selector-native.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\selector-native.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\selector-sizzle.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\selector-sizzle.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\selector.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\selector.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\serialize.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\serialize.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\traversing.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\traversing.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\traversing\\findFilter.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\traversing\\findFilter.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\traversing\\var\\dir.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\traversing\\var\\dir.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\traversing\\var\\rneedsContext.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\traversing\\var\\rneedsContext.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\traversing\\var\\siblings.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\traversing\\var\\siblings.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\var\\ObjectFunctionString.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\var\\ObjectFunctionString.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\var\\arr.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\var\\arr.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\var\\class2type.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\var\\class2type.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\var\\concat.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\var\\concat.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\var\\document.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\var\\document.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\var\\documentElement.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\var\\documentElement.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\var\\fnToString.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\var\\fnToString.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\var\\getProto.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\var\\getProto.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\var\\hasOwn.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\var\\hasOwn.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\var\\indexOf.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\var\\indexOf.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\var\\isFunction.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\var\\isFunction.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\var\\isWindow.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\var\\isWindow.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\var\\pnum.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\var\\pnum.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\var\\push.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\var\\push.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\var\\rcheckableType.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\var\\rcheckableType.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\var\\rcssNum.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\var\\rcssNum.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\var\\rnothtmlwhite.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\var\\rnothtmlwhite.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\var\\slice.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\var\\slice.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\var\\support.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\var\\support.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\var\\toString.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\var\\toString.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\jquery\\src\\wrap.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\jquery\\src\\wrap.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\nouislider\\nouislider.min.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\nouislider\\nouislider.min.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\nouislider\\nouislider.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\nouislider\\nouislider.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\.bower.json",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\.bower.json"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\LICENSE",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\README.md",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\README.md"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\bower.json",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\bower.json"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\css\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\css\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\css\\perfect-scrollbar.min.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\css\\perfect-scrollbar.min.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\js\\perfect-scrollbar.jquery.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\js\\perfect-scrollbar.jquery.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\js\\perfect-scrollbar.jquery.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\js\\perfect-scrollbar.jquery.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\js\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\js\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\js\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\js\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\src\\css\\main.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\src\\css\\main.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\src\\css\\mixins.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\src\\css\\mixins.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\src\\css\\themes.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\src\\css\\themes.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\src\\css\\variables.scss",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\src\\css\\variables.scss"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\adaptor\\global.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\adaptor\\global.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\adaptor\\jquery.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\adaptor\\jquery.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\lib\\class.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\lib\\class.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\lib\\dom.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\lib\\dom.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\lib\\event-manager.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\lib\\event-manager.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\lib\\guid.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\lib\\guid.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\lib\\helper.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\lib\\helper.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\main.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\plugin\\default-setting.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\plugin\\default-setting.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\plugin\\destroy.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\plugin\\destroy.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\plugin\\handler\\click-rail.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\plugin\\handler\\click-rail.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\plugin\\handler\\drag-scrollbar.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\plugin\\handler\\drag-scrollbar.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\plugin\\handler\\keyboard.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\plugin\\handler\\keyboard.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\plugin\\handler\\mouse-wheel.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\plugin\\handler\\mouse-wheel.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\plugin\\handler\\native-scroll.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\plugin\\handler\\native-scroll.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\plugin\\handler\\selection.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\plugin\\handler\\selection.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\plugin\\handler\\touch.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\plugin\\handler\\touch.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\plugin\\initialize.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\plugin\\initialize.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\plugin\\instances.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\plugin\\instances.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\plugin\\update-geometry.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\plugin\\update-geometry.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\plugin\\update-scroll.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\plugin\\update-scroll.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\plugin\\update.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\perfect-scrollbar\\src\\js\\plugin\\update.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\popper.js\\README.md",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\popper.js\\README.md"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\popper.js\\dist\\esm\\popper-utils.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\popper.js\\dist\\esm\\popper-utils.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\popper.js\\dist\\esm\\popper-utils.js.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\popper.js\\dist\\esm\\popper-utils.js.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\popper.js\\dist\\esm\\popper-utils.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\popper.js\\dist\\esm\\popper-utils.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\popper.js\\dist\\esm\\popper-utils.min.js.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\popper.js\\dist\\esm\\popper-utils.min.js.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\popper.js\\dist\\esm\\popper.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\popper.js\\dist\\esm\\popper.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\popper.js\\dist\\esm\\popper.js.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\popper.js\\dist\\esm\\popper.js.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\popper.js\\dist\\esm\\popper.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\popper.js\\dist\\esm\\popper.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\popper.js\\dist\\esm\\popper.min.js.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\popper.js\\dist\\esm\\popper.min.js.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\popper.js\\dist\\popper-utils.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\popper.js\\dist\\popper-utils.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\popper.js\\dist\\popper-utils.js.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\popper.js\\dist\\popper-utils.js.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\popper.js\\dist\\popper-utils.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\popper.js\\dist\\popper-utils.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\popper.js\\dist\\popper-utils.min.js.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\popper.js\\dist\\popper-utils.min.js.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\popper.js\\dist\\popper.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\popper.js\\dist\\popper.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\popper.js\\dist\\popper.js.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\popper.js\\dist\\popper.js.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\popper.js\\dist\\popper.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\popper.js\\dist\\popper.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\popper.js\\dist\\popper.min.js.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\popper.js\\dist\\popper.min.js.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\popper.js\\dist\\umd\\popper-utils.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\popper.js\\dist\\umd\\popper-utils.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\popper.js\\dist\\umd\\popper-utils.js.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\popper.js\\dist\\umd\\popper-utils.js.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\popper.js\\dist\\umd\\popper-utils.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\popper.js\\dist\\umd\\popper-utils.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\popper.js\\dist\\umd\\popper-utils.min.js.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\popper.js\\dist\\umd\\popper-utils.min.js.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\popper.js\\dist\\umd\\popper.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\popper.js\\dist\\umd\\popper.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\popper.js\\dist\\umd\\popper.js.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\popper.js\\dist\\umd\\popper.js.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\popper.js\\dist\\umd\\popper.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\popper.js\\dist\\umd\\popper.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\popper.js\\dist\\umd\\popper.min.js.map",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\popper.js\\dist\\umd\\popper.min.js.map"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\popper.js\\dist\\umd\\poppper.js.flow",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\popper.js\\dist\\umd\\poppper.js.flow"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\popper.js\\index.d.ts",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\popper.js\\index.d.ts"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\popper.js\\index.js.flow",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\popper.js\\index.js.flow"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\popper.js\\package.json",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\popper.js\\package.json"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\.travis.yml",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\.travis.yml"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\LICENSE",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\README.md",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\README.md"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\package.json",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\package.json"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-a11y-dark.png",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-a11y-dark.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-ateliersulphurpool-light.png",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-ateliersulphurpool-light.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-atom-dark.png",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-atom-dark.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-cb.png",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-cb.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-darcula.png",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-darcula.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-dracula.png",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-dracula.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-duotone-dark.png",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-duotone-dark.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-duotone-earth.png",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-duotone-earth.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-duotone-forest.png",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-duotone-forest.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-duotone-light.png",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-duotone-light.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-duotone-sea.png",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-duotone-sea.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-duotone-space.png",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-duotone-space.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-ghcolors.png",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-ghcolors.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-hopscotch.png",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-hopscotch.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-pojoaque.png",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-pojoaque.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-vs.png",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-vs.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-xonokai.png",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\screenshots\\prism-xonokai.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-a11y-dark.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-a11y-dark.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-atom-dark.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-atom-dark.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-base16-ateliersulphurpool.light.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-base16-ateliersulphurpool.light.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-cb.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-cb.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-darcula.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-darcula.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-dracula.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-dracula.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-duotone-dark.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-duotone-dark.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-duotone-earth.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-duotone-earth.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-duotone-forest.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-duotone-forest.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-duotone-light.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-duotone-light.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-duotone-sea.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-duotone-sea.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-duotone-space.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-duotone-space.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-ghcolors.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-ghcolors.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-hopscotch.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-hopscotch.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-pojoaque.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-pojoaque.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-vs.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-vs.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-xonokai.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism-themes\\themes\\prism-xonokai.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\prism\\prism.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\prism\\prism.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\quill\\quill.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\quill\\quill.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\LICENSE",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\README.md",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\README.md"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\bower.json",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\bower.json"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\component.json",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\component.json"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\composer.json",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\composer.json"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\release.sh",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\release.sh"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2-bootstrap.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2-bootstrap.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2-bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2-bootstrap4.min.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2-spinner.gif",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2-spinner.gif"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2.css",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2.css"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2.jquery.json",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2.jquery.json"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2.min.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2.png",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_ar.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_ar.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_az.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_az.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_bg.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_bg.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_ca.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_ca.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_cs.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_cs.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_da.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_da.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_de.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_de.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_el.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_el.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_en.js.template",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_en.js.template"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_es.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_es.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_et.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_et.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_eu.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_eu.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_fa.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_fa.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_fi.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_fi.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_fr.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_fr.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_gl.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_gl.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_he.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_he.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_hr.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_hr.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_hu.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_hu.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_id.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_id.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_is.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_is.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_it.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_it.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_ja.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_ja.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_ka.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_ka.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_ko.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_ko.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_lt.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_lt.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_lv.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_lv.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_mk.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_mk.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_ms.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_ms.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_nb.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_nb.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_nl.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_nl.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_pl.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_pl.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_pt-BR.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_pt-BR.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_pt-PT.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_pt-PT.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_ro.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_ro.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_rs.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_rs.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_ru.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_ru.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_sk.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_sk.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_sv.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_sv.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_th.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_th.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_tr.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_tr.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_ug-CN.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_ug-CN.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_uk.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_uk.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_vi.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_vi.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_zh-CN.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_zh-CN.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2_locale_zh-TW.js",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2_locale_zh-TW.js"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\vendors\\select2\\select2x2.png",
+      "PackagePath": "staticwebassets\\adminassets\\vendors\\select2\\select2x2.png"
+    },
+    {
       "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
