@@ -1,8 +1,23 @@
+using System.Configuration;
+using System.Text.Encodings.Web;
+using System.Text.Unicode;
 using AspNetCoreHero.ToastNotification;
+using E_Commerce.Models;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+// DbContext
+var serverVersion = new MySqlServerVersion(new Version(8, 0, 27));
+builder.Services.AddDbContext<EcommerceContext>(options =>
+{
+    options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"), serverVersion);
+});
+
+// Program Configuration understand Unicode text
+builder.Services.AddSingleton<HtmlEncoder>(HtmlEncoder.Create(allowedRanges: new[] { UnicodeRanges.All }));
+
 // AddRazorRuntimeCompilation - F5 to reload Razor
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
