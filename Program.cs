@@ -3,6 +3,7 @@ using AspNetCoreHero.ToastNotification;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+// AddRazorRuntimeCompilation - F5 to reload Razor
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 // AspNetCoreHero.ToastNotification
