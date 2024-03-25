@@ -5,6 +5,16 @@
     Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
 } 
 
+<div class="page-header">
+    <div class="header-sub-title">
+        <nav class="breadcrumb breadcrumb-dash">
+            <a class="breadcrumb-item" asp-area="Admin" asp-controller="Home" asp-action="Index"><i class="anticon anticon-home m-r-5"></i>Home</a>
+            <a class="breadcrumb-item" asp-area="Admin" asp-controller="AdminRoles" asp-action="Index">Access Permission</a>
+            <span class="breadcrumb-item active">Access Information</span>
+        </nav>
+    </div>
+</div>
+
 <div class="card">
     <div class="card-body">
         <h2 class="card-title">Access Information</h2>

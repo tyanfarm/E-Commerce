@@ -100,6 +100,7 @@ namespace E_Commerce.Areas.Admin.Controllers {
                         throw;
                     }
                 }
+                // Update thành công thì chuyển về trang chính
                 return RedirectToAction(nameof(Index));
             }
 
