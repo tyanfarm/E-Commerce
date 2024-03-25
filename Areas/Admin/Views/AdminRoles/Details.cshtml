@@ -1,0 +1,30 @@
+@model E_Commerce.Models.Role
+
+@{
+    ViewData["Title"] = "Access Information";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+} 
+
+<div class="card">
+    <div class="card-body">
+        <h2 class="card-title">Access Information</h2>
+        <div class="table-responsive">
+            <table class="product-info-table m-t-20">
+                <tbody>
+                    <tr>
+                        <td>ID: </td>
+                        <td class="text-dart font-weight-semibold">@Model.RoleId</td>
+                    </tr>
+                    <tr>
+                        <td>Role Name: </td>
+                        <td class="text-dart font-weight-semibold">@Model.RoleName</td>
+                    </tr>
+                    <tr>
+                        <td>Description: </td>
+                        <td class="text-dart font-weight-semibold">@Model.Description</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

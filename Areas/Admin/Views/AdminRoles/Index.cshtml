@@ -1,11 +1,11 @@
 @model IEnumerable<E_Commerce.Models.Role>
-    
+
 @{
     ViewData["Title"] = "Access Permission";
     Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
 } 
 
-<h1>CON CAC</h1>
+<h1>Access Permission Management</h1>
 
 <div class="table-responsive">
     <table class="table">
@@ -22,12 +22,13 @@
                 foreach(var item in Model) {
                     <tr>
                         <th scope="row">@item.RoleId</th>
-                        <th scope="row">@item.RoleName</th>
-                        <th scope="row">@item.Description</th>
-
-                        <a class="btn btn-primary btn-tone m-r-5" asp-area="Admin" asp-controller="AdminRoles" asp-action="Details" asp-route-id="@item.RoleId">View</a>
-                        <a class="btn btn-secondary btn-tone m-r-5" asp-area="Admin" asp-controller="AdminRoles" asp-action="Edit" asp-route-id="@item.RoleId">Edit</a>
-                        <a class="btn btn-success btn-tone m-r-5" asp-area="Admin" asp-controller="AdminRoles" asp-action="Delete" asp-route-id="@item.RoleId">Delete</a>
+                        <td scope="row">@item.RoleName</td>
+                        <td scope="row">@item.Description</td>
+                        <td>
+                            <a class="btn btn-primary btn-tone m-r-5" asp-area="Admin" asp-controller="AdminRoles" asp-action="Details" asp-route-id="@item.RoleId">View</a>
+                            <a class="btn btn-secondary btn-tone m-r-5" asp-area="Admin" asp-controller="AdminRoles" asp-action="Edit" asp-route-id="@item.RoleId">Edit</a>
+                            <a class="btn btn-success btn-tone m-r-5" asp-area="Admin" asp-controller="AdminRoles" asp-action="Delete" asp-route-id="@item.RoleId">Delete</a>
+                        </td>
                     </tr>
                 }
             }
