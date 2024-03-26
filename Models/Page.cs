@@ -13,7 +13,7 @@ public partial class Page
 
     public string? Thumb { get; set; }
 
-    public ulong Published { get; set; }
+    public bool Published { get; set; }
 
     public string? Title { get; set; }
 

@@ -17,7 +17,7 @@ public partial class Category
 
     public int? Ordering { get; set; }
 
-    public ulong Published { get; set; }
+    public bool Published { get; set; }
 
     public string? Thumb { get; set; }
 

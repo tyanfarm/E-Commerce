@@ -15,9 +15,9 @@ public partial class Order
 
     public int? TransactStatusId { get; set; }
 
-    public ulong? Deleted { get; set; }
+    public bool? Deleted { get; set; }
 
-    public ulong? Paid { get; set; }
+    public bool? Paid { get; set; }
 
     public DateTime? PaymentDate { get; set; }
 

@@ -15,7 +15,7 @@ public partial class Account
 
     public string? Salt { get; set; }
 
-    public ulong Active { get; set; }
+    public bool Active { get; set; }
 
     public string? FullName { get; set; }
 

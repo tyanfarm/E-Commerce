@@ -27,11 +27,11 @@ public partial class Product
 
     public DateTime? DateModified { get; set; }
 
-    public ulong BestSellers { get; set; }
+    public bool BestSellers { get; set; }
 
-    public ulong HomeFlag { get; set; }
+    public bool HomeFlag { get; set; }
 
-    public ulong Active { get; set; }
+    public bool Active { get; set; }
 
     public string? Tags { get; set; }
 

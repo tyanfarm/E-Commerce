@@ -16,7 +16,15 @@ namespace E_Commerce.Areas.Admin.Controllers {
 
         // GET: Admin/AdminAccounts
         public async Task<IActionResult> Index() {
-            return View(await _context.Accounts.ToListAsync());
+            // var roles = await _context.Roles.ToListAsync();
+            // var accounts = await _context.Accounts.ToListAsync();
+            
+            // foreach (var a in accounts) {
+            //     a.Role = roles.FirstOrDefault(r => r.RoleId == a.RoleId);
+            // }
+            // return View(accounts);
+            var ecommerceContext = _context.Accounts.Include(a => a.Role);
+            return View(await ecommerceContext.ToListAsync());
         }
 
         // GET: Admin/AdminAccounts/Details/5
@@ -46,10 +54,10 @@ namespace E_Commerce.Areas.Admin.Controllers {
         [HttpPost]
         // yêu cầu rằng một mã CSRF token phải được gửi cùng với mỗi yêu cầu POST gửi đến máy chủ
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("AccountId, Phone, Email, Password, Salt, Active, FullName, LastLogin, RoleId, CreateDate")] Role role) {
+        public async Task<IActionResult> Create([Bind("AccountId, Phone, Email, Password, Salt, Active, FullName, LastLogin, RoleId, CreateDate, Role")] Account account) {
             // ModelState - kiểm tra xem dữ liệu người dùng gửi có hợp lệ không
             if (ModelState.IsValid) {
-                _context.Add(role);
+                _context.Add(account);
                 await _context.SaveChangesAsync();
 
                 _notyfService.Success("Create Role Successfully !");
@@ -57,7 +65,7 @@ namespace E_Commerce.Areas.Admin.Controllers {
                 return RedirectToAction(nameof(Index));
             }
 
-            return View(role);
+            return View(account);
         }
 
         // GET: Admin/AdminAccounts/Edit/5
@@ -67,31 +75,31 @@ namespace E_Commerce.Areas.Admin.Controllers {
             }
 
             // FindAsync - tìm kiếm dữ liệu dựa trên PK 
-            var role = await _context.Roles.FindAsync(id);
+            var account = await _context.Accounts.FindAsync(id);
 
-            if (role == null) {
+            if (account == null) {
                 return NotFound();
             }
 
-            return View(role);
+            return View(account);
         }
 
         // POST: Admin/AdminAccounts/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("RoleId, RoleName, Description")] Role role) {
-            if (id != role.RoleId) {
+        public async Task<IActionResult> Edit(int id, [Bind("AccountId, Phone, Email, Password, Salt, Active, FullName, LastLogin, RoleId, CreateDate, Role")] Account account) {
+            if (id != account.AccountId) {
                 return NotFound();
             }
 
             if (ModelState.IsValid) {
                 try {
-                    _context.Update(role);
+                    _context.Update(account);
                     await _context.SaveChangesAsync();
-                    _notyfService.Success("Update Role Successfully !");
+                    _notyfService.Success("Update Account Successfully !");
                 }
                 catch (DbUpdateConcurrencyException) {
-                    if (!RoleExists(role.RoleId)) {
+                    if (!AccountExists(account.AccountId)) {
                         _notyfService.Success("ERROR !!");
 
                         return NotFound();
@@ -104,7 +112,7 @@ namespace E_Commerce.Areas.Admin.Controllers {
                 return RedirectToAction(nameof(Index));
             }
 
-            return View(role);
+            return View(account);
         }
 
         // GET: Admin/AdminAccounts/Delete/5
@@ -113,22 +121,22 @@ namespace E_Commerce.Areas.Admin.Controllers {
                 return NotFound();
             }
 
-            var role = await _context.Roles.FirstOrDefaultAsync(m => m.RoleId == id);
+            var account = await _context.Accounts.FirstOrDefaultAsync(m => m.AccountId == id);
 
-            if (role == null) {
+            if (account == null) {
                 return NotFound();
             }
 
-            return View(role);
+            return View(account);
         }
 
         // POST: Admin/AdminAccounts/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id) {
-            var role = await _context.Roles.FindAsync(id);
+            var account = await _context.Accounts.FindAsync(id);
 
-            _context.Roles.Remove(role);
+            _context.Accounts.Remove(account);
             await _context.SaveChangesAsync();
 
             _notyfService.Success("Delete role successfully !");
@@ -136,8 +144,8 @@ namespace E_Commerce.Areas.Admin.Controllers {
             return RedirectToAction(nameof(Index));
         }
 
-        private bool RoleExists(int id) {
-            return _context.Roles.Any(e => e.RoleId == id);
+        private bool AccountExists(int id) {
+            return _context.Accounts.Any(a => a.AccountId == id);
         }
     }
 }

@@ -1,0 +1,40 @@
+@model E_Commerce.Models.Role
+
+@{
+    ViewData["Title"] = "Edit Access Information";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="page-header">
+    <div class="header-sub-title">
+        <nav class="breadcrumb breadcrumb-dash">
+            <a class="breadcrumb-item" asp-area="Admin" asp-controller="Home" asp-action="Index"><i class="anticon anticon-home m-r-5"></i>Home</a>
+            <a class="breadcrumb-item" asp-area="Admin" asp-controller="AdminRoles" asp-action="Index">Access Permission</a>
+            <span class="breadcrumb-item active">Edit Access Information</span>
+        </nav>
+    </div>
+</div>
+
+<form asp-action="Edit" asp-route-id="@Model.RoleId" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="RoleId"/>
+    <div class="form-group">
+        <div class="form-group col-md-6">
+            <label class="col-sm-6 col-form-label">Role Name</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" asp-for="RoleName" placeholder="Role Name">
+            </div>
+        </div>
+        <div class="form-group col-md-6">
+            <label class="col-sm-6 col-form-label">Description</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" asp-for="Description" placeholder="Description">
+            </div>
+        </div>
+        <div class="form-group col-md-6">
+            <div class="col-sm-6">
+                <button type="submit" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</form>
