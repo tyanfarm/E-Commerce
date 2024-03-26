@@ -18757,6 +18757,11 @@
   "RootNamespace": "E_Commerce",
   "Documents": [
     {
+      "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Areas\\Admin\\Views\\AdminRoles\\Create.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\AdminRoles\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Views\\Product\\Index.cshtml",
       "TargetPath": "Views\\Product\\Index.cshtml",
       "FileKind": "mvc"
