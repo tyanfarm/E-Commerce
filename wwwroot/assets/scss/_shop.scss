@@ -1,0 +1,134 @@
+/*----------------------------------------*/
+/*  12. Shop
+/*----------------------------------------*/
+.product{
+    &-topbar{
+        > ul{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid $border-color;
+            padding-left: 30px;
+            height: 60px;
+            @include media-breakpoint-down(sm){
+                height: auto;
+                flex-direction: column;
+                padding-top: 25px;
+                padding-bottom: 15px;
+            }
+            li{
+                &.product-view-wrap{
+                    > ul{
+                        li{
+                            padding-right: 20px;
+                            a{
+                                &.active{
+                                    color: $primary;
+                                }
+                            }
+                        }
+                    }
+                }
+                &.page-count{
+                    span{
+                        color: $primary;
+                    }
+                }
+                &.short{
+                    .nice-select{
+                        border: 0;
+                    }
+                }
+            }
+        }
+    }
+    &-list-view{
+        .product{
+            &-item{
+                display: flex;
+                transition: $baseTransition;
+                @include media-breakpoint-down(md){
+                    flex-direction: column;
+                }
+                &:hover{
+                    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+                }
+            }
+            &-img{
+                width: 25%;
+                @include media-breakpoint-down(lg){
+                    width: 40%;
+                    img{
+                        height: 100%;
+                    }
+                }
+                @include media-breakpoint-down(md){
+                    width: 100%;
+                }
+            }
+            &-content{
+                padding-top: 0;
+                padding-bottom: 0;
+                border: 0;
+                width: 75%;
+                text-align: left;
+                @include media-breakpoint-down(lg){
+                    width: 60%;
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                }
+                @include media-breakpoint-down(md){
+                    width: 100%;
+                }
+                .product-name{
+                    display: block;
+                }
+                .rating-box{
+                    ul{
+                        justify-content: flex-start;
+                    }
+                }
+                .short-desc{
+                    font-size: 14px;
+                    line-height: 26px;
+                }
+            }
+        }
+        &.with-sidebar{
+            .product{
+                &-item{
+                    display: flex;
+                    transition: $baseTransition;
+                    @include media-breakpoint-down(md){
+                        flex-direction: column;
+                    }
+                    &:hover{
+                        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+                    }
+                }
+                &-img{
+                    width: 25%;
+                    @include media-breakpoint-down(xl){
+                        width: 40%;
+                        img{
+                            height: 100%;
+                        }
+                    }
+                    @include media-breakpoint-down(md){
+                        width: 100%;
+                    }
+                }
+                &-content{
+                    @include media-breakpoint-down(xl){
+                        width: 60%;
+                        padding-top: 30px;
+                        padding-bottom: 30px;
+                    }
+                    @include media-breakpoint-down(md){
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

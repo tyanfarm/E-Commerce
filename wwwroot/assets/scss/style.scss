@@ -1,0 +1,63 @@
+/*-----------------------------------------------------------------------------------
+    Template Name: Template Name
+    Version: 1.0
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    01. Template default CSS
+    02. Header
+    03. Slider
+    04. Shipping
+    05. Product
+    06. Banner
+    07. Blog
+    08. Testimonial
+    09. Brand
+    10. Breadcrumb
+    11. About
+    12. Shop
+    13. Sidebar
+    14. Contact
+    15. My Account
+    16. Login & Register
+    17. Cart
+    18. Wishlist
+    19. Compare
+    20. Checkout
+    21. FAQ
+    22. Privacy Policy
+    23. 404
+-----------------------------------------------------------------------------------*/
+@import "./bootstrap/functions";
+@import "variabls";
+@import "./bootstrap/bootstrap";
+
+@import "common";
+@import "header";
+@import "slider";
+@import "navigation";
+@import "offcanvas";
+@import "animation";
+@import "footer";
+@import "shipping";
+@import "product";
+@import "banner";
+@import "blog";
+@import "testimonial";
+@import "brand";
+@import "breadcrumb";
+@import "about";
+@import "shop";
+@import "sidebar";
+@import "contact";
+@import "my-account";
+@import "login-register";
+@import "cart";
+@import "wishlist";
+@import "compare";
+@import "checkout";
+@import "faq";
+@import "privacy-policy";
+@import "404";

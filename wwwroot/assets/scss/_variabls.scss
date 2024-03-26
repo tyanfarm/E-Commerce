@@ -1,0 +1,197 @@
+//=======================
+// Developer Variable
+//=======================
+
+// Font Family
+$playfair-display: 'Playfair Display', serif;
+$body-font: 'Poppins', sans-serif;
+$heading-font: $playfair-display;
+
+// Transition
+$baseTransition: all 0.3s ease 0s;
+
+// scss-docs-start social-colors-map
+$social-colors: (
+	"android": #7AC157,
+	"apple": #B8B8B8,
+	"behance": #1869FF,
+	"codepen": #000000,
+	"dribbble": #EA4C8A,
+	"dropbox": #007EE5,
+	"evernote": #78D525,
+	"facebook": #4867AA,
+	"github": #313131,
+	"googleDrive": #1DA462,
+	"googleEarth": #4285F4,
+	"googleGlass": #EA4335,
+	"googleMaps": #5083C3,
+	"googlePlay": #01B9FD,
+	"googlePlus": #DD5144,
+	"google": #4285F4,
+	"instagram": #B23A94,
+	"css3": #0277BD,
+	"html5": #E44D26,
+	"javascript": #F9DC3D,
+	"python": #0C9DBF,
+	"lastfm": #E31B23,
+	"linkedin": #007BB6,
+	"paypal": #002F86,
+	"pinterest": #BD081B,
+	"pocket": #EF3E56,
+	"polymer": #F87292,
+	"rss": #F99C3A,
+	"share": #2C9CFF,
+	"stackoverflow": #F38024,
+	"steam": #15497B,
+	"twitter": #1DA1F2,
+	"vk": #5181B8,
+	"wikipedia": #E9E9E9,
+	"windows": #0078D6,
+	"s500px": #000000,
+	"s8tracks": #122D4B,
+	"amazon": #F79B34,
+	"blogger": #F06A35,
+	"delicious": #0000FE,
+	"disqus": #2E9EFE,
+	"flattr": #7AB831,
+	"flickr": #FE0084,
+	"odnoklassniki": #F58220,
+	"outlook": #0072C6,
+	"playstation": #07418E,
+	"reddit": #FF4500,
+	"skype": #00A9F0,
+	"slideshare": #0077B5,
+	"soundcloud": #FE4900,
+	"tumblr": #36465D,
+	"twitch": #6441A4,
+	"vimeo": #1AB7EA,
+	"whatsapp": #189D0E,
+	"xbox": #107C0F,
+	"yahoo": #4101AF,
+	"youtube": #FE0000,
+);
+// scss-docs-end theme-colors-map
+
+//===============================
+// Bootstrap Variables Overright
+//===============================
+
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+$primary: #bac34e;
+$secondary: #010101;
+$success: #146c43;
+$danger: #dc3545;
+$warning: #ffc107;
+$info: #0dcaf0;
+$light: #f8f9fa;
+$dark: #212529;
+$whisper: #e8e8e8;
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+	"primary": $primary,
+	"secondary": $secondary,
+	"success": $success,
+	"danger": $danger,
+	"warning": $warning,
+	"info": $info,
+	"light": $light,
+	"dark": $dark,
+	"whisper": $whisper,
+);
+// scss-docs-end theme-colors-map
+
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+$enable-negative-margins: true;
+
+// Spacing
+//
+// Control the default styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+// You can add more entries to the $spacers map, should you need more variation.
+
+$spacer: 1rem;
+$spacers: (
+	0: 0,
+	1: $spacer * 0.3125,
+	2: $spacer * 0.625,
+	3: $spacer * 0.9375,
+	4: $spacer * 1.25,
+	5: $spacer * 1.625,
+	6: $spacer * 1.875,
+	7: $spacer * 2.1875,
+	8: $spacer * 2.5,
+	9: $spacer * 2.8125,
+	10: $spacer * 3.125,
+);
+$body-color: #3e3e3f;
+
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+// scss-docs-start grid-breakpoints
+$grid-breakpoints: (
+	xs: 0,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px,
+	xxl: 1600px,
+);
+// scss-docs-end grid-breakpoints
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+// scss-docs-start container-max-widths
+$container-max-widths: (
+	sm: 540px,
+	md: 720px,
+	lg: 960px,
+	xl: 1170px,
+	// xxl: 1200px,
+);
+// scss-docs-end container-max-widths
+
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+
+$grid-gutter-width: 30px;
+//
+$gutters: $spacers;
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+// stylelint-enable value-keyword-case
+$font-family-base: $body-font;
+
+// $font-size-root effects the value of `rem`, which is used for as well font sizes, paddings and margins
+// $font-size-base effects the font size of the body text
+$font-size-base: 1rem;
+//
+//
+$line-height-base: 1.5;
+//
+$h1-font-size: $font-size-base * 2.5;
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.75;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base;
+//
+$headings-font-family: $playfair-display;
+$headings-font-weight: 700;
+$headings-line-height: 1.2;
+$headings-color: $secondary;

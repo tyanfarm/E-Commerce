@@ -1,0 +1,29 @@
+/*----------------------------------------*/
+/*  10. Breadcrumb
+/*----------------------------------------*/
+.breadcrumb{
+    &-height{
+        height: 370px;
+    }
+    &-heading{
+        font-size: 36px;
+    }
+    &-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        ul{
+            li{
+                display: inline-block;
+                line-height: 30px;
+                font-size: 14px;
+                i{
+                    font-size: 16px;
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+}

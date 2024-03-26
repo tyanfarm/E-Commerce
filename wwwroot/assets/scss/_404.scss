@@ -1,0 +1,35 @@
+/*----------------------------------------*/
+/*  23. 404
+/*----------------------------------------*/
+.error{
+    &-404{
+        &-area{
+            padding-bottom: 175px;
+        }
+        &-content{
+            text-align: center;
+            .title{
+                background: linear-gradient(to 90deg, #bac34e 0%, #146c43 100%);
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 150px;
+                border-color: rgb(255, 255, 255);
+                color: rgb(255, 55, 74);
+                transform-origin: 50% 50% 0px;
+                letter-spacing: 2px;
+            }
+            .sub-title{
+                color: #444444;
+            }
+            .short-desc{
+                color: #505050;
+                font-size: 14px;
+                line-height: 29px;
+                max-width: 590px;
+                margin: 0 auto;
+            }
+        }
+    }
+}

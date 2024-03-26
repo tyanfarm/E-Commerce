@@ -1,0 +1,63 @@
+/*----------------------------------------*/
+/*  14. Contact
+/*----------------------------------------*/
+.contact{
+    &-map{
+        display: flex;
+        &-size{
+            min-height: 500px;
+            width: 100%;
+        }
+    }
+    &-form{
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+        background-color: $white;
+        padding: 40px;
+        margin-top: -415px;
+        width: 375px;
+        z-index: 1;
+        @include media-breakpoint-down(md){
+            margin-top: 50px;
+            width: 100%;
+        }
+        .input-field,
+        .textarea-field{
+            border: 1px solid $border-color;
+            color: #999999;
+            padding: 20px;
+            height: 50px;
+            width: 100%;
+            font-size: 14px;
+        }
+        .textarea-field{
+            height: 150px;
+        }
+        &-wrap{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+        &-title{
+            position: relative;
+            color: #4b4b4b;
+            &:before{
+                background-color: $primary;
+                width: 100px;
+                height: 2px;
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 0;
+            }
+        }
+        .form-messege{
+            font-size: 14px;
+            &.success{
+                color: $primary;
+            }
+            &.error{
+                color: red;
+            }
+        }
+    }
+}

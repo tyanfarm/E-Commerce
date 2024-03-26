@@ -1,0 +1,118 @@
+/*----------------------------------------*/
+/*  06. Animation
+/*----------------------------------------*/
+.swiper-slide{
+	.slide-inner{
+		.slide-content{
+			opacity: 0;
+		}
+	}
+	&.swiper-slide-active{
+		.slide-inner{
+			.slide-content{
+				opacity: 1;
+			}
+		}
+	}
+}
+/* ---Slider Animation--- */
+.animation-style-01{
+	&.swiper-slide-active{
+		.slide-content{
+            .sub-title{
+                animation-name: fadeInUp;
+                animation-delay: 0.5s;
+                animation-duration: 1s;
+                animation-fill-mode: both;
+            }
+            .title{
+                animation-name: fadeInUp;
+                animation-delay: 1s;
+                animation-duration: 1s;
+                animation-fill-mode: both;
+            }
+			.short-desc,
+			.short-desc-2{
+                animation-name: fadeInUp;
+                animation-delay: 1.5s;
+                animation-duration: 1s;
+                animation-fill-mode: both;
+            }
+			.button-wrap{
+				a{
+					&:nth-child(1){
+						animation-name: fadeInUp;
+						animation-delay: 2s;
+						animation-duration: 1s;
+						animation-fill-mode: both;
+					}
+					&:nth-child(2){
+						animation-name: fadeInUp;
+						animation-delay: 2.5s;
+						animation-duration: 1s;
+						animation-fill-mode: both;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* ---Wave Button--- */
+@keyframes wave-button{
+    0%{
+      opacity: 1;
+      transform: scale(.3)
+    }
+    50%{
+      opacity: .5;
+      transform: scale(.6)
+    }
+    100%{
+      opacity: 0;
+      transform: scale(1)
+    }
+  }
+  
+.wave-btn{
+    margin: auto;
+    display:block;
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
+.wave-btn > .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  background: $white;
+  border-radius: 50%;
+  color: $primary;
+  font-size: 24px;
+}
+.wave-btn span{
+    position: absolute;
+    border-radius: 50%;
+    background: $primary;
+    width: 250px;
+    height: 250px;
+  
+}
+  
+.wave-btn span:nth-child(1){
+    background: $primary;
+    animation: wave-button 2s infinite .1s linear backwards;
+}
+.wave-btn span:nth-child(2){
+    background: $primary;
+    animation: wave-button 3s infinite .5s linear backwards;
+}
+.wave-btn span:nth-child(3){
+    background: $primary;
+    animation: wave-button 4s infinite 1s linear backwards;
+}

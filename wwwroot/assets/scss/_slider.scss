@@ -1,0 +1,96 @@
+/*----------------------------------------*/
+/*  03. Slider
+/*----------------------------------------*/
+/* ---Main Slider--- */
+.slide{
+	&-inner{
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		&.bg-height{
+			min-height: 680px;
+			@include media-breakpoint-down(xxl){
+				min-height: 610px;
+			}
+			@include media-breakpoint-down(sm){
+				min-height: 480px;
+			}
+		}
+	}
+	&-content{
+		.sub-title{
+			font-family: $playfair-display;
+			font-size: 24px;
+			line-height: 30px;
+			display: block;
+		}
+		.title{
+			font-size: 72px;
+			line-height: 87px;
+			font-weight: 400;
+			@include media-breakpoint-down(xl){
+				font-size: 50px;
+				line-height: 75px;
+			}
+			@include media-breakpoint-down(md){
+				font-size: 32px;
+				line-height: 45px;
+			}
+			@media (max-width: 479px){
+				font-size: 22px;
+				line-height: 40px;
+			}
+			&.font-weight-bold{
+				font-weight: 700;
+			}
+		}
+		.short-desc{
+			@include media-breakpoint-down(md){
+				&.different-width{
+					max-width: 320px;
+				}
+			}
+		}
+	}
+}
+
+.parallax-img-wrap{
+	.chilly{
+		position: absolute;
+		top: 0;
+		left: 0;
+		@media (min-width: 1600px){
+			top: 60px;
+			left: 150px;
+		}
+	}
+	.avocado{
+		position: absolute;
+		bottom: -90px;
+		left: 0;
+		@media (max-width: 479px){
+			bottom: -75px;
+		}
+	}
+	.chilly,
+	.avocado,
+	.tomatoes{
+		@include media-breakpoint-down(sm){
+			width: 160px;
+		}
+	}
+}
+
+.parallax-with-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	.slide{
+		&-content{
+			width: 50%;
+		}
+	}
+	.parallax-img-wrap{
+		width: 50%;
+	}
+}

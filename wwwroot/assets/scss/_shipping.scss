@@ -1,0 +1,32 @@
+/*----------------------------------------*/
+/*  04. Shipping
+/*----------------------------------------*/
+.shipping{
+    &-item{
+        border: 2px solid $primary;
+        display: flex;
+        align-items: center;
+        padding: 30px;
+        position: relative;
+        @include media-breakpoint-only(lg){
+            padding: 25px;
+        }
+        &:before{
+            background-color: $white;
+            width: 10px;
+            height: 70px;
+            content: "";
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: -5px;
+        }
+    }
+    &-content{
+        padding-left: 20px;
+        .short-desc{
+            font-family: 'rubikregular';
+            font-size: 14px;
+        }
+    }
+}

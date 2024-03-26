@@ -1,0 +1,26 @@
+/*----------------------------------------*/
+/*  22. Privacy Policy
+/*----------------------------------------*/
+.privacy{
+    &-policy{
+        &-list{
+            .title{
+                color: #444444;
+            }
+            .sub-title{
+                color: #444444;
+            }
+            .short-desc{
+                color: #505050;
+                font-size: 14px;
+                line-height: 29px;
+                a{
+                    color: #444444;
+                    &:hover{
+                        color: $primary;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,72 @@
+/*----------------------------------------*/
+/*  11. About
+/*----------------------------------------*/
+.about{
+    &-banner{
+        &.different-bg-position{
+            &[data-bg-image]:not(.bg-pattern){
+                @include media-breakpoint-down(lg){
+                    background-position: right;
+                    text-align: center;
+                }
+            }
+        }
+        &-content{
+            .title{
+                color: #000000;
+            }
+            .sub-title{
+                margin-bottom: 10px;
+                color: #000000;
+                display: block;
+            }
+            .short-desc{
+                color: #626262;
+                line-height: 32px;
+            }
+        }
+        &-height{
+            height: 500px;
+        }
+        .popup-btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+    }
+}
+
+/* ---Intro--- */
+.intro{
+    &-item{
+        padding: 50px 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    &-content{
+        .title{
+            font-size: 30px;
+            line-height: 26px;
+        }
+    }
+}
+
+/* ---Team Member--- */
+.team-member{
+    &-item{
+        text-align: center;
+    }
+    &-content{
+        .title{
+            font-size: 18px;
+            line-height: 23px;
+        }
+        .occupation{
+            font-size: 14px;
+            line-height: 23px;
+        }
+    }
+}

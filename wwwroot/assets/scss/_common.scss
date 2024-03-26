@@ -1,0 +1,800 @@
+/*----------------------------------------*/
+/*  01. Template default CSS
+/*----------------------------------------*/
+
+@mixin placeholder {
+    &::-webkit-input-placeholder {
+        @content;
+    }
+    &:-moz-placeholder {
+        @content;
+    }
+    &::-moz-placeholder {
+        @content;
+    }
+    &:-ms-input-placeholder {
+        @content;
+    }
+}
+
+/*-- Google Font --*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+/*-- Common Style --*/
+html {
+	scroll-behavior: smooth;
+}
+html,
+body {
+    height: 100%;
+}
+body{
+    color: $secondary;
+}
+a{
+    color: $secondary;
+    text-decoration: none;
+    &:hover {
+        color: $primary;
+    }
+}
+a, 
+button, 
+.btn,
+img, 
+input {
+    transition: $baseTransition;
+}
+a,
+a:hover,
+a:focus,
+a:active,
+button,
+button:focus,
+.btn,
+.btn:focus,
+input,
+input:focus,
+select,
+textarea,
+.swiper-pagination-bullet,
+.swiper-slide,
+.append-button,
+.swiper-button-next,
+.swiper-button-prev {
+	text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+.btn{
+    &:active:focus{
+        box-shadow: none;
+    }
+    &-primary{
+        &:focus{
+            border-color: $primary;
+            color: $white;
+        }
+    }
+}
+.accordion-button:focus{
+    box-shadow: none;
+}
+h1, h2, h3, h4, h5, h6{
+    color: $secondary;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img {
+	max-width: 100%;
+}
+.img-full {
+	width: 100%;
+	overflow: hidden;
+	object-fit: cover;
+	object-position: center center;
+}
+::selection{
+    background-color: $primary;
+    color: $white;
+}
+
+/* ---Custom Container--- */
+.container{
+    @include media-breakpoint-up(xxl){
+        max-width: 1200px;
+    }
+}
+
+/* ---Section Space--- */
+.section-space{
+    &-top{
+        &-100{
+            padding-top: 100px;
+        }
+        &-95{
+            padding-top: 95px;
+        }
+        &-90{
+            padding-top: 90px;
+        }
+        &-85{
+            padding-top: 85px;
+        }
+        &-80{
+            padding-top: 80px;
+        }
+        &-75{
+            padding-top: 75px;
+        }
+        &-55{
+            padding-top: 55px;
+        }
+    }
+    &-y-axis{
+        &-100{
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+    }
+    &-bottom{
+        &-100{
+            padding-bottom: 100px;
+        }
+        &-95{
+            padding-bottom: 95px;
+        }
+    }
+}
+
+/* --End Here-- */
+
+/* --------------------------------------
+    Additional Space for specific section
+----------------------------------------- */
+.pb{
+    &-55{
+        padding-bottom: 55px;
+    }
+}
+
+/* ---Data Background Image--- */
+[data-bg-image]:not(.bg-pattern) {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+/* ---Text Color--- */
+.text-white{
+    *{
+        color: $white;
+    }
+}
+.text-primary{
+    *{
+        color: $primary;
+    }
+}
+.text-secondary{
+    *{
+        color: $secondary;
+    }
+}
+.text-hawkes-blue{
+    *{
+        color: #cfe1ff;
+    }
+}
+.text-manatee{
+    *{
+        color: #8b8b99;
+    }
+}
+.text-matterhorn{
+    *{
+        color: #555252;
+    }
+}
+.text-charcoal{
+    *{
+        color: #444444;
+    }
+}
+.text-dim-gray{
+    *{
+        color: #626262;
+    }
+}
+.text-silver{
+    *{
+        color: #c0c0c0;
+    }
+}
+.text-black{
+    *{
+        color: #000000;
+    }
+}
+.text-dim-gray{
+    *{
+        color: #626262;
+    }
+}
+
+/* ---Section Title--- */
+.section{
+    &-title{
+        .title{
+            text-transform: uppercase;
+            font-size: 36px;
+            @media (max-width: 479px) {
+                font-size: 26px;
+            }
+        }
+        .sub-title{
+            text-transform: uppercase;
+            font-size: 15px;
+            line-height: 26.4px;
+            margin-bottom: 10px;
+            display: block;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+    }
+}
+
+/* ---Custom Font Size--- */
+.font-size{
+    &-60{
+        font-size: 60px !important;
+        @include media-breakpoint-down(sm){
+            font-size: 36px !important;
+        }
+    }
+    &-50{
+        font-size: 50px;
+        @include media-breakpoint-down(sm){
+            font-size: 30px;
+        }
+    }
+    &-20{
+        font-size: 20px;
+    }
+    &-25{
+        font-size: 25px;
+        line-height: 25px;
+    }
+    &-16{
+        font-size: 16px;
+    }
+}
+
+/* ---Countdown--- */
+.countdown{
+    &-wrap{
+        &.with-dark-border{
+            .countdown__item{
+                border-color: #000000;
+                *{
+                    color: #000000;
+                }
+            }
+            .countdown__time{
+                &:before{
+                    content: url('../images/shape/2.png');
+                }
+            }
+        }
+        &.with-secondary-border{
+            .countdown__item{
+                border-color: #505050;
+                *{
+                    color: #505050;
+                }
+            }
+            .countdown__time{
+                &:before{
+                    content: url('../images/shape/2.png');
+                }
+            }
+        }
+    }
+}
+.countdown__item {
+	display: inline-block;
+	border: 2px solid $white;
+    border-radius: 3px;
+	padding: 10px;
+	text-align: center;
+    width: 65px;
+    @include media-breakpoint-down(sm){
+        width: auto;
+    }
+}
+.countdown__time{
+    font-size: 24px;
+}
+.countdown__text {
+    text-transform: capitalize;
+    padding-top: 5px;
+    font-size: 13px;
+    display: block;
+}
+.countdown__time{
+    position: relative;
+    &:before{
+        content: url('../images/shape/1.png');
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+/* ---Tab Content & Pane Fix--- */
+.tab-content {
+	width: 100%;
+	.tab-pane {
+		display: block;
+		height: 0;
+		max-width: 100%;
+		visibility: hidden;
+		overflow: hidden;
+		opacity: 0;
+		&.active {
+			height: auto;
+			visibility: visible;
+			opacity: 1;
+			overflow: visible;
+			transition: $baseTransition;
+		}
+	}
+}
+
+/* ---Social Link--- */
+.social-link{
+    display: flex;
+    .title{
+        font-size: 16px;
+        display: block;
+    }
+    ul{
+        li{
+            display: inline-block;
+            &:not(:last-child){
+                padding-right: 15px;
+            }
+            a{
+                font-size: 14px;
+                display: block;
+            }
+        }
+    }
+    &.with-border{
+        ul{
+            li{
+                &:not(:last-child){
+                    padding-right: 15px;
+                }
+                a{
+                    border: 1px solid #434343;
+                    border-radius: 100%;
+                    width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    &:hover{
+                        background-color: $primary;
+                        border-color: $primary;
+                        i{
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* ---Button--- */
+.btn{
+    &-custom-size{
+        padding: 0;
+        width: 105px;
+        height: 35px;
+        line-height: 32px;
+        font-size: 14px;
+        text-transform: uppercase;
+        &.lg-size{
+            width: 170px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 16px;
+        }
+        &.xl-size{
+            width: 220px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 16px;
+        }
+    }
+    &-primary{
+        color: $white;
+        &.active{
+            color: $white;
+        }
+    }
+    &-white{
+        background-color: $white;
+        color: #323232;
+        &:hover{
+            background-color: $secondary;
+            color: $white;
+        }
+    }
+    &-primary-hover{
+        &:hover{
+            background-color: $primary;
+            border-color: $primary;
+            color: $white;
+            i{
+                color: $white;
+            }
+        }
+    }
+    &-secondary-hover{
+        &:hover{
+            background-color: $secondary;
+            border-color: $secondary;
+            color: $white;
+        }
+    }
+    &-link{
+        &.with-underline{
+            text-decoration: underline;
+        }
+        &.hover-white{
+            &:hover{
+                background-color: $white;
+            }
+            @include media-breakpoint-down(md) {
+                background-color: $white;
+            }
+        }
+    }
+    &-white-hover{
+        color: $white;
+        &:hover{
+            background-color: $light;
+            border-color: $light;
+            color: $secondary;
+        }
+    }
+    &-dark-hover{
+        &:hover{
+            background-color: $secondary;
+            border-color: $secondary;
+            color: $white;
+        }
+    }
+}
+/* ---Button Position--- */
+.button-position{
+    &-center{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* ---Pagination--- */
+.pagination{
+    .page{
+        &-item{
+            &:not(:last-child){
+                padding-right: 10px;
+            }
+        }
+        &-link{
+            background-color: #f6f6f6;
+            color: #3f3f3f;
+            border-radius: 0;
+            text-align: center;
+            padding: 0;
+            border: 0;
+            width: 45px;
+            height: 45px;
+            line-height: 45px;
+            &:focus{
+                box-shadow: none;
+            }
+            span{
+                font-size: 12px;
+            }
+            &:hover{
+                background-color: $primary;
+                color: $white;
+            }
+        }
+    }
+}
+
+/* ---Image Zoom Effect--- */
+.img{
+    &-zoom-effect{
+        position: relative;
+        overflow: hidden;
+        &.with-overlay{
+            &:before{
+                background-color: $secondary;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                content: "";
+                top: 0;
+                left: 0;
+                opacity: 0;
+                visibility: hidden;
+                transition: $baseTransition;
+                pointer-events: none;
+                z-index: 1;
+            }
+        }
+        img{
+            transition: all 0.5s ease-in-out;
+            transform: scale(1);
+        }
+        &:hover{
+            &.with-overlay{
+                &:before{
+                    opacity: 0.3;
+                    visibility: visible;
+                }
+            }
+            img{
+                transform: scale(1.06) rotate(1deg);
+            }
+        }
+    }
+}
+
+/* ---Blockquote--- */
+blockquote{
+    background-color: #f5f6fb;
+    .inner-content{
+        position: relative;
+        @include media-breakpoint-up(lg){
+            margin-left: 80px;
+            margin-right: 80px;
+        }
+        &:before{
+            content: url('../images/blog/blockquote/quotation.png');
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        p{
+            font-family: $playfair-display;
+            font-style: italic;
+            font-size: 24px;
+            line-height: 44px;
+            padding-left: 45px;
+        }
+        .user-name{
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            line-height: 11px;
+            position: relative;
+            display: inline-block;
+            padding-left: 35px;
+            text-transform: uppercase;
+            font-weight: 400;
+            &:before{
+                background-color: $primary;
+                content: "";
+                height: 2px;
+                width: 20px;
+                position: absolute;
+                top: 50%;
+                left: 0;
+                transform: translateY(-50%);
+            }
+        }
+    }
+}
+
+/* ---Global Overlay--- */
+.global-overlay {
+	background-color: rgba(0,0,0,.5);
+	transition: $baseTransition;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 99;
+	visibility: hidden;
+	&.overlay-open {
+		visibility: visible;
+		cursor: pointer;
+	}
+}
+
+/* ---Range Slider--- */
+.price-filter {
+	.ui-widget-content {
+		background-color: $border-color;
+		border: none;
+		border-radius: 0;
+		box-shadow: none;
+		cursor: pointer;
+		height: 5px;
+		margin: 0 0 25px;
+		width: 100%;
+		border-top-left-radius: 25px;
+		border-top-right-radius: 25px;
+		border-bottom-left-radius: 25px;
+		border-bottom-right-radius: 25px;
+        width: calc(100% - 15px);
+        left: 10px;
+	}
+	.ui-slider-range {
+		background-color: $primary;
+		border: none;
+		box-shadow: none;
+        height: 5px;
+        transition: $baseTransition;
+	}
+	.ui-slider-handle {
+        border: 2px solid $primary;
+		background: $white;
+		display: block;
+		outline: none;
+		width: 15px;
+		height: 15px;
+		line-height: 15px;
+		text-align: center;
+		top: 50%;
+		left: 0;
+		border-radius: 100%;
+		transform: translateY(-50%);
+		cursor: e-resize;
+		transition: $baseTransition;
+		&:last-child {
+			transform: translateY(-50%);
+		}
+	}
+	.price-slider-amount {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+        .btn{
+            &:focus{
+                color: $white;
+                box-shadow: none;
+            }
+        }
+		.label-input {
+			label{
+				font-size: 14px;
+				margin: 0;
+				text-transform: capitalize;
+			}
+			input{
+				background: transparent none repeat scroll 0 0;
+				border: medium none;
+				box-shadow: none;
+				font-size: 14px;
+				height: inherit;
+				padding-left: 5px;
+				width: 99px;
+			}
+		}
+	}
+}
+
+/* ---Swiper Slider Border Issues--- */
+.swiper-container{
+    &.border-issue{
+        padding-bottom: 15px;
+        margin-bottom: -15px;
+    }
+}
+
+/* ---Quantity--- */
+.quantity {
+	.cart-plus-minus {
+        background-color: #f6f6f6;
+		position: relative;
+		width: 76px;
+		text-align: left;
+		.cart-plus-minus-box {
+            border: 1px solid #f6f6f6;
+            background-color: #f6f6f6;
+			text-align: center;
+			width: 75px;
+			height: 50px;
+		}
+		.qtybutton {
+			cursor: pointer;
+			position: absolute;
+			transition: $baseTransition;
+			font-size: 10px;
+            color: inherit;
+            top: 50%;
+            transform: translateY(-50%);
+            &.dec {
+				left: 15px;
+			}
+			&.inc {
+                left: auto;
+				right: 15px;
+			}
+		}
+	}
+}
+
+/* ---Price Box--- */
+.price-box{
+    span{
+        font-size: 15px;
+        &.old-price{
+            margin-left: 5px;
+            color: #8d8f92;
+            text-decoration: line-through;
+        }
+    }
+}
+
+/* ---Rating Box--- */
+.rating-box{
+    ul{
+        display: flex;
+        li{
+            &:not(:last-child){
+                padding-right: 5px;
+            }
+            i{
+                vertical-align: middle;
+                color: #dc9a0e;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+/*-- Scroll To Top --*/
+.scroll-to-top{
+    background-color: $secondary;
+    color: $white;
+    position: fixed;
+    right: 50px;
+    bottom: 90px;
+    z-index: 999;
+    overflow: hidden;
+    display: block;
+	text-align: center;
+	opacity: 0;
+	visibility: hidden;
+	animation:  fadeOutDown 1s normal;
+    @include transition(all 300ms ease);
+    &:hover{
+        background-color: $primary;
+    }
+	&.show{
+		opacity: 1;
+		visibility: visible;
+		animation: fadeInUp 1s normal;
+	}
+	i{
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+		transition: $baseTransition;
+		color: $white;
+		display: inline-block;
+	}
+}

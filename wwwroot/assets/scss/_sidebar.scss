@@ -1,0 +1,207 @@
+/*----------------------------------------*/
+/*  13. Sidebar
+/*----------------------------------------*/
+.widgets{
+    &-searchbox{
+        position: relative;
+        .input-field{
+            border: 1px solid $border-color;
+            width: 100%;
+            height: 60px;
+            padding-left: 15px;
+            padding-right: 75px;
+        }
+        &-btn{
+            background-color: transparent;
+            border: 0;
+            border-left: 1px solid $border-color;
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            font-size: 18px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+    &-title{
+        font-family: $body-font;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    &-checkbox{
+        li{
+            &:not(:last-child){
+                margin-bottom: 25px;
+            }
+            /* ---Custom Input Checkbox--- */
+            input[type="checkbox"] {
+                display: none;
+            }
+            input[type="checkbox"] + label {
+                position: relative;
+                padding-left: 30px;
+                line-height: 1;
+                font-size: 14px;
+                font-weight: 400;
+                margin: 0;
+                &:before {
+                    border: 2px solid $border-color;
+                    border-radius: 3px;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 15px;
+                    height: 15px;
+                    display: block;
+                    content: "";
+                    transition: $baseTransition;
+                }
+                &:after {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    display: block;
+                    content: "\f00c";
+                    font-family: 'FontAwesome';
+                    font-size: 9px;
+                    line-height: 14px;
+                    opacity: 0;
+                    width: 15px;
+                    text-align: center;
+                    transition: $baseTransition;
+                    color: $white;
+                }
+            }
+            .label-checkbox{
+                display: flex;
+                justify-content: space-between;
+                color: #000000;
+                span{
+                    background-color: #ebebeb;
+                    color: #9a9a9a;
+                    width: 30px;
+                    height: 20px;
+                    line-height: 20px;
+                    border-radius: 8px;
+                    text-align: center;
+                }
+            }
+            input[type="checkbox"]:checked + label {
+                color: $primary;
+                &:before {
+                    background-color: $primary;
+                    border-color: $primary;
+                }
+                &:after {
+                    opacity: 1;
+                }
+                &.label-checkbox{
+                    span{
+                        background-color: $primary;
+                        color: $white;
+                    }
+                }
+            }
+            /* -End Here- */
+        }
+    }
+    &-list-slider{
+        .product{
+            &-list-item{
+                padding: 0;
+                border: 0;
+            }
+            &-img{
+                width: 90px;
+            }
+            &-content{
+                width: calc(100% - 90px);
+                .title{
+                    line-height: 1.4;
+                }
+                .price-box{
+                    span{
+                        font-size: 14px;
+                        line-height: 26px;
+                    }
+                }
+            }
+            &-name{
+                font-size: 14px;
+                line-height: 26px;
+            }
+        }
+        &.style{
+            &-2{
+                .product{
+                    &-list-item{
+                        align-items: flex-start;
+                    }
+                    &-img{
+                        width: 86px;
+                    }
+                    &-content{
+                        width: calc(100% - 86px);
+                        .title{
+                            font-weight: 400;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &-tags{
+        display: flex;
+        flex-wrap: wrap;
+        li{
+            &:not(:last-child){
+                a{
+                    margin-right: 10px;
+                    margin-bottom: 10px;
+                }
+            }
+            a{
+                background-color: #f6f6f6;
+                color: #424242;
+                padding: 5px 20px;
+                font-size: 14px;
+                display: block;
+                border-radius: 30px;
+                &:hover{
+                    background-color: $primary;
+                    color: $white;
+                }
+            }
+        }
+    }
+    &-category{
+        li{
+            &:not(:last-child){
+                padding-bottom: 20px;
+            }
+            a{
+                font-size: 14px;
+                display: flex;
+                justify-content: space-between;
+                span{
+                    background-color: #ebebeb;
+                    color: #9a9a9a;
+                    border-radius: 8px;
+                    width: 30px;
+                    height: 20px;
+                    line-height: 20px;
+                    text-align: center;
+                    transition: $baseTransition;
+                }
+                &:hover{
+                    span{
+                        background-color: $primary;
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+}

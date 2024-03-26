@@ -1,0 +1,33 @@
+/*----------------------------------------*/
+/*  08. Testimonial
+/*----------------------------------------*/
+.testimonial{
+    &-item{
+        .sub-title{
+            margin-bottom: 10px;
+            display: block;
+        }
+        .title{
+            font-size: 36px;
+        }
+        .short-desc{
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: 18px;
+            line-height: 32px;
+        }
+        .user{
+            &-info{
+                display: flex;
+                align-items: center;
+            }
+            &-content{
+                padding-left: 20px;
+            }
+            &-name{
+                text-transform: uppercase;
+                display: block;
+            }
+        }
+    }
+}
