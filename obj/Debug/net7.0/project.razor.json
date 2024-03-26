@@ -18807,6 +18807,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Views\\Home\\About.cshtml",
+      "TargetPath": "Views\\Home\\About.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
@@ -18822,6 +18827,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Views\\Home\\Contact.cshtml",
+      "TargetPath": "Views\\Home\\Contact.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
@@ -18829,6 +18839,16 @@
     {
       "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Views\\Shared\\_HeaderPartialView.cshtml",
+      "TargetPath": "Views\\Shared\\_HeaderPartialView.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Views\\Shared\\_FooterPartialView.cshtml",
+      "TargetPath": "Views\\Shared\\_FooterPartialView.cshtml",
       "FileKind": "mvc"
     },
     {
