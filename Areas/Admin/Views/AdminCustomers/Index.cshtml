@@ -1,10 +1,9 @@
-@* @using PagedList.Core.Mvc
-@model PagedList.Core.IPagedList<E_Commerce.Models.Customer> *@
-@model IEnumerable<E_Commerce.Models.Customer>
+@using PagedList.Core.Mvc
+@model PagedList.Core.IPagedList<E_Commerce.Models.Customer>
 
 @{
-    @* int currentPage = ViewBag.CurrentPage; *@
-    ViewData["Title"] = "Customers List ";
+    int currentPage = ViewBag.CurrentPage;
+    ViewData["Title"] = "Customers List " + currentPage;
     Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
 } 
 
@@ -12,7 +11,7 @@
     <div class="header-sub-title">
         <nav class="breadcrumb breadcrumb-dash">
             <a asp-area="Admin" asp-controller="Home" asp-action="Index" class="breadcrumb-item"><i class="anticon anticon-home m-r-5"></i>Home</a>
-            <span class="breadcrumb-item active">Customers List: Page </span>
+            <span class="breadcrumb-item active">Customers List: Page @currentPage</span>
         </nav>
     </div>
 </div>
@@ -45,9 +44,7 @@
                 <thead>
                     <tr>
                         <th>ID</th>
-                        <th>Full Name</th>
-                        <th>Phone</th>
-                        <th>Email</th>
+                        <th>Personal Info</th>
                         <th>Address</th>
                         <th>Location</th>
                         <th></th>
@@ -58,22 +55,35 @@
                         foreach(var item in Model) {
                             <tr>
                                 <td>@item.CustomerId</td>
-                                <td>@item.FullName</td>
-                                <td>@item.Phone</td>
-                                <td>@item.Email</td>
+                                <td>
+                                    <p>@item.FullName</p>
+                                    <p>@item.Phone</p>
+                                    <p>@item.Email</p>
+                                </td>
                                 <td>@item.Address</td>
                                 <td>@item.Location.Name</td>
                                 <td></td>
-                                <td>
-                                    <a class="btn btn-primary btn-tone m-r-5" asp-area="Admin" asp-controller="AdminCustomers" asp-action="Details" asp-route-id="@item.CustomerId">View</a>
-                                    <a class="btn btn-secondary btn-tone m-r-5" asp-area="Admin" asp-controller="AdminCustomers" asp-action="Edit" asp-route-id="@item.CustomerId">Edit</a>
-                                    <a class="btn btn-success btn-tone m-r-5" asp-area="Admin" asp-controller="AdminCustomers" asp-action="Delete" asp-route-id="@item.CustomerId">Delete</a>
+                                <td class="text-right">
+                                    <a asp-area="Admin" asp-controller="AdminCustomers" asp-action="Edit" class="btn btn-icon btn-hover btn-sm btn-rounded pull-right">
+                                        <i class="anticon anticon-edit"></i>
+                                    </a>
+                                    <a asp-area="Admin" asp-controller="AdminCustomers" asp-action="Delete" class="btn btn-icon btn-hover btn-sm btn-rounded">
+                                        <i class="anticon anticon-delete"></i>
+                                    </a>
+                                    <a asp-area="Admin" asp-controller="AdminCustomers" asp-action="View" class="btn btn-icon btn-hover btn-sm btn-rounded pull-right">
+                                        <i class="anticon anticon-account-book"></i>
+                                    </a>
                                 </td>
                             </tr>
                         }
                     }
                 </tbody>
             </table>
+            <div aria-label="Page navigation example">
+                <ul class="pagination">
+                    <pager class="paper-container" list="@Model" asp-area="Admin" asp-controller="AdminCustomers" asp-action="Index" />
+                </ul>
+            </div>
         </div>
     </div>
 </div>

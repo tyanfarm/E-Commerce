@@ -16,27 +16,18 @@ namespace E_Commerce.Areas.Admin.Controllers {
         }
 
         // GET: Admin/AdminCustomers
-        public async Task<IActionResult> Index() {
-            // var pageNumber = page == null || page <= 0 ? 1 : page.Value;
-            // var pageSize = 20;
-            // var listCustomers = _context.Customers.AsNoTracking()
-            //                                         .Include(x => x.Location)
-            //                                         .OrderByDescending(x => x.CreateDate);
+        public async Task<IActionResult> Index(int? page) {
+            // Pagination
+            var pageNumber = page == null || page <= 0 ? 1 : page.Value;
+            var pageSize = 20;
+            var listCustomers = _context.Customers.AsNoTracking()
+                                                    .Include(x => x.Location)
+                                                    .OrderByDescending(x => x.CreateDate);
 
-            // PagedList<Customer> models = new PagedList<Customer>(listCustomers, pageNumber, pageSize);
-            // ViewBag.CurrentPage = pageNumber;
+            PagedList<Customer> models = new PagedList<Customer>(listCustomers, pageNumber, pageSize);
+            ViewBag.CurrentPage = pageNumber;
 
-            // return View(models);
-
-            // var locations = await _context.Locations.ToListAsync();
-            // var customers = await _context.Customers.ToListAsync();
-            
-            // foreach (var a in customers) {
-            //     a.Location = locations.FirstOrDefault(r => r.LocationId == a.LocationId);
-            // }
-            // return View(customers);
-            var ecommerceContext = _context.Customers.Include(c => c.Location);
-            return View(await ecommerceContext.ToListAsync());
+            return View(models);
         }
 
         // GET: Admin/AdminCustomers/Details/5

@@ -73,10 +73,17 @@
                                         </div>
                                     }
                                 </td>
-                                <td>
-                                    <a class="btn btn-primary btn-tone m-r-5" asp-area="Admin" asp-controller="AdminAccounts" asp-action="Details" asp-route-id="@item.AccountId">View</a>
-                                    <a class="btn btn-secondary btn-tone m-r-5" asp-area="Admin" asp-controller="AdminAccounts" asp-action="Edit" asp-route-id="@item.AccountId">Edit</a>
-                                    <a class="btn btn-success btn-tone m-r-5" asp-area="Admin" asp-controller="AdminAccounts" asp-action="Delete" asp-route-id="@item.AccountId">Delete</a>
+                                <td></td>
+                                <td class="text-right">
+                                    <a asp-area="Admin" asp-controller="AdminAccounts" asp-action="Edit" class="btn btn-icon btn-hover btn-sm btn-rounded pull-right">
+                                        <i class="anticon anticon-edit"></i>
+                                    </a>
+                                    <a asp-area="Admin" asp-controller="AdminAccounts" asp-action="Delete" class="btn btn-icon btn-hover btn-sm btn-rounded">
+                                        <i class="anticon anticon-delete"></i>
+                                    </a>
+                                    <a asp-area="Admin" asp-controller="AdminAccounts" asp-action="View" class="btn btn-icon btn-hover btn-sm btn-rounded pull-right">
+                                        <i class="anticon anticon-account-book"></i>
+                                    </a>
                                 </td>
                             </tr>
                         }
