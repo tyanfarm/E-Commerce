@@ -20,4 +20,6 @@ public partial class Location
     public int? ParentCode { get; set; }
 
     public int? Levels { get; set; }
+
+    public virtual ICollection<Customer> Customers { get; } = new List<Customer>();
 }

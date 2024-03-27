@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lMkE78rQn3lga+xoRvwzsVOSIAuKUNJdnPn6RuSHh2E=",
+  "Hash": "DA+7VSEKU/Ph/NTIibBQl+d+uk1LTI1P+GAu3u53Qgw=",
   "Source": "E-Commerce",
   "BasePath": "_content/E-Commerce",
   "Mode": "Default",
@@ -1122,12 +1122,12 @@
       "OriginalItemSpec": "wwwroot\\adminassets\\images\\logo\\logo-white.png"
     },
     {
-      "Identity": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\logo\\logo.png",
+      "Identity": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\logo\\logo1.png",
       "SourceId": "E-Commerce",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\",
       "BasePath": "_content/E-Commerce",
-      "RelativePath": "adminassets/images/logo/logo.png",
+      "RelativePath": "adminassets/images/logo/logo1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1136,7 +1136,41 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\adminassets\\images\\logo\\logo.png"
+      "OriginalItemSpec": "wwwroot\\adminassets\\images\\logo\\logo1.png"
+    },
+    {
+      "Identity": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\logo\\mylogo.png",
+      "SourceId": "E-Commerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\",
+      "BasePath": "_content/E-Commerce",
+      "RelativePath": "adminassets/images/logo/mylogo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\adminassets\\images\\logo\\mylogo.png"
+    },
+    {
+      "Identity": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\logo\\mylogo1.png",
+      "SourceId": "E-Commerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\",
+      "BasePath": "_content/E-Commerce",
+      "RelativePath": "adminassets/images/logo/mylogo1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\adminassets\\images\\logo\\mylogo1.png"
     },
     {
       "Identity": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\adobe-thumb.png",

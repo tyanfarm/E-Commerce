@@ -14,3 +14,10 @@
 
 ### Model Scaffolding
 - `dotnet ef dbcontext scaffold "server=127.0.0.1;uid=root;pwd=tyan;database=ecommerce;port=3306" "Pomelo.EntityFrameworkCore.MySql" -o .\Models -f`
+
+### Pagination
+- Install Package `PagedList.Core.Mvc` from Nuget
+
+- Edit `_ViewImports.cshtml`:
+    + @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+    + @addTagHelper *, PagedList.Core.Mvc

@@ -140,6 +140,8 @@ public partial class EcommerceContext : DbContext
                 .HasCharSet("ascii")
                 .UseCollation("ascii_general_ci");
 
+            entity.HasIndex(e => e.LocationId, "LocationID_idx");
+
             entity.Property(e => e.CustomerId).HasColumnName("CustomerID");
             entity.Property(e => e.Active).HasColumnType("bit(2)");
             entity.Property(e => e.Address)
@@ -172,6 +174,10 @@ public partial class EcommerceContext : DbContext
                 .IsFixedLength()
                 .UseCollation("utf8mb3_general_ci")
                 .HasCharSet("utf8mb3");
+
+            entity.HasOne(d => d.Location).WithMany(p => p.Customers)
+                .HasForeignKey(d => d.LocationId)
+                .HasConstraintName("LocationID");
         });
 
         modelBuilder.Entity<Location>(entity =>

@@ -241,8 +241,16 @@
       "PackagePath": "staticwebassets\\adminassets\\images\\logo\\logo-white.png"
     },
     {
-      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\logo\\logo.png",
-      "PackagePath": "staticwebassets\\adminassets\\images\\logo\\logo.png"
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\logo\\logo1.png",
+      "PackagePath": "staticwebassets\\adminassets\\images\\logo\\logo1.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\logo\\mylogo.png",
+      "PackagePath": "staticwebassets\\adminassets\\images\\logo\\mylogo.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\logo\\mylogo1.png",
+      "PackagePath": "staticwebassets\\adminassets\\images\\logo\\mylogo1.png"
     },
     {
       "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\adminassets\\images\\others\\adobe-thumb.png",

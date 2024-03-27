@@ -33,7 +33,9 @@ public partial class Customer
 
     public DateTime? LastLogin { get; set; }
 
-    public ulong Active { get; set; }
+    public bool Active { get; set; }
+
+    public virtual Location? Location { get; set; }
 
     public virtual ICollection<Order> Orders { get; } = new List<Order>();
 }
