@@ -19,20 +19,13 @@
             <div class="col-lg-8">
                 <div class="d-md-flex">
                     <div class="m-b-10 m-r-15">
-                        <select class="custom-select" style="min-width: 180px;">
-                            <option selected>Catergory</option>
-                            <option value="all">All</option>
-                            <option value="homeDeco">Home Decoration</option>
-                            <option value="eletronic">Eletronic</option>
-                            <option value="jewellery">Jewellery</option>
+                        <select class="custom-select" id="idrole" name="idrole" style="min-width: 220px;" asp-items="ViewBag.AccessPermission">
+                            <option value="0" disabled selected>Select Access Permission</option>
                         </select>
                     </div>
                     <div class="m-b-10">
-                        <select class="custom-select" style="min-width: 180px;">
-                            <option selected>Status</option>
-                            <option value="all">All</option>
-                            <option value="inStock">In S</option>
-                            <option value="outOfStock">Out of Stock</option>
+                        <select class="custom-select" id="idstatus" name="idstatus" style="min-width: 200px;" asp-items="ViewBag.Status">
+                            <option value="" disabled selected>Select Status</option>
                         </select>
                     </div>
                 </div>

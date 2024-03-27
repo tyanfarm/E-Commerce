@@ -1,6 +1,7 @@
 using AspNetCoreHero.ToastNotification.Abstractions;
 using E_Commerce.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 
 namespace E_Commerce.Areas.Admin.Controllers {
@@ -23,6 +24,16 @@ namespace E_Commerce.Areas.Admin.Controllers {
             //     a.Role = roles.FirstOrDefault(r => r.RoleId == a.RoleId);
             // }
             // return View(accounts);
+
+            // SelectList - Tạo các đối tượng cho thẻ <select>
+            ViewData["AccessPermission"] = new SelectList(_context.Roles, "RoleId", "Description");
+
+            List<SelectListItem> status = new List<SelectListItem>();
+            status.Add(new SelectListItem() {Text="Active", Value="1"});
+            status.Add(new SelectListItem() {Text="Block", Value="0"});
+
+            ViewData["Status"] = status;
+
             var ecommerceContext = _context.Accounts.Include(a => a.Role);
             return View(await ecommerceContext.ToListAsync());
         }
