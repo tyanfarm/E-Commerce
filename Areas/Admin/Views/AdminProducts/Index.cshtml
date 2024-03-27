@@ -1,7 +1,9 @@
-@model IEnumerable<E_Commerce.Models.Account>
+@using PagedList.Core.Mvc
+@model PagedList.Core.IPagedList<E_Commerce.Models.Product>
 
 @{
-    ViewData["Title"] = "Accounts Management";
+    int currentPage = ViewBag.CurrentPage;
+    ViewData["Title"] = "Products List " + currentPage;
     Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
 } 
 
@@ -9,7 +11,7 @@
     <div class="header-sub-title">
         <nav class="breadcrumb breadcrumb-dash">
             <a asp-area="Admin" asp-controller="Home" asp-action="Index" class="breadcrumb-item"><i class="anticon anticon-home m-r-5"></i>Home</a>
-            <span class="breadcrumb-item active">Accounts</span>
+            <span class="breadcrumb-item active">Products List: Page @currentPage</span>
         </nav>
     </div>
 </div>
@@ -42,10 +44,10 @@
                 <thead>
                     <tr>
                         <th>ID</th>
-                        <th>Full Name</th>
-                        <th>Email</th>
-                        <th>Phone</th>
-                        <th>Access Permission</th>
+                        <th>Product Name</th>
+                        <th>Category</th>
+                        <th>Price</th>
+                        <th>In Stock</th>
                         <th>Status</th>
                         <th></th>
                     </tr>
@@ -54,33 +56,33 @@
                     @if (Model != null) {
                         foreach(var item in Model) {
                             <tr>
-                                <td>@item.AccountId</td>
-                                <td>@item.FullName</td>
-                                <td>@item.Email</td>
-                                <td>@item.Phone</td>
-                                <td>@item.Role.Description</td>
+                                <td>@item.ProductId</td>
+                                <td>@item.ProductName</td>
+                                <td>@item.Cat.CatName</td>
+                                <td>@item.Price.Value.ToString("#,###,###") VNĐ</td>
+                                <td>@item.UnitsInStock</td>
                                 <td>
-                                    @if (item.Active) {
+                                    @if (item.UnitsInStock > 0) {
                                         <div class="d-flex align-items-center">
                                             <div class="badge badge-success badge-dot m-r-10"></div>
-                                            <div>Active</div>
+                                            <div>In Stock</div>
                                         </div>
                                     }
                                     else {
                                         <div class="d-flex align-items-center">
                                             <div class="badge badge-danger badge-dot m-r-10"></div>
-                                            <div>Block</div>
+                                            <div>Out Of Stock</div>
                                         </div>
                                     }
                                 </td>
                                 <td class="text-right">
-                                    <a asp-area="Admin" asp-controller="AdminAccounts" asp-action="Edit" class="btn btn-icon btn-hover btn-sm btn-rounded pull-right">
+                                    <a asp-area="Admin" asp-controller="AdminCustomers" asp-action="Edit" class="btn btn-icon btn-hover btn-sm btn-rounded pull-right">
                                         <i class="anticon anticon-edit"></i>
                                     </a>
-                                    <a asp-area="Admin" asp-controller="AdminAccounts" asp-action="Delete" class="btn btn-icon btn-hover btn-sm btn-rounded">
+                                    <a asp-area="Admin" asp-controller="AdminCustomers" asp-action="Delete" class="btn btn-icon btn-hover btn-sm btn-rounded">
                                         <i class="anticon anticon-delete"></i>
                                     </a>
-                                    <a asp-area="Admin" asp-controller="AdminAccounts" asp-action="View" class="btn btn-icon btn-hover btn-sm btn-rounded pull-right">
+                                    <a asp-area="Admin" asp-controller="AdminCustomers" asp-action="View" class="btn btn-icon btn-hover btn-sm btn-rounded pull-right">
                                         <i class="anticon anticon-account-book"></i>
                                     </a>
                                 </td>
@@ -89,6 +91,11 @@
                     }
                 </tbody>
             </table>
+            <div aria-label="Page navigation example">
+                <ul class="pagination">
+                    <pager class="paper-container" list="@Model" asp-area="Admin" asp-controller="AdminProducts" asp-action="Index" />
+                </ul>
+            </div>
         </div>
     </div>
 </div>
