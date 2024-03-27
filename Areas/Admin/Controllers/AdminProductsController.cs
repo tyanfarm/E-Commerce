@@ -30,7 +30,7 @@ namespace E_Commerce.Areas.Admin.Controllers {
             return View(models);
         }
 
-        // GET: Admin/AdminRoles/Details/5
+        // GET: Admin/AdminProducts/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -38,14 +38,14 @@ namespace E_Commerce.Areas.Admin.Controllers {
                 return NotFound();
             }
 
-            var role = await _context.Roles.FirstOrDefaultAsync(m => m.RoleId == id);
+            var product = await _context.Products.FirstOrDefaultAsync(m => m.ProductId == id);
 
-            if (role == null)
+            if (product == null)
             {
                 return NotFound();
             }
 
-            return View(role);
+            return View(product);
         }
     }
 }
