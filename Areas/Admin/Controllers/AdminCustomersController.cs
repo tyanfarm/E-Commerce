@@ -14,8 +14,27 @@ namespace E_Commerce.Areas.Admin.Controllers {
             _notyfService = notyfService;
         }
 
+        // GET: Admin/AdminCustomers
         public async Task<IActionResult> Index() {
             return View(await _context.Customers.ToListAsync());
+        }
+
+        // GET: Admin/AdminCustomers/Details/5
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var role = await _context.Customers.FirstOrDefaultAsync(c => c.CustomerId == id);
+
+            if (role == null)
+            {
+                return NotFound();
+            }
+
+            return View(role);
         }
     }
 }
