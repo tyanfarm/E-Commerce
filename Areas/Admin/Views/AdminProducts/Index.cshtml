@@ -21,13 +21,9 @@
             <div class="col-lg-8">
                 <div class="d-md-flex">
                     <div class="m-b-10 m-r-15">
-                        <select class="custom-select" id="idrole" name="idrole" style="min-width: 220px;" asp-items="ViewBag.AccessPermission">
-                            <option value="0" disabled selected>Select Access Permission</option>
-                        </select>
-                    </div>
-                    <div class="m-b-10">
-                        <select class="custom-select" id="idstatus" name="idstatus" style="min-width: 200px;" asp-items="ViewBag.Status">
-                            <option value="" disabled selected>Select Status</option>
+                        <select class="custom-select" id="txtCatID" name="txtCatID" style="min-width: 220px;" asp-items="@ViewBag.Category">
+                            <option value="" disabled selected>--Select Category--</option>
+                            <option value="0" >All</option>
                         </select>
                     </div>
                 </div>
@@ -76,13 +72,13 @@
                                     }
                                 </td>
                                 <td class="text-right">
-                                    <a asp-area="Admin" asp-controller="AdminCustomers" asp-action="Edit" class="btn btn-icon btn-hover btn-sm btn-rounded pull-right">
+                                    <a asp-area="Admin" asp-controller="AdminProducts" asp-action="Edit" asp-route-id="@item.ProductId" class="btn btn-icon btn-hover btn-sm btn-rounded pull-right">
                                         <i class="anticon anticon-edit"></i>
                                     </a>
-                                    <a asp-area="Admin" asp-controller="AdminCustomers" asp-action="Delete" class="btn btn-icon btn-hover btn-sm btn-rounded">
+                                    <a asp-area="Admin" asp-controller="AdminProducts" asp-action="Delete" asp-route-id="@item.ProductId" class="btn btn-icon btn-hover btn-sm btn-rounded">
                                         <i class="anticon anticon-delete"></i>
                                     </a>
-                                    <a asp-area="Admin" asp-controller="AdminCustomers" asp-action="View" class="btn btn-icon btn-hover btn-sm btn-rounded pull-right">
+                                    <a asp-area="Admin" asp-controller="AdminProducts" asp-action="Details" asp-route-id="@item.ProductId" class="btn btn-icon btn-hover btn-sm btn-rounded pull-right">
                                         <i class="anticon anticon-account-book"></i>
                                     </a>
                                 </td>
@@ -93,9 +89,40 @@
             </table>
             <div aria-label="Page navigation example">
                 <ul class="pagination">
-                    <pager class="paper-container" list="@Model" asp-area="Admin" asp-controller="AdminProducts" asp-action="Index" />
+                    <pager class="paper-container" list="@Model" asp-area="Admin" asp-controller="AdminProducts" asp-action="Index" asp-route-CatId="@ViewBag.CurrentCatId" />
                 </ul>
             </div>
         </div>
     </div>
 </div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            jQuery('#txtCatID').change(function() {
+                var catID = jQuery(this).children(":selected").attr("value");
+                catID=parseFloat(catID);
+                $('#txtCatID option').removeAttr('selected');
+
+                $("#txtCatID > [value = " + catID + "]").attr("selected", "true");
+                $.ajax({
+                    url: '/Admin/AdminProducts/Filter',
+                    datatype: "json",
+                    type: "GET",
+                    data: {
+                        CatID: catID
+                    },
+                    async: true,
+                    success: function(results) {
+                        if (results.status == "success") {
+                            window.location.href = results.redirectUrl;
+                        }
+                    },
+                    error: function (xhr) {
+                        alert('error');
+                    }
+                });
+            });
+        });
+    </script>
+}

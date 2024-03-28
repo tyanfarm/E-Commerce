@@ -18822,6 +18822,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Areas\\Admin\\Views\\AdminProducts\\Edit.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\AdminProducts\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Views\\Blog\\Index.cshtml",
       "TargetPath": "Views\\Blog\\Index.cshtml",
       "FileKind": "mvc"

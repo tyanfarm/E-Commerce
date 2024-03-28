@@ -1,0 +1,106 @@
+@model E_Commerce.Models.Product
+
+@{
+    ViewData["Title"] = "Edit Product Information";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="page-header">
+    <div class="header-sub-title">
+        <nav class="breadcrumb breadcrumb-dash">
+            <a class="breadcrumb-item" asp-area="Admin" asp-controller="Home" asp-action="Index"><i class="anticon anticon-home m-r-5"></i>Home</a>
+            <a class="breadcrumb-item" asp-area="Admin" asp-controller="AdminProducts" asp-action="Index">Products</a>
+            <span class="breadcrumb-item active">Edit Product Information</span>
+        </nav>
+    </div>
+</div>
+
+<form asp-action="Edit" asp-route-id="@Model.ProductId" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="ProductId"/>
+    <div class="form-group">
+        <div class="form-group col-md-6">
+            <label class="col-sm-6 col-form-label">Product Name</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" asp-for="ProductName" placeholder="Product Name">
+            </div>
+        </div>
+        <div class="form-group col-md-6">
+            <label class="col-sm-6 col-form-label">Short Description</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" asp-for="ShortDesc" placeholder="ShortDesc">
+            </div>
+        </div>
+        <div class="form-group col-md-6">
+            <label class="col-sm-6 col-form-label">Description</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" asp-for="Description" placeholder="Description">
+            </div>
+        </div>
+        <div class="form-group col-md-6">
+            <label class="col-sm-6 col-form-label">Category ID</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" asp-for="Cat.CatId" placeholder="Category ID">
+            </div>
+        </div>
+        <div class="form-group col-md-6">
+            <label class="col-sm-6 col-form-label">Price</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" asp-for="Price" placeholder="Price">
+            </div>
+        </div>
+        <div class="form-group col-md-6">
+            <label class="col-sm-6 col-form-label">Discount</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" asp-for="Discount" placeholder="Discount">
+            </div>
+        </div>
+        <div class="form-group col-md-6">
+            <label class="col-sm-6 col-form-label">Thumb</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" asp-for="Thumb" placeholder="Thumb">
+            </div>
+        </div>
+        <div class="form-group col-md-6">
+            <label class="col-sm-6 col-form-label">Video</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" asp-for="Video" placeholder="Video">
+            </div>
+        </div>
+        <div class="form-group col-md-6">
+            <label class="col-sm-6 col-form-label">Date Created</label>
+            <div class="col-sm-6">
+                <input type="date" class="form-control" asp-for="DateCreated" placeholder="DateCreated">
+            </div>
+        </div>
+        <div class="form-group col-md-6">
+            <label class="col-sm-6 col-form-label">Date Modified</label>
+            <div class="col-sm-6">
+                <input type="date" class="form-control" asp-for="DateModified" placeholder="DateModified">
+            </div>
+        </div>
+        <div class="form-group col-md-6">
+            <label class="col-sm-6 col-form-label">Video</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" asp-for="Video" placeholder="Video">
+            </div>
+        </div>
+        <div class="form-group col-md-6">
+            <label class="col-sm-6 col-form-label">Video</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" asp-for="Video" placeholder="Video">
+            </div>
+        </div>
+        <div class="form-group col-md-6">
+            <label class="col-sm-6 col-form-label">Video</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" asp-for="Video" placeholder="Video">
+            </div>
+        </div>
+        <div class="form-group col-md-6">
+            <div class="col-sm-6">
+                <button type="submit" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</form>
