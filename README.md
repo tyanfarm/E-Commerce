@@ -21,3 +21,5 @@
 - Edit `_ViewImports.cshtml`:
     + @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
     + @addTagHelper *, PagedList.Core.Mvc
+
+https://drive.google.com/drive/folders/1T9FUxySLQtAU-T1reSQvzP94eIyZbcug
