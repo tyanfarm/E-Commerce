@@ -29,10 +29,10 @@
                 </div>
             </div>
             <div class="col-lg-4 text-right">
-                <button class="btn btn-primary">
+                <a asp-action="Create" class="btn btn-primary">
                     <i class="anticon anticon-plus-circle m-r-5"></i>
                     <span>Add Product</span>
-                </button>
+                </a>
             </div>
         </div>
         <div class="table-responsive">
@@ -55,7 +55,11 @@
                                 <td>@item.ProductId</td>
                                 <td>@item.ProductName</td>
                                 <td>@item.Cat.CatName</td>
-                                <td>@item.Price.Value.ToString("#,###,###") VNĐ</td>
+
+                                @if (item.Price != null) {
+                                    <td>@item.Price.Value.ToString("#,###,###") VNĐ</td>
+                                }
+
                                 <td>@item.UnitsInStock</td>
                                 <td>
                                     @if (item.UnitsInStock > 0) {
