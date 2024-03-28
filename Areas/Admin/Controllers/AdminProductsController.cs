@@ -49,6 +49,7 @@ namespace E_Commerce.Areas.Admin.Controllers {
             return View(models);
         }
 
+        // Use to create urls for FE reload page when choose category
         public IActionResult Filter(int CatId = 0) {
             var url = $"/Admin/AdminProducts?CatId={CatId}";
 
