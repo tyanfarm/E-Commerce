@@ -71,26 +71,26 @@
                 <input type="date" class="form-control" asp-for="DateModified" placeholder="DateModified">
                 <span asp-validation-for="DateModified" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <div class="form-check">
-                    <input asp-for="BestSellers" class="form-check-input" />
-                    <label asp-for="BestSellers" class="form-check-label">Best Sellers</label>
+            <div class="form-group d-flex align-item-center">
+                <div class="switch m-r-10">
+                    <input type="checkbox" asp-for="BestSellers" checked=""/>
+                    <label for="BestSellers"></label>
                 </div>
-                <span asp-validation-for="BestSellers" class="text-danger"></span>
+                <label>Best Sellers</label>
             </div>
-            <div class="form-group">
-                <div class="form-check">
-                    <input asp-for="HomeFlag" class="form-check-input" />
-                    <label asp-for="HomeFlag" class="form-check-label">Home Flag</label>
+            <div class="form-group d-flex align-item-center">
+                <div class="switch m-r-10">
+                    <input type="checkbox" asp-for="HomeFlag" checked=""/>
+                    <label for="HomeFlag"></label>
                 </div>
-                <span asp-validation-for="HomeFlag" class="text-danger"></span>
+                <label>Home Flag</label>
             </div>
-            <div class="form-group">
-                <div class="form-check">
-                    <input asp-for="Active" class="form-check-input" />
-                    <label asp-for="Active" class="form-check-label">Active</label>
+            <div class="form-group d-flex align-item-center">
+                <div class="switch m-r-10">
+                    <input type="checkbox" asp-for="Active" checked=""/>
+                    <label for="Active"></label>
                 </div>
-                <span asp-validation-for="Active" class="text-danger"></span>
+                <label>Active</label>
             </div>
             <div class="form-group">
                 <label asp-for="Tags" class="control-label">Tags</label>
