@@ -18772,6 +18772,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Areas\\Admin\\Views\\Search\\ListProductsSearchPartial.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Search\\ListProductsSearchPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Areas\\Admin\\Views\\AdminRoles\\Index.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\AdminRoles\\Index.cshtml",
       "FileKind": "mvc"
@@ -18884,11 +18889,6 @@
     {
       "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Areas\\Admin\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Areas\\Admin\\Views\\AdminProducts\\Create1.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\AdminProducts\\Create1.cshtml",
       "FileKind": "mvc"
     },
     {

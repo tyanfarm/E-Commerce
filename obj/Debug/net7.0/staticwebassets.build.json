@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "f7jXJaDa5V2aa9asKlcziawRwHVl6zsdmSxnl5lUogw=",
+  "Hash": "plKplBaGH/jNpdS6q47DuUJ9jISy86TE0CNWHy0gTJs=",
   "Source": "E-Commerce",
   "BasePath": "_content/E-Commerce",
   "Mode": "Default",
@@ -17321,6 +17321,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\products\\aaa.jpg",
+      "SourceId": "E-Commerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\",
+      "BasePath": "_content/E-Commerce",
+      "RelativePath": "images/products/aaa.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\aaa.jpg"
     },
     {
       "Identity": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\products\\default.png",

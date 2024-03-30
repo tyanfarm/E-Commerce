@@ -19,16 +19,25 @@
     <div class="card-body">
         <div class="row m-b-30">
             <div class="col-lg-8">
-                <div class="d-md-flex">
-                    <div class="m-b-10 m-r-15">
-                        <select class="custom-select" id="txtCatID" name="txtCatID" style="min-width: 220px;" asp-items="@ViewBag.Category">
-                            <option value="" disabled selected>--Select Category--</option>
-                            <option value="0" >All</option>
-                        </select>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="input-affix m-v-10">
+                            <i class="anticon anticon-search opacity-04 prefix-icon"></i>
+                            <input id="keyword" type="text" class="form-control" placeholder="Search Products">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="input-affix m-v-10">
+                            <select class="custom-select" id="txtCatID" name="txtCatID" style="min-width: 220px;" asp-items="@ViewBag.Category">
+                                <option value="" disabled selected>--Select Category--</option>
+                                <option value="0" >All</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 text-right">
+            <div class="col-lg-4 text-right m-v-10">
                 <a asp-action="Create" class="btn btn-primary">
                     <i class="anticon anticon-plus-circle m-r-5"></i>
                     <span>Add Product</span>
@@ -48,7 +57,7 @@
                         <th></th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody id="search-table">
                     @if (Model != null) {
                         foreach(var item in Model) {
                             <tr>
@@ -103,6 +112,7 @@
 @section Scripts {
     <script>
         $(document).ready(function () {
+            // Pagination
             jQuery('#txtCatID').change(function() {
                 var catID = jQuery(this).children(":selected").attr("value");
                 catID=parseFloat(catID);
@@ -125,6 +135,25 @@
                     error: function (xhr) {
                         alert('error');
                     }
+                });
+            });
+
+            // Search products
+            $("#keyword").keyup(function() {
+                var strkeyword = $('#keyword').val();
+                $.ajax({
+                    url: '/Admin/Search/FindProduct/',
+                    datatype: "json",
+                    type: "POST",
+                    data: {keyword: strkeyword},
+                    async: true,
+                    success: function(results) {
+                        $("#search-table").html("");
+                        $("#search-table").html(results);
+                    },
+                    @* error: function(xhr) {
+                        alert('ERROR !');
+                    } *@
                 });
             });
         });

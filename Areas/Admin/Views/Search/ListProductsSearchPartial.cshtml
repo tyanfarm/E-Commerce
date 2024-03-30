@@ -1,0 +1,42 @@
+@model List<Product>
+
+@if (Model != null) {
+    foreach(var item in Model) {
+        <tr>
+            <td>@item.ProductId</td>
+            <td>@item.ProductName</td>
+            <td>@item.Cat.CatName</td>
+
+            @if (item.Price != null) {
+                <td>@item.Price.Value.ToString("#,###,###") VNĐ</td>
+            }
+
+            <td>@item.UnitsInStock</td>
+            <td>
+                @if (item.UnitsInStock > 0) {
+                    <div class="d-flex align-items-center">
+                        <div class="badge badge-success badge-dot m-r-10"></div>
+                        <div>In Stock</div>
+                    </div>
+                                    }
+                                    else {
+                    <div class="d-flex align-items-center">
+                        <div class="badge badge-danger badge-dot m-r-10"></div>
+                        <div>Out Of Stock</div>
+                    </div>
+                                    }
+            </td>
+            <td class="text-right">
+                <a asp-area="Admin" asp-controller="AdminProducts" asp-action="Edit" asp-route-id="@item.ProductId" class="btn btn-icon btn-hover btn-sm btn-rounded pull-right">
+                    <i class="anticon anticon-edit"></i>
+                </a>
+                <a asp-area="Admin" asp-controller="AdminProducts" asp-action="Delete" asp-route-id="@item.ProductId" class="btn btn-icon btn-hover btn-sm btn-rounded">
+                    <i class="anticon anticon-delete"></i>
+                </a>
+                <a asp-area="Admin" asp-controller="AdminProducts" asp-action="Details" asp-route-id="@item.ProductId" class="btn btn-icon btn-hover btn-sm btn-rounded pull-right">
+                    <i class="anticon anticon-account-book"></i>
+                </a>
+            </td>
+        </tr>
+    }
+}

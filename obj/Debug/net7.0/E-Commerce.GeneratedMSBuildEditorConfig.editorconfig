@@ -48,10 +48,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Tyan/ASPNET/E-Commerce/Areas/Admin/Views/AdminProducts/Create1.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0c1xDcmVhdGUxLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/Tyan/ASPNET/E-Commerce/Areas/Admin/Views/AdminProducts/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0c1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -90,6 +86,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Tyan/ASPNET/E-Commerce/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tyan/ASPNET/E-Commerce/Areas/Admin/Views/Search/ListProductsSearchPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VhcmNoXExpc3RQcm9kdWN0c1NlYXJjaFBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Tyan/ASPNET/E-Commerce/Areas/Admin/Views/Shared/Error.cshtml]
