@@ -15,7 +15,7 @@
     </div>
 </div>
 
-<form asp-action="Edit" asp-route-id="@Model.ProductId" method="post">
+<form asp-area="Admin" asp-controller="AdminProducts" asp-action="Edit" asp-route-id="@Model.ProductId" method="post">
     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
     <input type="hidden" asp-for="ProductId"/>
     <div class="form-group">
@@ -44,10 +44,10 @@
             </div>
         </div>
         <div class="form-group col-md-6">
-            <label class="col-sm-6 col-form-label">Category ID</label>
-            <div class="col-sm-6">
-                <input type="text" class="form-control" asp-for="Cat.CatId" placeholder="Category ID">
-            </div>
+            <label class="col-sm-6 col-form-label" asp-for="CatId" class="control-label">Category</label>
+            <select class="custom-select" id="catID" name="catID" style="min-width: 220px;" asp-items="@ViewBag.Category">
+                <option value="" disabled selected>--Categories--</option>
+            </select>
         </div>
         <div class="form-group col-md-6">
             <label class="col-sm-6 col-form-label">Price</label>
@@ -61,36 +61,32 @@
                 <input type="text" class="form-control" asp-for="Discount" placeholder="Discount">
             </div>
         </div>
-        <div class="form-group col-md-6">
-            <label class="col-sm-6 col-form-label">Thumb</label>
-            <div class="col-sm-6">
-                <input type="text" class="form-control" asp-for="Thumb" placeholder="Thumb">
+        <div class="form-group d-flex align-item-center col-md-6">
+            <label class="col-sm-6 col-form-label">Best Sellers</label>
+            <div class="switch m-r-10">
+                <input type="checkbox" asp-for="BestSellers" checked=""/>
+                <label for="BestSellers"></label>
             </div>
         </div>
-        <div class="form-group col-md-6">
-            <label class="col-sm-6 col-form-label">Video</label>
-            <div class="col-sm-6">
-                <input type="text" class="form-control" asp-for="Video" placeholder="Video">
+        <div class="form-group d-flex align-item-center col-md-6">
+            <label class="col-sm-6 col-form-label">Home Flag</label>
+            <div class="switch m-r-10">
+                <input type="checkbox" asp-for="HomeFlag" checked=""/>
+                <label for="HomeFlag"></label>
             </div>
         </div>
-        <div class="form-group col-md-6">
-            <label class="col-sm-6 col-form-label">Date Created</label>
-            <div class="col-sm-6">
-                <input type="date" class="form-control" asp-for="DateCreated" placeholder="DateCreated">
+        <div class="form-group d-flex align-item-center col-md-6">
+            <label class="col-sm-6 col-form-label">Active</label>
+            <div class="switch m-r-10">
+                <input type="checkbox" asp-for="Active" checked=""/>
+                <label for="Active"></label>
             </div>
         </div>
-        <div class="form-group col-md-6">
-            <label class="col-sm-6 col-form-label">Date Modified</label>
-            <div class="col-sm-6">
-                <input type="date" class="form-control" asp-for="DateModified" placeholder="DateModified">
-            </div>
-        </div>
-        <div class="form-group col-md-6">
-            <label class="col-sm-6 col-form-label">Video</label>
-            <div class="col-sm-6">
-                <input type="text" class="form-control" asp-for="Video" placeholder="Video">
-            </div>
-        </div>
+        @* <div class="form-group col-md-6">
+            <label class="control-label col-sm-6 col-form-label">Picture</label>
+            <input name="fThumb" type="file" asp-for="Thumb" class="form-control" />
+            <span asp-validation-for="Thumb" class="text-danger"></span>
+        </div> *@
         <div class="form-group col-md-6">
             <label class="col-sm-6 col-form-label">Video</label>
             <div class="col-sm-6">
@@ -98,15 +94,34 @@
             </div>
         </div>
         <div class="form-group col-md-6">
-            <label class="col-sm-6 col-form-label">Video</label>
-            <div class="col-sm-6">
-                <input type="text" class="form-control" asp-for="Video" placeholder="Video">
-            </div>
+            <label asp-for="Tags" class="control-label">Tags</label>
+            <input asp-for="Tags" class="form-control" />
+            <span asp-validation-for="Tags" class="text-danger"></span>
         </div>
         <div class="form-group col-md-6">
-            <div class="col-sm-6">
-                <button type="submit" class="btn btn-primary">Save changes</button>
-            </div>
+            <label asp-for="Title" class="control-label">Title</label>
+            <input asp-for="Title" class="form-control" />
+            <span asp-validation-for="Title" class="text-danger"></span>
         </div>
+        <div class="form-group col-md-6">
+            <label asp-for="MetaDesc" class="control-label">MetaDesc</label>
+            <input asp-for="MetaDesc" class="form-control" />
+            <span asp-validation-for="MetaDesc" class="text-danger"></span>
+        </div>
+        <div class="form-group col-md-6">
+            <label asp-for="MetaKey" class="control-label">MetaKey</label>
+            <input asp-for="MetaKey" class="form-control" />
+            <span asp-validation-for="MetaKey" class="text-danger"></span>
+        </div>
+        <div class="form-group col-md-6">
+            <label asp-for="UnitsInStock" class="control-label">Units In Stock</label>
+            <input asp-for="UnitsInStock" class="form-control" />
+            <span asp-validation-for="UnitsInStock" class="text-danger"></span>
+        </div>
+    <div class="form-group col-md-6">
+        <div class="col-sm-6">
+            <button type="submit" class="btn btn-primary">Save changes</button>
+        </div>
+    </div>
     </div>
 </form>

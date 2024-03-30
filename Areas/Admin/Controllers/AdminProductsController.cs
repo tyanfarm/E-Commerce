@@ -1,4 +1,5 @@
 using AspNetCoreHero.ToastNotification.Abstractions;
+using E_Commerce.Helper;
 using E_Commerce.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -89,9 +90,29 @@ namespace E_Commerce.Areas.Admin.Controllers {
         // POST: Admin/AdminProducts/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ProductId,ProductName,ShortDesc,Description,CatId,Price,Discount,Thumb,Video,DateCreated,DateModified,BestSellers,HomeFlag,Active,Tags,Title,Alias,MetaDesc,MetaKey,UnitsInStock")] Product product)
+        public async Task<IActionResult> Create([Bind("ProductId,ProductName,ShortDesc,Description,CatId,Price,Discount,Thumb,Video,DateCreated,DateModified,BestSellers,HomeFlag,Active,Tags,Title,Alias,MetaDesc,MetaKey,UnitsInStock")] Product product, IFormFile fThumb)
         {
             if (ModelState.IsValid) {
+                // format product name
+                product.ProductName = Utilities.ToTitleCase(product.ProductName);
+
+                if (fThumb != null) {
+                    // Lấy phần mở rộng (a.jpg thì lấy `.jpg`)
+                    string extension = Path.GetExtension(fThumb.FileName);
+                    // format img name which doesn't have strange syntax
+                    string image = Utilities.SEOUrl(product.ProductName) + extension;
+
+                    product.Thumb = await Utilities.UploadFile(fThumb, "products", image.ToLower());
+                    product.Thumb = image;
+                }
+
+                if (string.IsNullOrEmpty(product.Thumb)) {
+                    product.Thumb = "default.png";
+                }
+
+                product.Alias = Utilities.SEOUrl(product.ProductName);
+                product.DateCreated = DateTime.Now; 
+
                 _context.Add(product);
                 await _context.SaveChangesAsync();
 
@@ -99,6 +120,7 @@ namespace E_Commerce.Areas.Admin.Controllers {
 
                 return RedirectToAction(nameof(Index));
             }
+            _notyfService.Error("ERROR !");
 
             ViewData["Category"] = new SelectList(_context.Categories, "CatId", "CatName", product.CatId);
 
@@ -125,7 +147,7 @@ namespace E_Commerce.Areas.Admin.Controllers {
         // POST: Admin/AdminProducts/Edit
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int? id, [Bind("ProductId,ProductName,ShortDesc,Description,CatId,Price,Discount,Thumb,Video,DateCreated,DateModified,BestSellers,HomeFlag,Active,Tags,Title,Alias,MetaDesc,MetaKey,UnitsInStock")] Product product) {
+        public async Task<IActionResult> Edit(int? id, [Bind("ProductId,ProductName,ShortDesc,Description,CatId,Price,Discount,Thumb,Video,DateCreated,DateModified,BestSellers,HomeFlag,Active,Tags,Title,Alias,MetaDesc,MetaKey,UnitsInStock")] Product product, Microsoft.AspNetCore.Http.IFormFile fThumb) {
             if (id != product.ProductId) {
                 return NotFound();
             }
@@ -133,6 +155,25 @@ namespace E_Commerce.Areas.Admin.Controllers {
             if (ModelState.IsValid) 
             {
                 try {
+                    // format product name
+                    product.ProductName = Utilities.ToTitleCase(product.ProductName);
+
+                    if (fThumb != null) {
+                        // Lấy phần mở rộng (a.jpg thì lấy `.jpg`)
+                        string extension = Path.GetExtension(fThumb.FileName);
+                        // format img name which doesn't have strange syntax
+                        string image = Utilities.SEOUrl(product.ProductName) + extension;
+
+                        product.Thumb = await Utilities.UploadFile(fThumb, @"products", image.ToLower());
+                    }
+
+                    if (string.IsNullOrEmpty(product.Thumb)) {
+                        product.Thumb = "default.png";
+                    }
+
+                    product.Alias = Utilities.SEOUrl(product.ProductName);
+                    product.DateCreated = DateTime.Now; 
+
                     _context.Update(product);
                     await _context.SaveChangesAsync();
 

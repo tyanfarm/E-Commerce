@@ -54,12 +54,14 @@ namespace E_Commerce.Helper
             string result = str;
             if (!string.IsNullOrEmpty(str))
             {
+                // Tách string thành các từ cách nhau bởi khoảng space
                 var words = str.Split(' ');
                 for (int index = 0; index < words.Length; index++)
                 {
                     var s = words[index];
                     if (s.Length > 0)
                     {
+                        // Viết hoa chữ đầu của các từ
                         words[index] = s[0].ToString().ToUpper() + s.Substring(1);
                     }
                 }
@@ -140,12 +142,20 @@ namespace E_Commerce.Helper
         {
             try
             {
-                if (newname == null) newname = file.FileName;
+                if (newname == null) {
+                    newname = file.FileName;
+                }
+
                 string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", sDirectory);
+
+                // Create path 
                 CreateIfMissing(path);
+
                 string pathFile = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", sDirectory, newname);
+                // Định dạng chỉ dùng 4 đuôi file
                 var supportedTypes = new[] { "jpg", "jpeg", "png", "gif" };
                 var fileExt = System.IO.Path.GetExtension(file.FileName).Substring(1);
+
                 if (!supportedTypes.Contains(fileExt.ToLower())) /// Khác các file định nghĩa
                 {
                     return null;

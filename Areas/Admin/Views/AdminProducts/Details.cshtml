@@ -1,0 +1,78 @@
+@model E_Commerce.Models.Product
+
+@{
+    ViewData["Title"] = "Product Information";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+} 
+
+<div class="page-header">
+    <div class="header-sub-title">
+        <nav class="breadcrumb breadcrumb-dash">
+            <a class="breadcrumb-item" asp-area="Admin" asp-controller="Home" asp-action="Index"><i class="anticon anticon-home m-r-5"></i>Home</a>
+            <a class="breadcrumb-item" asp-area="Admin" asp-controller="AdminProducts" asp-action="Index">Products List</a>
+            <span class="breadcrumb-item active">Product Information</span>
+        </nav>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <h2 class="card-title">Product Information</h2>
+        <div class="table-responsive">
+            <table class="product-info-table m-t-20">
+                <tbody>
+                    <tr>
+                        <td>ID: </td>
+                        <td class="text-dart font-weight-semibold">@Model.ProductId</td>
+                    </tr>
+                    <tr>
+                        <td>Product Name: </td>
+                        <td class="text-dart font-weight-semibold">@Model.ProductName</td>
+                    </tr>
+                    <tr>
+                        <td>Description: </td>
+                        <td class="text-dart font-weight-semibold">@Model.Description</td>
+                    </tr>
+                    <tr>
+                        <td>Category: </td>
+                        <td class="text-dart font-weight-semibold">@Model.Cat.CatName</td>
+                    </tr>
+                    <tr>
+                        <td>Price: </td>
+                        <td class="text-dart font-weight-semibold">@Model.Price</td>
+                    </tr>
+                    <tr>
+                        <td>Active: </td>
+                        <td class="text-dart font-weight-semibold">@Model.Active</td>
+                    </tr>
+                    <tr>
+                        <td>Best Sellers: </td>
+                        <td class="text-dart font-weight-semibold">@Model.BestSellers</td>
+                    </tr>
+                    <tr>
+                        <td>Home Flag: </td>
+                        <td class="text-dart font-weight-semibold">@Model.HomeFlag</td>
+                    </tr>
+                    <tr>
+                        <td>Discount: </td>
+                        <td class="text-dart font-weight-semibold">@Model.Discount</td>
+                    </tr>
+                    <tr>
+                        <td>Avatar: </td>
+                        <td>
+                            <img width="200" height="200" src="~/images/products/@Model.Thumb" alt="@Model.Title" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Date Created: </td>
+                        <td class="text-dart font-weight-semibold">@Model.DateCreated</td>
+                    </tr>
+                    <tr>
+                        <td>Date Modified: </td>
+                        <td class="text-dart font-weight-semibold">@Model.DateModified</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

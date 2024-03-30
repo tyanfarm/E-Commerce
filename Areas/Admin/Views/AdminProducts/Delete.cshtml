@@ -1,0 +1,77 @@
+@model E_Commerce.Models.Product
+
+@{
+    ViewData["Title"] = "Delete Product";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+} 
+
+<div class="page-header">
+    <div class="header-sub-title">
+        <nav class="breadcrumb breadcrumb-dash">
+            <a class="breadcrumb-item" asp-area="Admin" asp-controller="Home" asp-action="Index"><i class="anticon anticon-home m-r-5"></i>Home</a>
+            <a class="breadcrumb-item" asp-area="Admin" asp-controller="AdminProducts" asp-action="Index">Products List</a>
+            <span class="breadcrumb-item active">Delete Confirm</span>
+        </nav>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <h2 class="card-title">Delete Confirm</h2>
+            <div class="table-responsive">
+            <table class="table table-hover e-commerce-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Product Name</th>
+                        <th>Category</th>
+                        <th>Price</th>
+                        <th>In Stock</th>
+                        <th>Status</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null) {
+                            <tr>
+                                <td>@Model.ProductId</td>
+                                <td>@Model.ProductName</td>
+                                <td>@Model.CatId</td>
+
+                                @if (Model.Price != null) {
+                                    <td>@Model.Price.Value.ToString("#,###,###") VNĐ</td>
+                                }
+
+                                <td>@Model.UnitsInStock</td>
+                                <td>
+                                    @if (Model.UnitsInStock > 0) {
+                                        <div class="d-flex align-items-center">
+                                            <div class="badge badge-success badge-dot m-r-10"></div>
+                                            <div>In Stock</div>
+                                        </div>
+                                    }
+                                    else {
+                                        <div class="d-flex align-items-center">
+                                            <div class="badge badge-danger badge-dot m-r-10"></div>
+                                            <div>Out Of Stock</div>
+                                        </div>
+                                    }
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Delete Confirm: </td>
+                                <td>
+                                    @* không có asp-area và asp-controller thì sẽ tự hiểu là cùng Controller và Area *@
+                                    <form asp-action="Delete" asp-route-id="@Model.ProductId">
+                                        <input type="hidden" asp-for="ProductId">
+                                        <input type="submit" value="Yes" class="btn btn-danger">
+                                    </form>
+                                </td>
+                            </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        </div>
+    </div>
+</div>
