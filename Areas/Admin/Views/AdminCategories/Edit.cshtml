@@ -1,0 +1,89 @@
+@model E_Commerce.Models.Category
+
+@{
+    ViewData["Title"] = "Edit Category Information";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="page-header">
+    <div class="header-sub-title">
+        <nav class="breadcrumb breadcrumb-dash">
+            <a class="breadcrumb-item" asp-area="Admin" asp-controller="Home" asp-action="Index"><i class="anticon anticon-home m-r-5"></i>Home</a>
+            <a class="breadcrumb-item" asp-area="Admin" asp-controller="AdminCategories" asp-action="Index">Categories</a>
+            <span class="breadcrumb-item active">Edit Category Information</span>
+        </nav>
+    </div>
+</div>
+
+<form asp-area="Admin" asp-controller="AdminCategories" asp-action="Edit" asp-route-id="@Model.CatId" method="post" enctype="multipart/form-data">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="CatId"/>
+    <div class="form-group">
+        <div class="form-group col-md-6">
+            <label class="col-sm-6 col-form-label">Category ID</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" asp-for="CatId" placeholder="Category ID">
+            </div>
+        </div>
+        <div class="form-group col-md-6">
+            <label class="col-sm-6 col-form-label">Category Name</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" asp-for="CatName" placeholder="Category Name">
+            </div>
+        </div>
+        <div class="form-group col-md-6">
+            <label class="col-sm-6 col-form-label">Description</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" asp-for="Description" placeholder="Description">
+            </div>
+        </div>
+        <div class="form-group col-md-6">
+            <label class="col-sm-6 col-form-label">Ordering</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" asp-for="Ordering" placeholder="Ordering">
+            </div>
+        </div>
+        <div class="form-group d-flex align-item-center col-md-6">
+            <label class="col-sm-6 col-form-label">Published</label>
+            <div class="switch m-r-10">
+                <input type="checkbox" asp-for="Published" checked=""/>
+                <label for="Published"></label>
+            </div>
+        </div>
+        <div class="form-group col-md-6">
+            <label class="control-label col-sm-6 col-form-label">Picture</label>
+            <input name="fThumb" type="file" asp-for="Thumb" class="form-control" />
+            <span asp-validation-for="Thumb" class="text-danger"></span>
+        </div>
+        <div class="form-group col-md-6">
+            <label asp-for="Title" class="control-label">Title</label>
+            <input asp-for="Title" class="form-control" />
+            <span asp-validation-for="Title" class="text-danger"></span>
+        </div>
+        <div class="form-group col-md-6">
+            <label asp-for="MetaDesc" class="control-label">MetaDesc</label>
+            <input asp-for="MetaDesc" class="form-control" />
+            <span asp-validation-for="MetaDesc" class="text-danger"></span>
+        </div>
+        <div class="form-group col-md-6">
+            <label asp-for="MetaKey" class="control-label">MetaKey</label>
+            <input asp-for="MetaKey" class="form-control" />
+            <span asp-validation-for="MetaKey" class="text-danger"></span>
+        </div>
+        <div class="form-group col-md-6">
+            <label asp-for="Cover" class="control-label">Cover</label>
+            <input asp-for="Cover" class="form-control" />
+            <span asp-validation-for="Cover" class="text-danger"></span>
+        </div>
+        <div class="form-group col-md-6">
+            <label asp-for="SchemaMarkup" class="control-label">Schema Markup</label>
+            <input asp-for="SchemaMarkup" class="form-control" />
+            <span asp-validation-for="SchemaMarkup" class="text-danger"></span>
+        </div>
+    <div class="form-group col-md-6">
+        <div class="col-sm-6">
+            <button type="submit" class="btn btn-primary">Save changes</button>
+        </div>
+    </div>
+    </div>
+</form>

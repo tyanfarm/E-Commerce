@@ -18787,6 +18787,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Areas\\Admin\\Views\\AdminCategories\\Details.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\AdminCategories\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Areas\\Admin\\Views\\AdminProducts\\Delete.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\AdminProducts\\Delete.cshtml",
       "FileKind": "mvc"
@@ -18837,8 +18842,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Areas\\Admin\\Views\\AdminCategories\\Create.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\AdminCategories\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Areas\\Admin\\Views\\AdminPages\\Index.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\AdminPages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Areas\\Admin\\Views\\AdminCategories\\Index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\AdminCategories\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18849,6 +18864,11 @@
     {
       "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Areas\\Admin\\Views\\AdminCategories\\Delete.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\AdminCategories\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18949,6 +18969,11 @@
     {
       "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Areas\\Admin\\Views\\AdminAccounts\\Edit.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\AdminAccounts\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Areas\\Admin\\Views\\AdminCategories\\Edit.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\AdminCategories\\Edit.cshtml",
       "FileKind": "mvc"
     }
   ],

@@ -1,0 +1,68 @@
+@model IEnumerable<E_Commerce.Models.Category>
+
+@{
+    ViewData["Title"] = "Categories List";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+} 
+
+<div class="page-header">
+    <div class="header-sub-title">
+        <nav class="breadcrumb breadcrumb-dash">
+            <a asp-area="Admin" asp-controller="Home" asp-action="Index" class="breadcrumb-item"><i class="anticon anticon-home m-r-5"></i>Home</a>
+            <span class="breadcrumb-item active">Categories</span>
+        </nav>
+    </div>
+</div>
+<div class="row m-b-30">
+    <div class="col-lg-8">
+    </div>
+    <div class="col-lg-4 text-right">
+        <a asp-action="Create" class="btn btn-primary">
+            <i class="anticon anticon-plus-circle m-r-5"></i>
+            <span>Add Category</span>
+        </a>
+    </div>
+</div>
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Category Name</th>
+                <th scope="col">Odering</th>
+                <th scope="col">Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null) {
+                foreach(var item in Model) {
+                    <tr>
+                        <th scope="row">@item.CatId</th>
+                        <td scope="row">@item.CatName</td>
+                        <td scope="row">@item.Ordering</td>
+                        <td>
+                            @if (item.Published) {
+                                <div class="d-flex align-items-center">
+                                    <div class="badge badge-success badge-dot m-r-10"></div>
+                                    <div>Public</div>
+                                </div>
+                            }
+                            else {
+                                <div class="d-flex align-items-center">
+                                    <div class="badge badge-danger badge-dot m-r-10"></div>
+                                    <div>Private</div>
+                                </div>
+                            }
+                        </td>
+                        <td>
+                            <a class="btn btn-primary btn-tone m-r-5" asp-area="Admin" asp-controller="AdminCategories" asp-action="Details" asp-route-id="@item.CatId">View</a>
+                            <a class="btn btn-secondary btn-tone m-r-5" asp-area="Admin" asp-controller="AdminCategories" asp-action="Edit" asp-route-id="@item.CatId">Edit</a>
+                            <a class="btn btn-success btn-tone m-r-5" asp-area="Admin" asp-controller="AdminCategories" asp-action="Delete" asp-route-id="@item.CatId">Delete</a>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div> 
+

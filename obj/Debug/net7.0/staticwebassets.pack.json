@@ -4053,6 +4053,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\categories\\default.png",
+      "PackagePath": "staticwebassets\\images\\categories\\default.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\categories\\hoodies.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\hoodies.jpg"
+    },
+    {
       "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\products\\aaa.jpg",
       "PackagePath": "staticwebassets\\images\\products\\aaa.jpg"
     },

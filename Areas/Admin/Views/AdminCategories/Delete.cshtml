@@ -1,0 +1,69 @@
+@model E_Commerce.Models.Category
+
+@{
+    ViewData["Title"] = "Delete Category";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+} 
+
+<div class="page-header">
+    <div class="header-sub-title">
+        <nav class="breadcrumb breadcrumb-dash">
+            <a class="breadcrumb-item" asp-area="Admin" asp-controller="Home" asp-action="Index"><i class="anticon anticon-home m-r-5"></i>Home</a>
+            <a class="breadcrumb-item" asp-area="Admin" asp-controller="AdminCategories" asp-action="Index">Categories List</a>
+            <span class="breadcrumb-item active">Delete Confirm</span>
+        </nav>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <h2 class="card-title">Delete Confirm</h2>
+            <div class="table-responsive">
+            <table class="table table-hover e-commerce-table">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Category Name</th>
+                        <th scope="col">Odering</th>
+                        <th scope="col">Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null) {
+                            <tr>
+                                <th scope="row">@Model.CatId</th>
+                                <td scope="row">@Model.CatName</td>
+                                <td scope="row">@Model.Ordering</td>
+                                <td>
+                                    @if (Model.Published) {
+                                        <div class="d-flex align-items-center">
+                                            <div class="badge badge-success badge-dot m-r-10"></div>
+                                            <div>Public</div>
+                                        </div>
+                                    }
+                                    else {
+                                        <div class="d-flex align-items-center">
+                                            <div class="badge badge-danger badge-dot m-r-10"></div>
+                                            <div>Private</div>
+                                        </div>
+                                    }
+                                </td>
+                            </tr>
+                    }
+                            <tr>
+                                <td>Delete Confirm: </td>
+                                <td>
+                                    @* không có asp-area và asp-controller thì sẽ tự hiểu là cùng Controller và Area *@
+                                    <form asp-action="Delete" asp-route-id="@Model.CatId">
+                                        <input type="hidden" asp-for="CatId">
+                                        <input type="submit" value="Yes" class="btn btn-danger">
+                                    </form>
+                                </td>
+                            </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,54 @@
+@model E_Commerce.Models.Category
+
+@{
+    ViewData["Title"] = "Category Information";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+} 
+
+<div class="page-header">
+    <div class="header-sub-title">
+        <nav class="breadcrumb breadcrumb-dash">
+            <a class="breadcrumb-item" asp-area="Admin" asp-controller="Home" asp-action="Index"><i class="anticon anticon-home m-r-5"></i>Home</a>
+            <a class="breadcrumb-item" asp-area="Admin" asp-controller="AdminCategories" asp-action="Index">Categories</a>
+            <span class="breadcrumb-item active">Category Information</span>
+        </nav>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <h2 class="card-title">Category Information</h2>
+        <div class="table-responsive">
+            <table class="product-info-table m-t-20">
+                <tbody>
+                    <tr>
+                        <td>ID: </td>
+                        <td class="text-dart font-weight-semibold">@Model.CatId</td>
+                    </tr>
+                    <tr>
+                        <td>Category Name: </td>
+                        <td class="text-dart font-weight-semibold">@Model.CatName</td>
+                    </tr>
+                    <tr>
+                        <td>Description: </td>
+                        <td class="text-dart font-weight-semibold">@Model.Description</td>
+                    </tr>
+                    <tr>
+                        <td>Ordering: </td>
+                        <td class="text-dart font-weight-semibold">@Model.Ordering</td>
+                    </tr>
+                    <tr>
+                        <td>Published: </td>
+                        <td class="text-dart font-weight-semibold">@Model.Published</td>
+                    </tr>
+                    <tr>
+                        <td>Avatar: </td>
+                        <td>
+                            <img width="200" height="200" src="~/images/categories/@Model.Thumb" alt="@Model.Title" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
