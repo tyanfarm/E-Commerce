@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zND1MzqAqHPYcZF0Q0vSc04ONazkhis6uTZlZmJ+95Q=",
+  "Hash": "i4ne50FkTfKuGejjcBf+m2i/qWFC6lynYYVTnxUarfk=",
   "Source": "E-Commerce",
   "BasePath": "_content/E-Commerce",
   "Mode": "Default",
@@ -17321,6 +17321,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\categories\\aasas.jpg",
+      "SourceId": "E-Commerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\",
+      "BasePath": "_content/E-Commerce",
+      "RelativePath": "images/categories/aasas.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\categories\\aasas.jpg"
+    },
+    {
+      "Identity": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\categories\\deadlift-slipper.png",
+      "SourceId": "E-Commerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\",
+      "BasePath": "_content/E-Commerce",
+      "RelativePath": "images/categories/deadlift-slipper.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\categories\\deadlift-slipper.png"
     },
     {
       "Identity": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\categories\\default.png",

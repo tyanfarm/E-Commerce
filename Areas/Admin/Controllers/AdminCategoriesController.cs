@@ -115,7 +115,7 @@ namespace E_Commerce.Areas.Admin.Controllers {
                 return NotFound();
             }
 
-            if (ModelState.IsValid) 
+            if (ModelState.IsValid || fThumb == null) 
             {
                 try {
                     // format product name

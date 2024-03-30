@@ -4053,6 +4053,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\categories\\aasas.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\aasas.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\categories\\deadlift-slipper.png",
+      "PackagePath": "staticwebassets\\images\\categories\\deadlift-slipper.png"
+    },
+    {
       "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\categories\\default.png",
       "PackagePath": "staticwebassets\\images\\categories\\default.png"
     },

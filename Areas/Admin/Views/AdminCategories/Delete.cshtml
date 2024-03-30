@@ -18,52 +18,37 @@
 <div class="card">
     <div class="card-body">
         <h2 class="card-title">Delete Confirm</h2>
-            <div class="table-responsive">
-            <table class="table table-hover e-commerce-table">
-                <thead>
-                    <tr>
-                        <th scope="col">ID</th>
-                        <th scope="col">Category Name</th>
-                        <th scope="col">Odering</th>
-                        <th scope="col">Status</th>
-                    </tr>
-                </thead>
+        <div class="table-responsive">
+            <table class="product-info-table m-t-20">
                 <tbody>
-                    @if (Model != null) {
-                            <tr>
-                                <th scope="row">@Model.CatId</th>
-                                <td scope="row">@Model.CatName</td>
-                                <td scope="row">@Model.Ordering</td>
-                                <td>
-                                    @if (Model.Published) {
-                                        <div class="d-flex align-items-center">
-                                            <div class="badge badge-success badge-dot m-r-10"></div>
-                                            <div>Public</div>
-                                        </div>
-                                    }
-                                    else {
-                                        <div class="d-flex align-items-center">
-                                            <div class="badge badge-danger badge-dot m-r-10"></div>
-                                            <div>Private</div>
-                                        </div>
-                                    }
-                                </td>
-                            </tr>
-                    }
-                            <tr>
-                                <td>Delete Confirm: </td>
-                                <td>
-                                    @* không có asp-area và asp-controller thì sẽ tự hiểu là cùng Controller và Area *@
-                                    <form asp-action="Delete" asp-route-id="@Model.CatId">
-                                        <input type="hidden" asp-for="CatId">
-                                        <input type="submit" value="Yes" class="btn btn-danger">
-                                    </form>
-                                </td>
-                            </tr>
-                    }
+                    <tr>
+                        <td>ID: </td>
+                        <td class="text-dart font-weight-semibold">@Model.CatId</td>
+                    </tr>
+                    <tr>
+                        <td>Role Name: </td>
+                        <td class="text-dart font-weight-semibold">@Model.CatName</td>
+                    </tr>
+                    <tr>
+                        <td>Ordering: </td>
+                        <td class="text-dart font-weight-semibold">@Model.Ordering</td>
+                    </tr>
+                    <tr>
+                        <td>Published: </td>
+                        <td class="text-dart font-weight-semibold">@Model.Published</td>
+                    </tr>
+                    <tr>
+                        <td>Delete Confirm: </td>
+                        <td>
+                            @* không có asp-area và asp-controller thì sẽ tự hiểu là cùng Controller và Area *@
+                            <form asp-action="Delete" asp-route-id="@Model.CatId">
+                                <input type="hidden" asp-for="CatId">
+                                <input type="submit" value="Delete Confirm" class="btn btn-danger">
+                            </form>
+                        </td>
+                    </tr>
                 </tbody>
             </table>
-        </div>
         </div>
     </div>
 </div>
