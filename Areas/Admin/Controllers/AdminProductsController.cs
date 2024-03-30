@@ -147,7 +147,7 @@ namespace E_Commerce.Areas.Admin.Controllers {
         // POST: Admin/AdminProducts/Edit
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int? id, [Bind("ProductId,ProductName,ShortDesc,Description,CatId,Price,Discount,Thumb,Video,DateCreated,DateModified,BestSellers,HomeFlag,Active,Tags,Title,Alias,MetaDesc,MetaKey,UnitsInStock")] Product product, Microsoft.AspNetCore.Http.IFormFile fThumb) {
+        public async Task<IActionResult> Edit(int? id, [Bind("ProductId,ProductName,ShortDesc,Description,CatId,Price,Discount,Thumb,Video,DateCreated,DateModified,BestSellers,HomeFlag,Active,Tags,Title,Alias,MetaDesc,MetaKey,UnitsInStock")] Product product, IFormFile fThumb) {
             if (id != product.ProductId) {
                 return NotFound();
             }
@@ -190,6 +190,7 @@ namespace E_Commerce.Areas.Admin.Controllers {
 
                 return RedirectToAction(nameof(Index));
             }
+            _notyfService.Error("ERROR !");
 
             ViewData["Category"] = new SelectList(_context.Categories, "CatId", "CatName", product.CatId);
 

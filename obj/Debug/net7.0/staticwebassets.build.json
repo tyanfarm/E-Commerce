@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "B91ajXsqlbNpcbha24Z10QOpJYl0n09HskZsI4e4ocI=",
+  "Hash": "f7jXJaDa5V2aa9asKlcziawRwHVl6zsdmSxnl5lUogw=",
   "Source": "E-Commerce",
   "BasePath": "_content/E-Commerce",
   "Mode": "Default",
@@ -17338,6 +17338,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\default.png"
+    },
+    {
+      "Identity": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\products\\swole-lifting-belt.jpg",
+      "SourceId": "E-Commerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\",
+      "BasePath": "_content/E-Commerce",
+      "RelativePath": "images/products/swole-lifting-belt.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\swole-lifting-belt.jpg"
     },
     {
       "Identity": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\js\\site.js",
