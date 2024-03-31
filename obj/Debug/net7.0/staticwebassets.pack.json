@@ -3369,6 +3369,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\logo\\dark.png"
     },
     {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\assets\\images\\logo\\dark1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\dark1.png"
+    },
+    {
       "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\assets\\images\\megamenu\\slider\\1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\megamenu\\slider\\1.jpg"
     },
@@ -4053,10 +4057,6 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\categories\\aasas.jpg",
-      "PackagePath": "staticwebassets\\images\\categories\\aasas.jpg"
-    },
-    {
       "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\categories\\deadlift-slipper.png",
       "PackagePath": "staticwebassets\\images\\categories\\deadlift-slipper.png"
     },
@@ -4065,8 +4065,16 @@
       "PackagePath": "staticwebassets\\images\\categories\\default.png"
     },
     {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\categories\\elbow-sleeves.png",
+      "PackagePath": "staticwebassets\\images\\categories\\elbow-sleeves.png"
+    },
+    {
       "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\categories\\hoodies.jpg",
       "PackagePath": "staticwebassets\\images\\categories\\hoodies.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\categories\\hoodies.png",
+      "PackagePath": "staticwebassets\\images\\categories\\hoodies.png"
     },
     {
       "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\products\\aaa.jpg",

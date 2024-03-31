@@ -1,7 +1,7 @@
-@* @model E_Commerce.Models.Product *@
+@model E_Commerce.Models.Product
 
 @{
-    ViewData["Title"] = "CC";
+    ViewData["Title"] = Model.Title;
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -12,12 +12,12 @@
             <div class="row h-100">
                 <div class="col-lg-12">
                     <div class="breadcrumb-item">
-                        <h2 class="breadcrumb-heading">Product Style</h2>
+                        <h2 class="breadcrumb-heading">@Model.ProductName</h2>
                         <ul>
                             <li>
-                                <a href="index.html">Ho<i class="pe-7s-angle-right"></i></a>
+                                <a asp-controller="Home" asp-action="Index">Home<i class="pe-7s-angle-right"></i></a>
                             </li>
-                            <li>Single Product</li>
+                            <li>@Model.ProductName</li>
                         </ul>
                     </div>
                 </div>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "i4ne50FkTfKuGejjcBf+m2i/qWFC6lynYYVTnxUarfk=",
+  "Hash": "k8HA2aucJCr7QJ6Vz1JIpdlk5SZ/bgpML8aTn7rw7nk=",
   "Source": "E-Commerce",
   "BasePath": "_content/E-Commerce",
   "Mode": "Default",
@@ -14416,6 +14416,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\logo\\dark.png"
     },
     {
+      "Identity": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\assets\\images\\logo\\dark1.png",
+      "SourceId": "E-Commerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\",
+      "BasePath": "_content/E-Commerce",
+      "RelativePath": "assets/images/logo/dark1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\logo\\dark1.png"
+    },
+    {
       "Identity": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\assets\\images\\megamenu\\slider\\1.jpg",
       "SourceId": "E-Commerce",
       "SourceType": "Discovered",
@@ -17323,23 +17340,6 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\categories\\aasas.jpg",
-      "SourceId": "E-Commerce",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\",
-      "BasePath": "_content/E-Commerce",
-      "RelativePath": "images/categories/aasas.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\categories\\aasas.jpg"
-    },
-    {
       "Identity": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\categories\\deadlift-slipper.png",
       "SourceId": "E-Commerce",
       "SourceType": "Discovered",
@@ -17374,6 +17374,23 @@
       "OriginalItemSpec": "wwwroot\\images\\categories\\default.png"
     },
     {
+      "Identity": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\categories\\elbow-sleeves.png",
+      "SourceId": "E-Commerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\",
+      "BasePath": "_content/E-Commerce",
+      "RelativePath": "images/categories/elbow-sleeves.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\categories\\elbow-sleeves.png"
+    },
+    {
       "Identity": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\categories\\hoodies.jpg",
       "SourceId": "E-Commerce",
       "SourceType": "Discovered",
@@ -17389,6 +17406,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\categories\\hoodies.jpg"
+    },
+    {
+      "Identity": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\categories\\hoodies.png",
+      "SourceId": "E-Commerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\",
+      "BasePath": "_content/E-Commerce",
+      "RelativePath": "images/categories/hoodies.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\categories\\hoodies.png"
     },
     {
       "Identity": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\products\\aaa.jpg",
