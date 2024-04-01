@@ -34,7 +34,8 @@ namespace E_Commerce.Controllers {
         [Route("/product-{id}.html", Name="productDetails")] 
         public async Task<IActionResult> Details(int id) {
             try {
-                var product = await _context.Products.FirstOrDefaultAsync(p => p.ProductId == id);
+                var product = await _context.Products.Include(p => p.Cat)
+                                                    .FirstOrDefaultAsync(p => p.ProductId == id);
 
                 if (product == null) {
                     return RedirectToAction("Index");

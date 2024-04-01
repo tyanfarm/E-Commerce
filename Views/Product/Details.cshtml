@@ -33,7 +33,7 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <a href="~/assets/images/product/large-size/2-1-555x645.jpg" class="single-img gallery-popup">
-                                        <img class="img-full" src="~/assets/images/product/large-size/2-1-555x645.jpg" alt="Product Image">
+                                        <img class="img-full" src="~/images/products/@Model.Thumb" alt="@Model.Title">
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
@@ -61,10 +61,9 @@
                     <div class="product-thumb-with-content row">
                         <div class="col-12 order-lg-1 order-2 pt-10 pt-lg-0">
                             <div class="single-product-content">
-                                <h2 class="title">Black Pepper Grains</h2>
+                                <h2 class="title">@Model.ProductName</h2>
                                 <div class="price-box pb-1">
-                                    <span class="new-price text-danger">$80.00</span>
-                                    <span class="old-price text-primary">$90.00</span>
+                                    <span class="new-price text-danger">@Model.Price.Value.ToString("#,###,###") VNĐ</span>
                                 </div>
                                 <div class="rating-box-wrap pb-7">
                                     <div class="rating-box">
@@ -80,11 +79,7 @@
                                         <a href="javascript:void(0)">( 1 Customer Review )</a>
                                     </div>
                                 </div>
-                                <p class="short-desc mb-6">Lorem ipsum dolor sit amet, consecte adipisicin elit, sed do
-                                            eiusmod tempor incidi ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                            quis
-                                            nostrud exercita ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                            irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+                                <p class="short-desc mb-6">@Model.ShortDesc</p>
                                 <ul class="quantity-with-btn pb-7">
                                     <li class="quantity">
                                         <div class="cart-plus-minus">
@@ -101,58 +96,10 @@
                                     </li>
                                 </ul>
                                 <div class="product-category text-matterhorn pb-2">
-                                    <span class="title">Categories :</span>
+                                    <span class="title">Categories: </span>
                                     <ul>
                                         <li>
-                                            <a href="javascript:void(0)">Natural,</a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0)">Organic,</a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0)">Beautiful,</a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0)">Organic Food</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="product-category product-tags text-matterhorn pb-4">
-                                    <span class="title">Product Tags :</span>
-                                    <ul>
-                                        <li>
-                                            <a href="javascript:void(0)">Organic,</a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0)">Vegetable,</a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0)">Fruits</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="social-link align-items-center pb-lg-8">
-                                    <span class="title pe-3">Share:</span>
-                                    <ul>
-                                        <li>
-                                            <a href="javascript:void(0)">
-                                                <i class="fa fa-pinterest-p"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0)">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0)">
-                                                <i class="fa fa-tumblr"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0)">
-                                                <i class="fa fa-dribbble"></i>
-                                            </a>
+                                            <a href="@Model.Cat.Alias">@Model.Cat.CatName</a>
                                         </li>
                                     </ul>
                                 </div>

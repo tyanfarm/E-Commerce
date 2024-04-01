@@ -116,7 +116,7 @@ namespace E_Commerce.Areas.Admin.Controllers {
                 _context.Add(product);
                 await _context.SaveChangesAsync();
 
-                _notyfService.Success("Create Product Successfully !");
+                _notyfService.Success("Create Successfully !");
 
                 return RedirectToAction(nameof(Index));
             }
@@ -178,7 +178,7 @@ namespace E_Commerce.Areas.Admin.Controllers {
                     _context.Update(product);
                     await _context.SaveChangesAsync();
 
-                    _notyfService.Success("Update Product Successfully !");
+                    _notyfService.Success("Update Successfully !");
                 }
                 catch (DbUpdateConcurrencyException) {
                     if (!ProductExists(product.ProductId)) {
@@ -222,7 +222,7 @@ namespace E_Commerce.Areas.Admin.Controllers {
             _context.Products.Remove(product);
             await _context.SaveChangesAsync();
 
-            _notyfService.Success("Delete product successfully !");
+            _notyfService.Success("Delete successfully !");
 
             return RedirectToAction(nameof(Index));
         }
