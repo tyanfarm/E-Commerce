@@ -18,6 +18,8 @@ namespace E_Commerce.Controllers {
                 // Pagination
                 var pageNumber = page == null || page <= 0 ? 1 : page.Value;
                 var pageSize = 10;
+
+                // AsNoTracking() - không cần _context theo dõi
                 var listProducts = _context.Products.AsNoTracking()
                                                     .OrderByDescending(p => p.ProductId);
 
@@ -41,6 +43,14 @@ namespace E_Commerce.Controllers {
                     return RedirectToAction("Index");
                 }
 
+                var listProducts = _context.Products.AsNoTracking()
+                                                    .Where(p => p.CatId == product.CatId && p.ProductId != id && p.Active == true)
+                                                    .OrderByDescending(p => p.ProductId)
+                                                    .Take(4)
+                                                    .ToList();
+
+                ViewBag.listProducts = listProducts;
+
                 return View(product);
             }
             catch {
@@ -48,7 +58,7 @@ namespace E_Commerce.Controllers {
             }
         }
 
-        [Route("/category-{catId}", Name="listProducts")]
+        [Route("/category-{catId}.html", Name="listProducts")]
         public async Task<IActionResult> List(int page=1, int catId=0) {
             try {
                 List<Product> listProducts = new List<Product>();

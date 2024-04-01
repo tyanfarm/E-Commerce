@@ -4089,6 +4089,14 @@
       "PackagePath": "staticwebassets\\images\\products\\default.png"
     },
     {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\products\\ht-apparel-lever-belt.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\ht-apparel-lever-belt.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\products\\ht-apparel-lever-belt.png",
+      "PackagePath": "staticwebassets\\images\\products\\ht-apparel-lever-belt.png"
+    },
+    {
       "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\products\\swole-lifting-belt.jpg",
       "PackagePath": "staticwebassets\\images\\products\\swole-lifting-belt.jpg"
     },
