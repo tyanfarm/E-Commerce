@@ -48,16 +48,23 @@ namespace E_Commerce.Controllers {
             }
         }
 
-        public async Task<IActionResult> List(int catId, int page=1) {
+        [Route("/category-{catId}", Name="listProducts")]
+        public async Task<IActionResult> List(int page=1, int catId=0) {
             try {
+                List<Product> listProducts = new List<Product>();
+
                 // Pagination
                 var pageSize = 10;
                 var category = await _context.Categories.FindAsync(catId);
-                var listProducts = _context.Products.AsNoTracking()
-                                                    .Where(p => p.CatId == catId)
-                                                    .OrderByDescending(p => p.ProductId);
 
-                PagedList<Product> models = new PagedList<Product>(listProducts, page, pageSize);
+                if (catId != 0) {
+                    listProducts = _context.Products.AsNoTracking()
+                                                    .Where(p => p.CatId == catId)
+                                                    .OrderByDescending(p => p.ProductId)
+                                                    .ToList();
+                }
+
+                PagedList<Product> models = new PagedList<Product>(listProducts.AsQueryable(), page, pageSize);
 
                 ViewBag.CurrentPage = page;
                 ViewBag.CurrentCat = category;

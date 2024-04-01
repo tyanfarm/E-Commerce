@@ -92,7 +92,7 @@ namespace E_Commerce.Areas.Admin.Controllers {
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("ProductId,ProductName,ShortDesc,Description,CatId,Price,Discount,Thumb,Video,DateCreated,DateModified,BestSellers,HomeFlag,Active,Tags,Title,Alias,MetaDesc,MetaKey,UnitsInStock")] Product product, IFormFile fThumb)
         {
-            if (ModelState.IsValid) {
+            if (ModelState.IsValid || fThumb == null) {
                 // format product name
                 product.ProductName = Utilities.ToTitleCase(product.ProductName);
 

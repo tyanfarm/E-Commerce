@@ -3,6 +3,8 @@
 @{
     ViewData["Title"] = Model.Title;
     Layout = "~/Views/Shared/_Layout.cshtml";
+    @* string url = "/category-" + Model.CatId + ".html";  *@
+    string url = "/category-" + Model.CatId;
 }
 
 <!-- Begin Main Content Area  -->
@@ -99,7 +101,7 @@
                                     <span class="title">Categories: </span>
                                     <ul>
                                         <li>
-                                            <a href="@Model.Cat.Alias">@Model.Cat.CatName</a>
+                                            <a href="@url">@Model.Cat.CatName</a>
                                         </li>
                                     </ul>
                                 </div>

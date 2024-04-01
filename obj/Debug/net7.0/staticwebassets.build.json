@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "k8HA2aucJCr7QJ6Vz1JIpdlk5SZ/bgpML8aTn7rw7nk=",
+  "Hash": "QF2JMp7x7t5wnZ1io5XrW6NEo9rxEi1JfjaymhVxZzM=",
   "Source": "E-Commerce",
   "BasePath": "_content/E-Commerce",
   "Mode": "Default",
@@ -14399,6 +14399,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\header\\icon\\separator.png"
     },
     {
+      "Identity": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\assets\\images\\logo.png",
+      "SourceId": "E-Commerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\",
+      "BasePath": "_content/E-Commerce",
+      "RelativePath": "assets/images/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\logo.png"
+    },
+    {
       "Identity": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\assets\\images\\logo\\dark.png",
       "SourceId": "E-Commerce",
       "SourceType": "Discovered",
@@ -17474,6 +17491,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\swole-lifting-belt.jpg"
+    },
+    {
+      "Identity": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\products\\swole-lifting-belt.png",
+      "SourceId": "E-Commerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\",
+      "BasePath": "_content/E-Commerce",
+      "RelativePath": "images/products/swole-lifting-belt.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\swole-lifting-belt.png"
     },
     {
       "Identity": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\js\\site.js",

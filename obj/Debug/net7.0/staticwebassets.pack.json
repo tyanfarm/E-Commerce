@@ -3365,6 +3365,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\header\\icon\\separator.png"
     },
     {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.png"
+    },
+    {
       "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\assets\\images\\logo\\dark.png",
       "PackagePath": "staticwebassets\\assets\\images\\logo\\dark.png"
     },
@@ -4087,6 +4091,10 @@
     {
       "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\products\\swole-lifting-belt.jpg",
       "PackagePath": "staticwebassets\\images\\products\\swole-lifting-belt.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\products\\swole-lifting-belt.png",
+      "PackagePath": "staticwebassets\\images\\products\\swole-lifting-belt.png"
     },
     {
       "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\js\\site.js",
