@@ -18902,6 +18902,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Views\\Home\\_ListProductPartialView.cshtml",
+      "TargetPath": "Views\\Home\\_ListProductPartialView.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Areas\\Admin\\Views\\_ViewStart.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\_ViewStart.cshtml",
       "FileKind": "mvc"

@@ -29,6 +29,7 @@ public partial class Product
 
     public bool BestSellers { get; set; }
 
+    // True -> Show in Home page
     public bool HomeFlag { get; set; }
 
     public bool Active { get; set; }

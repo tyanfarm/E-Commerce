@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WJTBhLJ5d+TJu4A9tgBo2amUCjx46nYPkNs94k8fK4s=",
+  "Hash": "hyuUcHHl44NhxbbOVYZzmax6piBThVymGbrAn1jWaXk=",
   "Source": "E-Commerce",
   "BasePath": "_content/E-Commerce",
   "Mode": "Default",
@@ -14584,6 +14584,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\product\\icon\\5.png"
+    },
+    {
+      "Identity": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\assets\\images\\product\\icon\\6.png",
+      "SourceId": "E-Commerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\",
+      "BasePath": "_content/E-Commerce",
+      "RelativePath": "assets/images/product/icon/6.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\product\\icon\\6.png"
     },
     {
       "Identity": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\assets\\images\\product\\large-size\\2-1-555x645.jpg",
