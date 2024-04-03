@@ -3533,6 +3533,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\slider\\bg\\2-2.jpg"
     },
     {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\assets\\images\\slider\\bg\\3-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\bg\\3-1.jpg"
+    },
+    {
       "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\assets\\images\\slider\\inner-img\\1-1-231x210.png",
       "PackagePath": "staticwebassets\\assets\\images\\slider\\inner-img\\1-1-231x210.png"
     },
@@ -3547,6 +3551,14 @@
     {
       "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\assets\\images\\slider\\inner-img\\2-1-601x426.png",
       "PackagePath": "staticwebassets\\assets\\images\\slider\\inner-img\\2-1-601x426.png"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\assets\\images\\slider\\inner-img\\3-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\inner-img\\3-1.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\assets\\images\\slider\\inner-img\\3-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\inner-img\\3-2.jpg"
     },
     {
       "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\assets\\images\\testimonial\\user\\1.png",

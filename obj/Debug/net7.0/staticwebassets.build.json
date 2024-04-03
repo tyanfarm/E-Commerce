@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hyuUcHHl44NhxbbOVYZzmax6piBThVymGbrAn1jWaXk=",
+  "Hash": "eH1Fts/lLNJcz0csMPD3Pwr5J3xyuJr5d5sH7Wm/vPU=",
   "Source": "E-Commerce",
   "BasePath": "_content/E-Commerce",
   "Mode": "Default",
@@ -15113,6 +15113,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\slider\\bg\\2-2.jpg"
     },
     {
+      "Identity": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\assets\\images\\slider\\bg\\3-1.jpg",
+      "SourceId": "E-Commerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\",
+      "BasePath": "_content/E-Commerce",
+      "RelativePath": "assets/images/slider/bg/3-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\slider\\bg\\3-1.jpg"
+    },
+    {
       "Identity": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\assets\\images\\slider\\inner-img\\1-1-231x210.png",
       "SourceId": "E-Commerce",
       "SourceType": "Discovered",
@@ -15179,6 +15196,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\slider\\inner-img\\2-1-601x426.png"
+    },
+    {
+      "Identity": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\assets\\images\\slider\\inner-img\\3-1.jpg",
+      "SourceId": "E-Commerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\",
+      "BasePath": "_content/E-Commerce",
+      "RelativePath": "assets/images/slider/inner-img/3-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\slider\\inner-img\\3-1.jpg"
+    },
+    {
+      "Identity": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\assets\\images\\slider\\inner-img\\3-2.jpg",
+      "SourceId": "E-Commerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\",
+      "BasePath": "_content/E-Commerce",
+      "RelativePath": "assets/images/slider/inner-img/3-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\slider\\inner-img\\3-2.jpg"
     },
     {
       "Identity": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\assets\\images\\testimonial\\user\\1.png",
