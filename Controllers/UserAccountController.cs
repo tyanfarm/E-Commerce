@@ -7,6 +7,7 @@ using E_Commerce.ModelViews;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.VisualStudio.Web.CodeGeneration.CommandLine;
 
@@ -24,6 +25,40 @@ namespace E_Commerce.Controllers {
         public IActionResult Index() 
         {
             return View();
+        }
+
+        [HttpGet]
+        [AllowAnonymous]
+        public IActionResult ValidatePhone(string phone) {
+            try {
+                var customer = _context.Customers.AsNoTracking().SingleOrDefault(c => c.Phone.ToLower() == phone.ToLower());
+
+                if (customer != null) {
+                    return Json(data: "Phone number: " + phone + " has been used " );
+                }
+
+                return Json(data: true);
+            }
+            catch {
+                return Json(data: true);
+            }
+        } 
+
+        [HttpGet]
+        [AllowAnonymous]
+        public IActionResult ValidateEmail(string email) {
+            try {
+                var customer = _context.Customers.AsNoTracking().SingleOrDefault(c => c.Email.ToLower() == email.ToLower());
+
+                if (customer != null) {
+                    return Json(data: "Email: " + email + " has been used " );
+                }
+
+                return Json(data: true);
+            }
+            catch {
+                return Json(data: true);
+            }
         }
 
         [HttpGet]

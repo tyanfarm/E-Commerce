@@ -22,6 +22,8 @@ namespace E_Commerce.ModelViews
         [Required(ErrorMessage = "Please enter Phone number")]
         [MaxLength(11)]
         [DataType(DataType.PhoneNumber)]
+        // AJAX - (Asynchronous JavaScript and XML)
+        // Request AJAX to action in a controller
         [Remote(action: "ValidatePhone", controller: "UserAccount")]
         public string Phone {get; set;}
 
