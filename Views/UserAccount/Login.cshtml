@@ -1,0 +1,39 @@
+@model E_Commerce.ModelViews.LoginViewModel
+@using Microsoft.AspNetCore.Http
+
+@{
+    ViewData["Title"] = "Login Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main class="main-content">
+    <div class="login-register-area section-space-y-axis-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 pt-10 pt-lg-0">
+                    <form asp-action="Register" asp-controller="UserAccount">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="login-form">
+                            <h4 class="login-title">Login</h4>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <label>Email Address</label>
+                                    <input type="email" asp-for="UserName" placeholder="User Name">
+                                    <span asp-validation-summary="UserName" class="text-danger"></span>
+                                </div>
+                                <div class="col-md-12">
+                                    <label>Password</label>
+                                    <input type="password" asp-for="Password" placeholder="Password">
+                                    <span asp-validation-summary="Password" class="text-danger"></span>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-custom-size lg-size btn-secondary btn-primary-hover rounded-0">Login</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

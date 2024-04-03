@@ -4,8 +4,10 @@ namespace E_Commerce.ModelViews
 {
     public class LoginViewModel 
     {
+        [Key]
         [MaxLength(100)]
         [Required(ErrorMessage="Please enter username")]
+        [DataType(DataType.EmailAddress)]
         [Display(Name="Email")]
         public string UserName {get; set;}
 

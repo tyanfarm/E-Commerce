@@ -12,10 +12,10 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.VisualStudio.Web.CodeGeneration.CommandLine;
 
 namespace E_Commerce.Controllers {
+    [Authorize]
     public class UserAccountController : Controller {
         private readonly EcommerceContext _context;
         public INotyfService _notyfService {get; }
-
 
         public UserAccountController(EcommerceContext context, INotyfService notyfService) {
             _context = context;
@@ -61,6 +61,23 @@ namespace E_Commerce.Controllers {
             }
         }
 
+        [Route("my-account.html", Name="Dashboard")]
+        public IActionResult Dashboard() {
+            var customerId = HttpContext.Session.GetString("CustomerId");
+
+            if (customerId != null) {
+                var account = _context.Customers.AsNoTracking()
+                                                .SingleOrDefault(c => c.CustomerId == Convert.ToInt32(customerId));
+
+                if (account != null) {
+                    return View();
+                }
+            }
+
+            return RedirectToAction("Login");
+        }
+
+        // ------ REGISTER ------
         [HttpGet]
         [AllowAnonymous]
         [Route("register.html", Name="UserRegister")]
@@ -78,8 +95,8 @@ namespace E_Commerce.Controllers {
 
                     Customer customer = new Customer {
                         FullName = info.FullName,
-                        Phone = info.Phone,
-                        Email = info.Email,
+                        Phone = info.Phone.Trim().ToLower(),
+                        Email = info.Email.Trim().ToLower(),
                         // Hash password
                         Password = (info.Password + salt.Trim()).ToMD5(),
                         Active = true,
@@ -115,17 +132,109 @@ namespace E_Commerce.Controllers {
 
                         return RedirectToAction("Dashboard", "UserAccount");
                     }
+                    // Nếu không AddAuthentication thì sẽ bị lỗi ở đây - không add vào DB được
                     catch {
+                        _notyfService.Error("Invalid information !");
+
                         return RedirectToAction("Register", "UserAccount");
                     }
                 }
                 else {
+                    _notyfService.Error("Incomplete information");
+
                     return View(info);
                 }
             }
             catch {
+
                 return View(info);
             }
+        }
+
+        // ------ LOGIN ------
+        [HttpGet]
+        [AllowAnonymous]
+        [Route("login.html", Name="UserLogin")]
+        public IActionResult Login(string returnUrl=null) {
+            // Kiểm tra xem nếu user đã từng login và phiên đăng nhập vẫn còn thì chuyển qua dashboard
+            var customerId = HttpContext.Session.GetString("CustomerId");
+
+            if (customerId != null) {
+                return RedirectToAction("Dashboard", "UserAccount");
+            }
+
+            return View();
+        }
+
+        [HttpPost]
+        [AllowAnonymous]
+        [Route("login.html", Name="UserLogin")]
+        public async Task<IActionResult> Login(LoginViewModel account, string returnUrl=null) {
+            try {
+                if (ModelState.IsValid) {
+                    // Validate username
+                    bool isEmail = Utilities.isValidEmail(account.UserName);
+
+                    if (!isEmail) {
+                        return View(account);
+                    }
+
+                    // lấy ra account customer giống với login
+                    var customer = _context.Customers.AsNoTracking()
+                                                        .SingleOrDefault(c => c.Email.Trim() == account.UserName);
+                    
+                    if (customer == null) {
+                        _notyfService.Warning("You haven't registered yet");
+                        return RedirectToAction("Register", "UserAccount");
+                    }
+
+                    // Check pass login
+                    string passLogin = (account.Password + customer.Salt.Trim()).ToMD5();
+
+                    if (customer.Password != passLogin) {
+                        _notyfService.Error("Invalid username or password");
+                        
+                        return View(customer);
+                    }
+
+                    // Kiểm tra account có bị disabled không
+                    if (customer.Active == false) {
+                        return RedirectToAction("a", "UserAccount");
+                    }
+
+                    // Save session customer ID
+                    // Lưu customerID mới register vào session có key="CustomerId"
+                    HttpContext.Session.SetString("CustomerId", customer.CustomerId.ToString());
+                    var userAccountId = HttpContext.Session.GetString("CustomerId");
+
+                    // Identity - Authenticate & Authorize 
+                    var claims = new List<Claim>
+                    {
+                        new Claim(ClaimTypes.Name, customer.FullName),
+                        new Claim("CustomerId", customer.CustomerId.ToString())
+                    };
+
+                    // Danh tính 1 customer
+                    ClaimsIdentity claimsIdentity = new ClaimsIdentity(claims, "login");
+
+                    // Xác thực danh tính customer
+                    ClaimsPrincipal claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
+
+                    // Đánh dấu đã xác thực customer
+                    await HttpContext.SignInAsync(claimsPrincipal);
+                    
+                    _notyfService.Success("Login successfully");
+
+                    return RedirectToAction("Shipping", "Checkout");
+                }
+            }
+            catch {
+                _notyfService.Error("Invalid username or password");
+
+                return RedirectToAction("Register", "UserAccount");
+            }
+
+            return View(account);
         }
     }
 }

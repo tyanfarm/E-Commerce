@@ -10,7 +10,20 @@ namespace E_Commerce.Helper
 {
     public static class Utilities
     {
-        public static string StripHTML(string input)
+        public static bool isValidEmail(string email) {
+            if (email.Trim().EndsWith(".")) {
+                return false; 
+            }
+
+            try {
+                var addr = new System.Net.Mail.MailAddress(email);
+                return addr.Address == email;
+            }
+            catch {
+                return false;
+            }
+        }
+        public static string StripHTML(string input) 
         {
             try
             {

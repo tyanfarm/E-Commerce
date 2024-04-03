@@ -5,6 +5,7 @@ namespace E_Commerce.ModelViews
 {
     public class RegisterViewModel 
     {
+        [Key]
         public int CustomerId {get; set;}
 
         [Display(Name="Full Name")]
