@@ -3,6 +3,7 @@
 @{
     ViewData["Title"] = "Dashboard Page";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    List<Order> listOrders = ViewBag.listOrders;
 }
 
 <main class="main-content">
@@ -40,6 +41,7 @@
                         <div class="tab-pane fade" id="account-orders" role="tabpanel" aria-labelledby="account-orders-tab">
                             <div class="myaccount-orders">
                                 <h4 class="small-title">MY ORDERS</h4>
+                                @await Html.PartialAsync("_OrdersPartialView", listOrders)
                             </div>
                         </div>
                         <div class="tab-pane fade" id="account-address" role="tabpanel" aria-labelledby="account-address-tab">

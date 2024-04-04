@@ -1,1 +1,47 @@
 @model List<Order>
+
+@if (Model != null && Model.Count() > 0) {
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover">
+            <tbody>
+                <tr>
+                    <th>ID</th>
+                    <th>Order Date</th>
+                    <th>Ship Date</th>
+                    <th>Status</th>
+                    <th></th>
+                </tr>
+                @for (var item in Model) {
+                    <tr>
+                        <td><a class="account-order-id" href="javascript:void(0)">@item.OrderId</a></td>
+                        <td>@item.OrderDate</td>
+                        <td>@item.ShipDate</td>
+                        <td>@item.TransactStatus.Status</td>
+                        <td><a href="javascript:void(0)" class="btn btn-secondary btn-primary-hover"><span>View</span></a>
+                        </td>
+                    </tr>
+                }
+                <tr>
+                    <td><a class="account-order-id" href="javascript:void(0)">#5364</a></td>
+                    <td>Mar 27, 2019</td>
+                    <td>On Hold</td>
+                    <td>$162.00 for 2 items</td>
+                    <td><a href="javascript:void(0)" class="btn btn-secondary btn-primary-hover"><span>View</span></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a class="account-order-id" href="javascript:void(0)">#5356</a></td>
+                    <td>Mar 27, 2019</td>
+                    <td>On Hold</td>
+                    <td>$162.00 for 2 items</td>
+                    <td><a href="javascript:void(0)" class="btn btn-secondary btn-primary-hover"><span>View</span></a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+}
+else {
+    <p>You haven't created any shipping order yet</p>
+}
+

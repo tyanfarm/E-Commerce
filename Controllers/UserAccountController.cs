@@ -72,6 +72,7 @@ namespace E_Commerce.Controllers {
 
                 if (account != null) {
                     var listOrders = _context.Orders.AsNoTracking()
+                                                    .Include(o => o.TransactStatus)
                                                     .Where(o => o.CustomerId == account.CustomerId)
                                                     .OrderByDescending(o => o.OrderId)
                                                     .ToList();
