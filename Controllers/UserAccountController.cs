@@ -258,5 +258,49 @@ namespace E_Commerce.Controllers {
             HttpContext.Session.Remove("CustomerId");
             return RedirectToAction("Index", "Home");
         }
+
+        // ------ CHANGE PASSWORD ------
+        [HttpPost]
+        public async Task<IActionResult> ChangePassword(ChangePasswordViewModel model) {
+            try {
+                // Lấy account đang login của user
+                var accountId = int.Parse(HttpContext.Session.GetString("CustomerId"));
+
+                if (accountId == null) {
+                    return RedirectToAction("Login", "UserAccount");
+                }
+
+                var account = _context.Customers.Find(accountId);
+
+                if (account == null) {
+                    return RedirectToAction("Index", "Home");
+                }
+
+                var password = (model.PasswordNow.Trim() + account.Salt.Trim()).ToMD5();
+
+                // Password Now đúng thì change password
+                if (password == account.Password) {
+                    string newPassword = (model.Password.Trim() + account.Salt.Trim()).ToMD5();
+
+                    account.Password = newPassword;
+                    
+                    _context.Update(account);
+                    await _context.SaveChangesAsync();
+                    
+                    _notyfService.Success("Update password successfully");
+
+                    return RedirectToAction("Dashboard", "UserAccount");
+                }
+            }
+            catch {
+                _notyfService.Error("Change password failed");
+                
+                return RedirectToAction("Dashboard", "UserAccount");
+            }
+            _notyfService.Error("Change password failed");
+
+            return RedirectToAction("Dashboard", "UserAccount");
+        }
+
     }
 }

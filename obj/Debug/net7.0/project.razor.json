@@ -18832,6 +18832,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Views\\UserAccount\\_ChangePasswordPartialView.cshtml",
+      "TargetPath": "Views\\UserAccount\\_ChangePasswordPartialView.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Areas\\Admin\\Views\\AdminProducts\\Edit.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\AdminProducts\\Edit.cshtml",
       "FileKind": "mvc"
