@@ -18,27 +18,27 @@
                                 <div class="col-md-12">
                                     <label>Full Name</label>
                                     <input type="text" asp-for="FullName" placeholder="Full Name">
-                                    <span asp-validation-summary="FullName" class="text-danger"></span>
+                                    <span asp-validation-for="FullName" class="text-danger"></span>
                                 </div>
                                 <div class="col-md-12">
                                     <label>Email Address</label>
                                     <input type="email" asp-for="Email" placeholder="Email Address">
-                                    <span asp-validation-summary="Email" class="text-danger"></span>
+                                    <span asp-validation-for="Email" class="text-danger"></span>
                                 </div>
                                 <div class="col-md-12">
                                     <label>Phone Number</label>
                                     <input type="tel" asp-for="Phone" placeholder="Phone Number">
-                                    <span asp-validation-summary="Phone" class="text-danger"></span>
+                                    <span asp-validation-for="Phone" class="text-danger"></span>
                                 </div>
                                 <div class="col-md-6">
                                     <label>Password</label>
                                     <input type="password" asp-for="Password" placeholder="Password">
-                                    <span asp-validation-summary="Password" class="text-danger"></span>
+                                    <span asp-validation-for="Password" class="text-danger"></span>
                                 </div>
                                 <div class="col-md-6">
                                     <label>Confirm Password</label>
                                     <input type="password" asp-for="ConfirmPassword" placeholder="Confirm Password">
-                                    <span asp-validation-summary="ConfirmPassword" class="text-danger"></span>
+                                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
                                 </div>
                                 <div class="col-12">
                                     <button class="btn btn-custom-size lg-size btn-secondary btn-primary-hover rounded-0">Register</button>

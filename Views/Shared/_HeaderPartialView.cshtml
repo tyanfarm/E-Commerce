@@ -68,16 +68,13 @@
                                         <i class="pe-7s-users"></i>
                                     </button>
                                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="settingButton">
-                                        @if (User.Identity.IsAuthenticated) {
-                                            <li><a class="dropdown-item" href="my-account.html">My Account</a></li>
+                                        @if (!User.Identity.IsAuthenticated) {
                                             <li><a class="dropdown-item" href="login.html">Login</a></li>
                                             <li><a class="dropdown-item" href="register.html">Register</a></li>
                                         }
                                         else {
-                                            <li><a class="dropdown-item" href="login.html">Login</a></li>
-                                            <li><a class="dropdown-item" href="register.html">Register</a></li>
+                                            <li><a class="dropdown-item" href="my-account.html">My Account</a></li>
                                         }
-                                        
                                     </ul>
                                 </li>
                                 <li class="d-none d-md-block">

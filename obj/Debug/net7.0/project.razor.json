@@ -18917,6 +18917,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Views\\UserAccount\\Dashboard.cshtml",
+      "TargetPath": "Views\\UserAccount\\Dashboard.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Areas\\Admin\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
@@ -18979,6 +18984,11 @@
     {
       "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Areas\\Admin\\Views\\AdminRoles\\Create.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\AdminRoles\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Tyan\\ASPNET\\E-Commerce\\Views\\UserAccount\\_OrdersPartialView.cshtml",
+      "TargetPath": "Views\\UserAccount\\_OrdersPartialView.cshtml",
       "FileKind": "mvc"
     },
     {

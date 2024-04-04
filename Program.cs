@@ -55,6 +55,8 @@ app.UseSession();
 app.UseAuthentication();
 app.UseAuthorization();
 
+
+
 // Area
 app.MapControllerRoute(
     name: "areas",

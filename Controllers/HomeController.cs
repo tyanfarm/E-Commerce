@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using E_Commerce.Models;
 using E_Commerce.ModelViews;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authentication;
 
 namespace E_Commerce.Controllers;
 

@@ -61,6 +61,7 @@ namespace E_Commerce.Controllers {
             }
         }
 
+        // ------ DASHBOARD ------
         [Route("my-account.html", Name="Dashboard")]
         public IActionResult Dashboard() {
             var customerId = HttpContext.Session.GetString("CustomerId");
@@ -70,7 +71,14 @@ namespace E_Commerce.Controllers {
                                                 .SingleOrDefault(c => c.CustomerId == Convert.ToInt32(customerId));
 
                 if (account != null) {
-                    return View();
+                    var listOrders = _context.Orders.AsNoTracking()
+                                                    .Where(o => o.CustomerId == account.CustomerId)
+                                                    .OrderByDescending(o => o.OrderId)
+                                                    .ToList();
+
+                    ViewBag.listOrders = listOrders;
+
+                    return View(account);
                 }
             }
 
@@ -127,8 +135,10 @@ namespace E_Commerce.Controllers {
                         // Xác thực danh tính customer
                         ClaimsPrincipal claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
 
-                        // Đánh dấu đã xác thực customer
+                        // Tạo phiên làm việc mới cho user
                         await HttpContext.SignInAsync(claimsPrincipal);
+                        
+                        _notyfService.Success("Login successfully");
 
                         return RedirectToAction("Dashboard", "UserAccount");
                     }
@@ -194,12 +204,14 @@ namespace E_Commerce.Controllers {
                     if (customer.Password != passLogin) {
                         _notyfService.Error("Invalid username or password");
                         
-                        return View(customer);
+                        return View(account);
                     }
 
                     // Kiểm tra account có bị disabled không
                     if (customer.Active == false) {
-                        return RedirectToAction("a", "UserAccount");
+                        _notyfService.Error("Account is disabled");
+
+                        return View(account);
                     }
 
                     // Save session customer ID
@@ -225,7 +237,7 @@ namespace E_Commerce.Controllers {
                     
                     _notyfService.Success("Login successfully");
 
-                    return RedirectToAction("Shipping", "Checkout");
+                    return RedirectToAction("Dashboard", "UserAccount");
                 }
             }
             catch {
@@ -235,6 +247,15 @@ namespace E_Commerce.Controllers {
             }
 
             return View(account);
+        }
+
+        // ------ LOGOUT ------
+        [HttpGet]
+        [Route("logout.html", Name="logout")]
+        public IActionResult Logout() {
+            HttpContext.SignOutAsync();
+            HttpContext.Session.Remove("CustomerId");
+            return RedirectToAction("Index", "Home");
         }
     }
 }
