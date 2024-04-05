@@ -31,8 +31,11 @@
                     <div class="tab-content myaccount-tab-content" id="account-page-tab-content">
                         <div class="tab-pane fade show active" id="account-dashboard" role="tabpanel" aria-labelledby="account-dashboard-tab">
                             <div class="myaccount-dashboard">
-                                <p>Hello<b> @Model.FullName </b></p>
-                                <p>From your account dashboard you can view your recent orders, manage your shipping and edit your password and account details</a>.</p>
+                                <h5>Hello <b> @Model.FullName </b></h5>
+                                <hr/>
+                                <p>Email: <b>@Model.Email</b></bt></p>
+                                <p>Phone: <b>@Model.Phone</b></bt></p>
+                                <p>Email: <b>@Model.Address</b></bt></p>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="account-orders" role="tabpanel" aria-labelledby="account-orders-tab">
