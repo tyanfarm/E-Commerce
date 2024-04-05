@@ -33,7 +33,7 @@
                                             <th class="cart-product-name">Product</th>
                                             <th class="product-price">Unit Price</th>
                                             <th class="product-quantity">Quantity</th>
-                                            <th class="product-total">Total</th>
+                                            <th class="product-subtotal">Total</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -41,9 +41,7 @@
                                             @foreach (var item in Model) {
                                                 <tr>
                                                     <td class="product_remove">
-                                                        <a href="javascript:void(0)">
-                                                            <i class="pe-7s-close" title="Remove"></i>
-                                                        </a>
+                                                        <input type="button" value="X" class="removecart btn btn-primary" data-idpro="@item.product.ProductId" />
                                                     </td>
                                                     <td class="product-thumbnail">
                                                         <a href="javascript:void(0)">
@@ -53,11 +51,11 @@
                                                     <td class="product-name"><a href="javascript:void(0)">@item.product.ProductName</a></td>
                                                     <td class="product-price"><span class="amount">@item.product.Price.Value.ToString("#,###,###") VNĐ</span></td>
                                                     <td class="quantity">
-                                                        <div class="cart-plus-minus">
-                                                            <input class="cart-plus-minus-box" value="@item.quantity" type="text">
+                                                        <div class="cart-plus-minus ">
+                                                            <input data-idpro="@item.product.ProductId" data-unitprice="@item.product.Price" class="cartItem cart-plus-minus-box" value="@item.quantity" type="text">
                                                         </div>
                                                     </td>
-                                                    <td class="product-total"><span class="amount">@item.totalMoney</span></td>
+                                                    <td class="product-subtotal"><span class="amount">@item.totalMoney.ToString("#,###,###") VNĐ</span></td>
                                                 </tr>
                                             }
                                         }
@@ -70,9 +68,6 @@
                                         <div class="coupon">
                                             <input id="coupon_code" class="input-text" name="coupon_code" value="" placeholder="Coupon code" type="text">
                                             <input class="button mt-xxs-30" name="apply_coupon" value="Apply coupon" type="submit">
-                                        </div>
-                                        <div class="coupon2">
-                                            <input class="button" name="update_cart" value="Update cart" type="submit">
                                         </div>
                                     </div>
                                 </div>
@@ -98,3 +93,50 @@
         </div>
     </div>
 </main>
+
+@section Scripts {
+    <script>
+        $(function () {
+            $(".removecart").click(function() {
+                var productid = $(this).attr("data-idpro");
+                $.ajax({
+                    url: "api/v1/cart/remove",
+                    type: "POST",
+                    dataType: "JSON",
+                    data: {
+                        productId: productid
+                    },
+                    success: function(result) {
+                        if (result.success) {
+                            window.location = 'cart.html';
+                        }
+                    }, 
+                    error: function(rs) {
+                        alert("DELETE ERROR");
+                    }
+                });
+            });
+            $(".cartItem").click(function() {
+                var productid = $(this).attr("data-idpro");
+                var quantityVal = parseInt($(this).val());
+                $.ajax({
+                    url: "api/v1/cart/update",
+                    type: "POST",
+                    dataType: "JSON",
+                    data: {
+                        productId: productid,
+                        quantity: quantityVal
+                    },
+                    success: function(result) {
+                        if (result.success) {
+                            window.location = 'cart.html';
+                        }
+                    },
+                    error: function(rs) {
+                        alert("UPDATE cart ERROR");
+                    }
+                });
+            });
+        });
+    </script>
+}
