@@ -1,6 +1,6 @@
 using Newtonsoft.Json;
 
-// Session được dùng để lưu trữ thông tin về những thay đổi đối với một người dùng
+// Session được dùng để lưu trữ thông tin về những thay đổi đối với một người dùng tại server
 namespace E_Commerce.Extension {
     public static class SessionExtension {
         public static void Set<T>(this ISession session, string key, T value) {
