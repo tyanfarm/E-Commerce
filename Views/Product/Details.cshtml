@@ -85,11 +85,12 @@
                                 <ul class="quantity-with-btn pb-7">
                                     <li class="quantity">
                                         <div class="cart-plus-minus">
-                                            <input class="cart-plus-minus-box" value="1" type="text">
+                                            <input id="txtquantity" name="txtquantity" class="cart-plus-minus-box" value="1" type="text">
                                         </div>
                                     </li>
                                     <li class="add-to-cart">
-                                        <a class="btn btn-custom-size lg-size btn-primary btn-secondary-hover rounded-0" href="cart.html">Add to cart</a>
+                                        <a class="btn btn-custom-size lg-size btn-primary btn-secondary-hover rounded-0" href="javascript:void(0)">Add to cart</a>
+                                        <input hidden asp-for="ProductId" />
                                     </li>
                                     <li class="wishlist-btn-wrap">
                                         <a class="btn rounded-0" href="wishlist.html">
@@ -375,3 +376,61 @@
     </div>
 </main>
 <!-- Main Content Area End Here  -->
+
+@section Scripts {
+    <script>
+        @* ${document}.ready(function() {
+            $(function() {
+                $(".add-to-cart").click(function() {
+                    var productid = $('#ProductId').val();
+                    var quantityVal = $('#txtquantity').val();
+
+                    $.ajax({
+                        url: 'api/v1/cart/add',
+                        type: "POST",
+                        dataType: "JSON",
+                        data: {
+                            productId: productid,
+                            quantity: quantityVal
+                        },
+                        success: function(response) {
+                            location.reload();
+                        },
+                        erro: function(error) {
+                            alert("ERROR when add product to cart");
+                        }
+                    });
+                });
+            }); 
+        }); *@
+
+        document.addEventListener("DOMContentLoaded", function() {
+            // Chọn tất cả các phần tử có class "add-to-cart"
+            var addToCartButtons = document.querySelectorAll('.add-to-cart');
+            
+            // Lặp qua từng phần tử và thêm sự kiện click
+            addToCartButtons.forEach(function(button) {
+                button.addEventListener('click', function() {
+                    var productid = $('#ProductId').val();
+                    var quantityVal = $('#txtquantity').val();
+
+                    $.ajax({
+                        url: 'api/v1/cart/add',
+                        type: "POST",
+                        dataType: "JSON",
+                        data: {
+                            productId: productid,
+                            quantity: quantityVal
+                        },
+                        success: function(response) {
+                            location.reload();
+                        },
+                        error: function(error) {
+                            alert("ERROR when add product to cart");
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+}

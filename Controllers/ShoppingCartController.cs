@@ -40,14 +40,7 @@ namespace E_Commerce.Controllers {
 
                 // Đã có trong cart => update quantity
                 if (item != null) {
-                    // cập nhật lại quantity nếu có tham số truyền vào
-                    if (quantity.HasValue) {
-                        item.quantity = quantity.Value;
-                    }
-                    // không có tham số quantity => thêm 1 product
-                    else {
-                        item.quantity++;
-                    }
+                    item.quantity = item.quantity + quantity.Value;
                 }
                 // chưa có trong cart
                 else {
@@ -65,6 +58,33 @@ namespace E_Commerce.Controllers {
                 // Save session
                 HttpContext.Session.Set<List<CartItemViewModel>>("shoppingCart", cart);
 
+                _notyfService.Success("Add to cart successfully");
+
+                return Json(new {success = true});
+            }
+            catch {
+                return Json(new {success = false});
+            }
+        }
+
+        [HttpPost]
+        [Route("api/v1/cart/update")]
+        public IActionResult updateCart(int productId, int? quantity) {
+            // Lấy cart để xử lí
+            var cart = HttpContext.Session.Get<List<CartItemViewModel>>("shoppingCart");
+
+            try {
+                if (cart != null) {
+                    CartItemViewModel item = cart.SingleOrDefault(c => c.product.ProductId == productId);
+
+                    // product có sẵn trong cart -> update quantity
+                    if (item != null) {
+                        item.quantity = quantity.Value;
+                    }
+
+                    // Save session
+                    HttpContext.Session.Set<List<CartItemViewModel>>("shoppingCart", cart);
+                }
                 return Json(new {success = true});
             }
             catch {
@@ -95,6 +115,7 @@ namespace E_Commerce.Controllers {
             
         }
 
+        [Route("cart.html", Name="Shopping Cart")]
         public IActionResult Index() 
         {
             return View(shoppingCart);

@@ -8,6 +8,5 @@ namespace E_Commerce.ModelViews {
 
         // .Value because "cannot convert type int -> double"
         public double totalMoney => quantity * product.Price.Value;
-
     }
 }
