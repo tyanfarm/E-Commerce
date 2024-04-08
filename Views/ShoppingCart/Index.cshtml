@@ -79,7 +79,12 @@
                                         <ul>
                                             <li>Total<span>@Model.Sum(x => x.totalMoney).ToString("#,###,##0") VNĐ</span></li>
                                         </ul>
-                                        <a href="javascript:void(0)">Purchase</a>
+                                        @if (User.Identity.IsAuthenticated) {
+                                            <a href="/checkout.html" class="btn btn-secondary btn-primary-hover">Purchase</a>
+                                        }
+                                        else {
+                                            <a href="/login.html?returnUrl=/checkout.html"  class="btn btn-secondary btn-primary-hover">Purchase</a>
+                                        }
                                     </div>
                                 </div>
                             </div>

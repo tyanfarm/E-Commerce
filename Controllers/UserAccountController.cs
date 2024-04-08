@@ -238,6 +238,10 @@ namespace E_Commerce.Controllers {
                     
                     _notyfService.Success("Login successfully");
 
+                    if (returnUrl == "/checkout.html") {
+                        return RedirectToAction("Index", "Checkout");
+                    }
+
                     return RedirectToAction("Dashboard", "UserAccount");
                 }
             }

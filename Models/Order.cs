@@ -25,6 +25,10 @@ public partial class Order
 
     public string? Note { get; set; }
 
+    public string? Address { get; set; }
+
+    public double? TotalMoney { get; set; }
+
     public virtual Customer? Customer { get; set; }
 
     public virtual ICollection<Orderdetail> Orderdetails { get; } = new List<Orderdetail>();

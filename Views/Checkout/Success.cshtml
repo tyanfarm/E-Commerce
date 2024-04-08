@@ -1,0 +1,46 @@
+@model E_Commerce.Models.Order
+
+@{
+    ViewData["Title"] = "Order Successfully";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<main class="main-content">
+    <div class="checkout-area section-space-y-axis-100">
+        <div class="container">
+            <form asp-controller="Checkout" asp-action="Index" method="post">
+                <div class="row">
+                    <div class="col-lg-12 col-12">
+                        <div class="checkbox-form">
+                            <h3>THANK YOU FOR YOUR ORDER</h3>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="checkout-form-list">
+                                        <label>Order ID: #@Model.OrderId</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="checkout-form-list">
+                                        <label>Order Date: @Model.OrderDate</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="checkout-form-list">
+                                        <label>Address: @Model.Address</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="checkout-form-list">
+                                        <label>Total Money: @Model.TotalMoney</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+                    
+        </div>
+    </div>
+</main>
