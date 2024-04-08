@@ -12,12 +12,13 @@
                     <th></th>
                 </tr>
                 @foreach (var item in Model) {
+                    string url = $"/order-details-{item.OrderId}.html";
                     <tr>
                         <td><a class="account-order-id" href="javascript:void(0)">#@item.OrderId</a></td>
                         <td>@item.OrderDate</td>
                         <td>@item.ShipDate</td>
                         <td>@item.TransactStatus.Status</td>
-                        <td><a href="javascript:void(0)" class="btn btn-secondary btn-primary-hover"><span>View</span></a>
+                        <td><a href="@url" class="btn btn-secondary btn-primary-hover"><span>View</span></a>
                         </td>
                     </tr>
                 }

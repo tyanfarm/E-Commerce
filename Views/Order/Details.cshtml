@@ -1,0 +1,54 @@
+@model List<E_Commerce.Models.Orderdetail>
+
+@{
+    ViewData["Title"] = "Order Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<main class="main-content">
+    <div class="checkout-area section-space-y-axis-100">
+        <div class="container">
+            <form asp-controller="Checkout" asp-action="Index" method="post">
+                <div class="row">
+                    <div class="col-lg-12 col-12">
+                        <div class="checkbox-form">
+                            <h3>ORDER DETAILS</h3>
+                            @if (Model != null && Model.Count() > 0) {
+                                @foreach (var item in Model) {
+                                    <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="checkout-form-list">
+                                            <label>ID: #@item.OrderDetailId</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="checkout-form-list">
+                                            <label>Product Name: @item.Product.ProductName</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="checkout-form-list">
+                                            <label>Quantity: @item.Quantity</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="checkout-form-list">
+                                            <label>Total Money: @item.Total</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="checkout-form-list">
+                                            <label>Ship Date: @item.ShipDate</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                }
+                            }
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</main>

@@ -53,3 +53,24 @@
         </div>
     </div>
 </main>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            $(".vieworder").click(function() {
+                var orderid = $(this).attr("data-orderid")
+                $.ajax({
+                    url: '/Order/Details',
+                    datatype: "JSON",
+                    type: "POST",
+                    data: {id: orderid},
+                    async: true,
+                    success: function(result) {
+                        $("#records_table").html("");
+                        $("#records_table").html(result);
+                    }
+                });
+            });
+        });
+    </script>
+}

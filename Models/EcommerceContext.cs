@@ -261,6 +261,8 @@ public partial class EcommerceContext : DbContext
 
             entity.HasIndex(e => e.OrderId, "OrderID_idx");
 
+            entity.HasIndex(e => e.ProductId, "ProductID_idx");
+
             entity.Property(e => e.OrderDetailId).HasColumnName("OrderDetailID");
             entity.Property(e => e.OrderId).HasColumnName("OrderID");
             entity.Property(e => e.ProductId).HasColumnName("ProductID");
@@ -269,6 +271,10 @@ public partial class EcommerceContext : DbContext
             entity.HasOne(d => d.Order).WithMany(p => p.Orderdetails)
                 .HasForeignKey(d => d.OrderId)
                 .HasConstraintName("OrderID");
+
+            entity.HasOne(d => d.Product).WithMany(p => p.Orderdetails)
+                .HasForeignKey(d => d.ProductId)
+                .HasConstraintName("ProductID");
         });
 
         modelBuilder.Entity<Page>(entity =>
