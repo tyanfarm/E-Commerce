@@ -3,7 +3,7 @@ using AspNetCoreHero.ToastNotification.Abstractions;
 using E_Commerce.Extension;
 using E_Commerce.Helper;
 using E_Commerce.Models;
-using E_Commerce.ModelViews;
+using E_Commerce.ViewModel;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;

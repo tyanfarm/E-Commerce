@@ -1,6 +1,6 @@
 using E_Commerce.Models;
 
-namespace E_Commerce.ModelViews {
+namespace E_Commerce.ViewModel {
     public class CartItemViewModel {
         public Product product {get; set;}
 

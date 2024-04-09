@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace E_Commerce.Models;
@@ -44,7 +45,7 @@ public partial class EcommerceContext : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder
-            .UseCollation("utf8mb4_0900_ai_ci")
+            .UseCollation("utf8mb4_0900_ai_ci")  
             .HasCharSet("utf8mb4");
 
         modelBuilder.Entity<Account>(entity =>
@@ -61,10 +62,6 @@ public partial class EcommerceContext : DbContext
             entity.Property(e => e.AccountId).HasColumnName("AccountID");
             entity.Property(e => e.Active).HasColumnType("bit(2)");
             entity.Property(e => e.CreateDate).HasColumnType("datetime");
-            entity.Property(e => e.Email)
-                .HasMaxLength(50)
-                .UseCollation("utf8mb3_general_ci")
-                .HasCharSet("utf8mb3");
             entity.Property(e => e.FullName)
                 .HasMaxLength(150)
                 .UseCollation("utf8mb3_general_ci")
@@ -79,6 +76,7 @@ public partial class EcommerceContext : DbContext
             entity.Property(e => e.Salt)
                 .HasMaxLength(10)
                 .IsFixedLength();
+            entity.Property(e => e.Username).HasMaxLength(50);
 
             entity.HasOne(d => d.Role).WithMany(p => p.Accounts)
                 .HasForeignKey(d => d.RoleId)

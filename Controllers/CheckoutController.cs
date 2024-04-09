@@ -1,7 +1,7 @@
 using AspNetCoreHero.ToastNotification.Abstractions;
 using E_Commerce.Extension;
 using E_Commerce.Models;
-using E_Commerce.ModelViews;
+using E_Commerce.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 

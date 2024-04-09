@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace E_Commerce.ModelViews {
+namespace E_Commerce.ViewModel {
     public class ConfirmOrderViewModel {
         public int CustomerId {get; set;}
 

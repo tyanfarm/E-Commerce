@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace E_Commerce.ModelViews {
+namespace E_Commerce.ViewModel {
     // Phân loại sản phẩm theo category để xuất hiện ở Home Page
     public class ChangePasswordViewModel {
         [Key]

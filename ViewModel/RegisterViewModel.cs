@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Mvc;
 
-namespace E_Commerce.ModelViews 
+namespace E_Commerce.ViewModel 
 {
     public class RegisterViewModel 
     {

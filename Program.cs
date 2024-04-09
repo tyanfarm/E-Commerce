@@ -4,6 +4,7 @@ using System.Text.Unicode;
 using AspNetCoreHero.ToastNotification;
 using E_Commerce.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,12 +20,16 @@ builder.Services.AddDbContext<EcommerceContext>(options =>
 // Add Session
 builder.Services.AddSession();
 
-// Add Authentication
+// Add Authentication for Customer
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
                 .AddCookie(p => {
                     p.LoginPath = "/login.html";
                     p.AccessDeniedPath = "/";
                 });
+
+// Authentication
+// builder.Services.AddIdentity<IdentityUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true)
+//                 .AddEntityFrameworkStores<EcommerceContext>();
 
 // Program Configuration understand Unicode text
 builder.Services.AddSingleton<HtmlEncoder>(HtmlEncoder.Create(allowedRanges: new[] { UnicodeRanges.All }));
