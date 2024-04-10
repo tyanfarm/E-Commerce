@@ -1,10 +1,12 @@
 using AspNetCoreHero.ToastNotification.Abstractions;
 using E_Commerce.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace E_Commerce.Areas.Admin.Controllers {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class AdminRolesController : Controller {
         private readonly EcommerceContext _context;
         public INotyfService _notyfService {get; }

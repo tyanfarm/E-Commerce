@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@using System.Security.Claims;
+
+
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -21,7 +24,7 @@
     <div class="app">
         <div class="layout">
             <!-- Header START -->
-            @if (User.IsInRole("Admin")) {
+            @if (((ClaimsIdentity)User.Identity).FindFirst(ClaimTypes.Role)?.Value != null) {
                 @await Html.PartialAsync("_AdminHeaderPartialView")
             }
             <!-- Header END -->

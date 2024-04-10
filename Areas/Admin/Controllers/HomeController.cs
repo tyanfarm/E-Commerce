@@ -2,10 +2,12 @@
 using Microsoft.AspNetCore.Mvc;
 using E_Commerce.Models;
 using AspNetCoreHero.ToastNotification.Abstractions;
+using Microsoft.AspNetCore.Authorization;
 
 namespace E_Commerce.Areas.Admin.Controllers;
 
 [Area("Admin")]
+[Authorize]
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;

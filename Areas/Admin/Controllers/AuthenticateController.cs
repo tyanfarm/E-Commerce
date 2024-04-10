@@ -130,7 +130,9 @@ namespace E_Commerce.Areas.Admin.Controllers {
         [Route("admin-login.html", Name="Admin Login")]
         public async Task<IActionResult> Login(AccountDTO loginAccount, string returnUrl=null) {
             try {
-                if (ModelState.IsValid) {
+                // Vì ModelState sẽ kiểm tra loginAccount có được điền hết các giá trị attribute 
+                // Nhưng ta chỉ truyền Username và Password
+                if (ModelState.IsValid || (loginAccount.Username != null && loginAccount.Password != null)) {
                     // lấy ra account customer giống với login
                     var admin = _context.Accounts.AsNoTracking()
                                                     .SingleOrDefault(a => a.Username.Trim() == loginAccount.Username);
@@ -198,6 +200,8 @@ namespace E_Commerce.Areas.Admin.Controllers {
 
                 return RedirectToAction("Login", "Authenticate");
             }
+
+            _notyfService.Error("ModelState ERROR");
 
             return View(loginAccount);
         }
