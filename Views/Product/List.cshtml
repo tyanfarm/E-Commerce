@@ -278,7 +278,7 @@
                     <div class="tab-content text-charcoal pt-8">
                         <div class="tab-pane fade" id="grid-view" role="tabpanel" aria-labelledby="grid-view-tab">
                             <div class="product-grid-view row">
-                                @if (Model != null) {
+                                @if (Model != null && Model.Count() > 0) {
                                     foreach(var item in Model) {
                                         string urlDetails = $"/product-{item.ProductId}.html";
                                         <div class="col-lg-4 col-sm-6">
@@ -321,7 +321,7 @@
                         </div>
                         <div class="tab-pane fade show active" id="list-view" role="tabpanel" aria-labelledby="list-view-tab">
                             <div class="product-list-view with-sidebar row">
-                                @if (Model != null && Model.Count() > 1){
+                                @if (Model != null && Model.Count() > 0){
                                     foreach (var item in Model) {
                                         string urlDetails = $"/product-{item.ProductId}.html";
                                         <div class="col-12 pt-6">

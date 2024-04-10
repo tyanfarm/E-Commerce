@@ -62,7 +62,7 @@ namespace E_Commerce.Areas.Admin.Controllers {
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("CatId,CatName,Description,ParentId,Levels,Ordering,Published,Thumb,Title,Alias,MetaDesc,MetaKey,Cover,SchemaMarkup")] Category category, IFormFile fThumb)
         {
-            if (ModelState.IsValid) {
+            if (ModelState.IsValid || fThumb == null) {
                 // format product name
                 category.CatName = Utilities.ToTitleCase(category.CatName);
 

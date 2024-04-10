@@ -19,12 +19,19 @@ public class HomeController : Controller
         _notyfService = notyfService;
     }
 
+    [AllowAnonymous]
     public IActionResult Index()
     {
         // _notyfService.Warning(Convert.ToString(User.Identity.IsAuthenticated));
         // _notyfService.Success(Convert.ToString(User.Identity.Name));
+        var adminId = HttpContext.Session.GetString("AdminId");
 
-        return View();
+        if (adminId != null) {
+            return View();
+
+        }
+
+        return RedirectToAction("Login", "Authenticate");
     }
 
     public IActionResult Privacy()

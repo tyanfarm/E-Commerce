@@ -158,6 +158,9 @@ namespace E_Commerce.Areas.Admin.Controllers {
             if (ModelState.IsValid || fThumb == null) 
             {
                 try {
+                    var productDB = _context.Products.AsNoTracking()
+                                                .SingleOrDefault(p => p.ProductId == id);
+
                     // format product name
                     product.ProductName = Utilities.ToTitleCase(product.ProductName);
 
@@ -170,9 +173,7 @@ namespace E_Commerce.Areas.Admin.Controllers {
                         product.Thumb = await Utilities.UploadFile(fThumb, @"products", image.ToLower());
                     }
 
-                    if (string.IsNullOrEmpty(product.Thumb)) {
-                        product.Thumb = "default.png";
-                    }
+                    product.Thumb = productDB.Thumb;
 
                     product.Alias = Utilities.SEOUrl(product.ProductName);
                     product.DateCreated = DateTime.Now; 
