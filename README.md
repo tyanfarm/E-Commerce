@@ -22,3 +22,12 @@
 - Edit `_ViewImports.cshtml`:
     + @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
     + @addTagHelper *, PagedList.Core.Mvc
+
+### Authentication & Authorization
+- `Authentication`:
+    + use `Cookies Authentication`(CookieAuthenticationDefaults.AuthenticationScheme)
+
+    + User's identity, attributes & permissions is represented by a set of `Claims`
+
+- `Authorization`:
+    + Get `Identity` of user and verify the permission
