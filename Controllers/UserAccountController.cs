@@ -79,6 +79,8 @@ namespace E_Commerce.Controllers {
 
                     ViewBag.listOrders = listOrders;
 
+                    _notyfService.Warning(Convert.ToString(User.Identity.IsAuthenticated));
+
                     return View(account);
                 }
             }
@@ -137,8 +139,13 @@ namespace E_Commerce.Controllers {
                         ClaimsPrincipal claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
 
                         // Tạo phiên làm việc mới cho user
+                        // --SignInAsync(AuthenticationScheme, claimsPrincipal)--
                         await HttpContext.SignInAsync(claimsPrincipal);
-                        
+
+                        // while (User.Identity.IsAuthenticated == false) {
+                        //     await Task.Delay(100);
+                        // }
+
                         _notyfService.Success("Login successfully");
 
                         return RedirectToAction("Dashboard", "UserAccount");

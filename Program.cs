@@ -22,9 +22,9 @@ builder.Services.AddSession();
 
 // Add Authentication for Customer
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-                .AddCookie(p => {
-                    p.LoginPath = "/login.html";
-                    p.AccessDeniedPath = "/";
+                .AddCookie(options => {
+                    options.LoginPath = "/login.html";
+                    options.AccessDeniedPath = "/";
                 });
 
 // Authentication
@@ -59,8 +59,6 @@ app.UseSession();
 
 app.UseAuthentication();
 app.UseAuthorization();
-
-
 
 // Area
 app.MapControllerRoute(

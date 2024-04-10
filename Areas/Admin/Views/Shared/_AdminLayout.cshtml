@@ -21,19 +21,19 @@
     <div class="app">
         <div class="layout">
             <!-- Header START -->
-            @if (User.Identity.IsAuthenticated) {
+            @if (User.IsInRole("Admin")) {
                 @await Html.PartialAsync("_AdminHeaderPartialView")
             }
             <!-- Header END -->
 
             <!-- Side Nav START -->
-            @if (User.Identity.IsAuthenticated) {
+            @if (User.IsInRole("Admin")) {
                 @await Html.PartialAsync("_SideNavPartialView")
             }
             <!-- Side Nav END -->
 
             <!-- Page Container START -->
-            @if (User.Identity.IsAuthenticated) {
+            @if (User.IsInRole("Admin")) {
                 <div class="page-container">
                     
                     <!-- Content Wrapper START -->
@@ -48,7 +48,7 @@
             @* LOG IN *@
             else {
                 @RenderBody()
-            }
+            } 
             <!-- Page Container END -->
 
         </div>

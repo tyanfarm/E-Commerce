@@ -1,7 +1,13 @@
+using System.Security.Claims;
 using AspNetCoreHero.ToastNotification.Abstractions;
+using E_Commerce.Areas.Admin.DTO;
+using E_Commerce.Extension;
+using E_Commerce.Helper;
 using E_Commerce.Models;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace E_Commerce.Areas.Admin.Controllers {
     [Area("Admin")]
@@ -15,95 +21,193 @@ namespace E_Commerce.Areas.Admin.Controllers {
             _notyfService = notyfService;
         }
 
-        // GET: Admin/Authenticate/Login
+        // GET: /admin-register.html
         [HttpGet]
         [AllowAnonymous]
-        public IActionResult Login(string returnUrl=null) {
-            // Kiểm tra xem nếu user đã từng login và phiên đăng nhập vẫn còn thì chuyển qua dashboard
-            var customerId = HttpContext.Session.GetString("AdminId");
+        [Route("admin-register.html", Name = "Admin Register")]
+        public IActionResult Register() {
+            return View();
+        }
 
-            if (customerId != null) {
+        // POST: /admin-register.html
+        [HttpPost]
+        [AllowAnonymous]
+        [Route("admin-register.html", Name = "Admin Register")]
+        public async Task<IActionResult> Register(AccountDTO registerAcccount) {
+            try {
+                if (ModelState.IsValid) {
+                    string salt  = Utilities.GetRandomKey();
+
+                    Account account = new Account {
+                        Username = registerAcccount.Username.Trim().ToLower(),
+                        // Hash password
+                        Password = (registerAcccount.Password + salt.Trim()).ToMD5(),
+                        Active = true,
+                        Salt = salt,
+                        RoleId = registerAcccount.RoleId,
+                        CreateDate = DateTime.Now
+                    };
+
+                    // Find role of account registered
+                    var role = _context.Roles.AsNoTracking()
+                                                    .SingleOrDefault(r => r.RoleId == registerAcccount.RoleId);
+
+                    if (string.IsNullOrEmpty(role.RoleName)) {
+                        _notyfService.Error("INVALID Role !");
+
+                        return RedirectToAction("Register", "Authenticate");
+                    }
+
+                    try {
+                        // add customer Account to DB
+                        _context.Add(account);
+                        await _context.SaveChangesAsync();
+
+                        // Save session customer ID
+                        // Lưu customerID mới register vào session có key="CustomerId"
+                        HttpContext.Session.SetString("AdminId", account.AccountId.ToString());
+                        var adminAccountId = HttpContext.Session.GetString("AdminId");
+
+                        // Identity - Authenticate & Authorize 
+                        var claims = new List<Claim>
+                        {
+                            new Claim(ClaimTypes.Name, registerAcccount.Username),
+                            new Claim("AdminId", adminAccountId),
+                            new Claim(ClaimTypes.Role, role.RoleName)
+                        };
+
+                        // Danh tính 1 customer
+                        ClaimsIdentity claimsIdentity = new ClaimsIdentity(claims, "adminLogin");
+
+                        // Xác thực danh tính customer
+                        ClaimsPrincipal claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
+
+                        // Tạo phiên làm việc mới cho user
+                        // --SignInAsync(AuthenticationScheme, claimsPrincipal)--
+                        await HttpContext.SignInAsync(claimsPrincipal);
+                        
+                        _notyfService.Success("Register successfully");
+
+                        return RedirectToAction("Index", "Home");
+                    }
+                    // Nếu không AddAuthentication thì sẽ bị lỗi ở đây - không add vào DB được
+                    catch {
+                        _notyfService.Error("Register Fail !");
+
+                        return RedirectToAction("Register", "Authenticate");
+                    }
+                }
+                else {
+                    _notyfService.Error("Incomplete information");
+
+                    return View(registerAcccount);
+                }
+            }
+            catch {
+
+                return View(registerAcccount);
+            }
+        }
+
+        // GET: /admin-login.html
+        [HttpGet]
+        [AllowAnonymous]
+        [Route("admin-login.html", Name="Admin Login")]
+        public IActionResult Login(string returnUrl=null) {
+            // Kiểm tra xem nếu Admin đã từng login và phiên đăng nhập vẫn còn thì chuyển qua dashboard
+            var accountId = HttpContext.Session.GetString("AdminId");
+
+            if (accountId != null) {
                 return RedirectToAction("Index", "Home");
             }
 
             return View();
         }
 
-        // [HttpPost]
-        // [AllowAnonymous]
-        // [Route("login.html", Name="UserLogin")]
-        // public async Task<IActionResult> Login(LoginViewModel account, string returnUrl=null) {
-        //     try {
-        //         if (ModelState.IsValid) {
-        //             // Validate username
-        //             bool isEmail = Utilities.isValidEmail(account.UserName);
-
-        //             if (!isEmail) {
-        //                 return View(account);
-        //             }
-
-        //             // lấy ra account customer giống với login
-        //             var customer = _context.Customers.AsNoTracking()
-        //                                                 .SingleOrDefault(c => c.Email.Trim() == account.UserName);
+        // POST: /admin-login.html        
+        [HttpPost]
+        [AllowAnonymous]
+        [Route("admin-login.html", Name="Admin Login")]
+        public async Task<IActionResult> Login(AccountDTO loginAccount, string returnUrl=null) {
+            try {
+                if (ModelState.IsValid) {
+                    // lấy ra account customer giống với login
+                    var admin = _context.Accounts.AsNoTracking()
+                                                    .SingleOrDefault(a => a.Username.Trim() == loginAccount.Username);
                     
-        //             if (customer == null) {
-        //                 _notyfService.Warning("You haven't registered yet");
-        //                 return RedirectToAction("Register", "UserAccount");
-        //             }
+                    if (admin == null) {
+                        _notyfService.Warning("INVALID account");
+                        return RedirectToAction("Index", "Home");
+                    }
 
-        //             // Check pass login
-        //             string passLogin = (account.Password + customer.Salt.Trim()).ToMD5();
+                    // Check pass login
+                    string passLogin = (loginAccount.Password + admin.Salt.Trim()).ToMD5();
 
-        //             if (customer.Password != passLogin) {
-        //                 _notyfService.Error("Invalid username or password");
+                    if (admin.Password != passLogin) {
+                        _notyfService.Error("Invalid username or password");
                         
-        //                 return View(account);
-        //             }
+                        return View(loginAccount);
+                    }
 
-        //             // Kiểm tra account có bị disabled không
-        //             if (customer.Active == false) {
-        //                 _notyfService.Error("Account is disabled");
+                    // Kiểm tra account có bị disabled không
+                    if (admin.Active == false) {
+                        _notyfService.Error("Account is disabled");
 
-        //                 return View(account);
-        //             }
+                        return View(loginAccount);
+                    }
 
-        //             // Save session customer ID
-        //             // Lưu customerID mới register vào session có key="CustomerId"
-        //             HttpContext.Session.SetString("CustomerId", customer.CustomerId.ToString());
-        //             var userAccountId = HttpContext.Session.GetString("CustomerId");
+                    // Ánh xạ với account admin trong DB
+                    var role = _context.Roles.AsNoTracking()
+                                                .SingleOrDefault(r => r.RoleId == admin.RoleId);
 
-        //             // Identity - Authenticate & Authorize 
-        //             var claims = new List<Claim>
-        //             {
-        //                 new Claim(ClaimTypes.Name, customer.FullName),
-        //                 new Claim("CustomerId", customer.CustomerId.ToString())
-        //             };
+                    if (string.IsNullOrEmpty(role.RoleName)) {
+                        _notyfService.Error("INVALID Role !");
 
-        //             // Danh tính 1 customer
-        //             ClaimsIdentity claimsIdentity = new ClaimsIdentity(claims, "login");
+                        return RedirectToAction("Login", "Authenticate");
+                    }
 
-        //             // Xác thực danh tính customer
-        //             ClaimsPrincipal claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
+                    // Save session customer ID
+                    // Lưu customerID mới register vào session có key="CustomerId"
+                    HttpContext.Session.SetString("AdminId", admin.AccountId.ToString());
+                    var adminAccountId = HttpContext.Session.GetString("AdminId");
 
-        //             // Đánh dấu đã xác thực customer
-        //             await HttpContext.SignInAsync(claimsPrincipal);
+                    // Identity - Authenticate & Authorize 
+                    var claims = new List<Claim>
+                    {
+                        new Claim(ClaimTypes.Name, loginAccount.Username),
+                            new Claim("AdminId", adminAccountId),
+                            new Claim(ClaimTypes.Role, role.RoleName)
+                    };
+
+                    // Danh tính 1 customer
+                    ClaimsIdentity claimsIdentity = new ClaimsIdentity(claims, "adminLogin");
+
+                    // Xác thực danh tính customer
+                    ClaimsPrincipal claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
+
+                    // Đánh dấu đã xác thực customer
+                    await HttpContext.SignInAsync(claimsPrincipal);
                     
-        //             _notyfService.Success("Login successfully");
+                    _notyfService.Success("Login successfully");
 
-        //             if (returnUrl == "/checkout.html") {
-        //                 return RedirectToAction("Index", "Checkout");
-        //             }
+                    return RedirectToAction("Index", "Home");
+                }
+            }
+            catch {
+                _notyfService.Error("Invalid username or password");
 
-        //             return RedirectToAction("Dashboard", "UserAccount");
-        //         }
-        //     }
-        //     catch {
-        //         _notyfService.Error("Invalid username or password");
+                return RedirectToAction("Login", "Authenticate");
+            }
 
-        //         return RedirectToAction("Register", "UserAccount");
-        //     }
+            return View(loginAccount);
+        }
 
-        //     return View(account);
-        // }
+        [HttpGet]
+        [Route("admin-logout.html", Name = "Sign Out")]
+        public IActionResult Logout() {
+            HttpContext.SignOutAsync();
+            HttpContext.Session.Remove("AdminId");
+            return RedirectToAction("Login", "Authenticate");
+        }
     }
 }

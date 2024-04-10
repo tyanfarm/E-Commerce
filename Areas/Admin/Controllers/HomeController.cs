@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using E_Commerce.Models;
+using AspNetCoreHero.ToastNotification.Abstractions;
 
 namespace E_Commerce.Areas.Admin.Controllers;
 
@@ -8,14 +9,19 @@ namespace E_Commerce.Areas.Admin.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
+    public INotyfService _notyfService {get; }
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(ILogger<HomeController> logger, INotyfService notyfService)
     {
         _logger = logger;
+        _notyfService = notyfService;
     }
 
     public IActionResult Index()
     {
+        // _notyfService.Warning(Convert.ToString(User.Identity.IsAuthenticated));
+        // _notyfService.Success(Convert.ToString(User.Identity.Name));
+
         return View();
     }
 
