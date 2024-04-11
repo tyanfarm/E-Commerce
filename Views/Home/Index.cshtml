@@ -107,16 +107,6 @@
                                     All Items
                                 </a>
                             </li>
-                            @foreach (var item in Model.Products) {
-                                <li class="nav-item" role="presentation">
-                                    <a id="fresh-fruits-tab" data-bs-toggle="tab" href="#@item.category.CatId" role="tab" aria-controls="fresh-fruits" aria-selected="false">
-                                        <div class="product-tab-icon">
-                                            <img src="~/assets/images/product/icon/5.png" alt="@item.category.Title">
-                                        </div>
-                                        @item.category.CatName
-                                    </a>
-                                </li>
-                            }
                         </ul>
                         <div class="tab-content" id="myTabContent">
                             <div class="tab-pane fade show active" id="all-items" role="tabpanel" aria-labelledby="all-items-tab">

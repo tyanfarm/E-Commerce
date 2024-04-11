@@ -4137,6 +4137,18 @@
       "PackagePath": "staticwebassets\\images\\products\\legacy-washed-crop-top.png"
     },
     {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\products\\lifting-belt-pinkman-black.jpeg",
+      "PackagePath": "staticwebassets\\images\\products\\lifting-belt-pinkman-black.jpeg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\products\\lifting-belt-pinkman-purple.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lifting-belt-pinkman-purple.jpg"
+    },
+    {
+      "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\products\\lifting-belt-pinkman-red.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lifting-belt-pinkman-red.jpg"
+    },
+    {
       "Id": "D:\\Tyan\\ASPNET\\E-Commerce\\wwwroot\\images\\products\\lifting-belt-pinkman.jpg",
       "PackagePath": "staticwebassets\\images\\products\\lifting-belt-pinkman.jpg"
     },
