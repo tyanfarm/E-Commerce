@@ -102,7 +102,7 @@ namespace E_Commerce.Areas.Admin.Controllers {
                     // Lấy phần mở rộng (a.jpg thì lấy `.jpg`)
                     string extension = Path.GetExtension(fThumb.FileName);
                     // format img name which doesn't have strange syntax
-                    string image = Utilities.SEOUrl(product.ProductName) + extension;
+                    string image = Utilities.SEOUrl(product.ProductName) + "-" + product.ShortDesc + extension;
 
                     product.Thumb = await Utilities.UploadFile(fThumb, "products", image.ToLower());
                     product.Thumb = image;
@@ -168,12 +168,13 @@ namespace E_Commerce.Areas.Admin.Controllers {
                         // Lấy phần mở rộng (a.jpg thì lấy `.jpg`)
                         string extension = Path.GetExtension(fThumb.FileName);
                         // format img name which doesn't have strange syntax
-                        string image = Utilities.SEOUrl(product.ProductName) + extension;
+                        string image = Utilities.SEOUrl(product.ProductName) + "-" + product.ShortDesc + extension;
 
                         product.Thumb = await Utilities.UploadFile(fThumb, @"products", image.ToLower());
                     }
-
-                    product.Thumb = productDB.Thumb;
+                    else {
+                        product.Thumb = productDB.Thumb;
+                    }
 
                     product.Alias = Utilities.SEOUrl(product.ProductName);
                     product.DateCreated = DateTime.Now; 
@@ -181,6 +182,7 @@ namespace E_Commerce.Areas.Admin.Controllers {
                     _context.Update(product);
                     await _context.SaveChangesAsync();
 
+                    // _notyfService.Warning(productDB.Thumb);
                     _notyfService.Success("Update Successfully !");
                 }
                 catch (DbUpdateConcurrencyException) {

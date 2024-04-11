@@ -23,8 +23,13 @@ namespace E_Commerce.Controllers {
                 var listProducts = _context.Products.AsNoTracking()
                                                     .OrderByDescending(p => p.ProductId);
 
+                var listCategories = _context.Categories.AsNoTracking()
+                                                        .OrderBy(c => c.CatId)
+                                                        .ToList();
+
                 PagedList<Product> models = new PagedList<Product>(listProducts, pageNumber, pageSize);
                 ViewBag.CurrentPage = pageNumber;
+                ViewBag.listCategories = listCategories;
 
                 return View(models);
             }
