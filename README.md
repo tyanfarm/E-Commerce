@@ -11,7 +11,10 @@
 - AspNetCoreHero.ToastNotification --version 1.1.0
 - Pomelo.EntityFrameworkCore.MySql --version 7.0.0
 - Microsoft.VisualStudio.Web.CodeGeneration.Design --version 7.0
-- Microsoft.AspNetCore.Identity.UI (--user for AddDefaultIdentity()--)
+
+- Microsoft.AspNetCore.Authentication.JwtBearer --version 6.0.6
+- Microsoft.AspNetCore.Identity.UI --version 8.0.4
+- Microsoft.AspNetCore.Identity.EntityFrameworkCore --version 7.0.3
 
 ### Model Scaffolding
 - `dotnet ef dbcontext scaffold "server=127.0.0.1;uid=root;pwd=tyan;database=ecommerce;port=3306" "Pomelo.EntityFrameworkCore.MySql" -o .\Models -f`
